@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E035BBFD-00D4-461F-9AF9-D57B45582B93}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Negocios</RootNamespace>
+    <AssemblyName>Negocios</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DbLinq, Version=0.19.0.0, Culture=neutral, PublicKeyToken=61e015a67077348b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DbLinq-0.19-src\DbLinq-0.19\build.dbg\DbLinq.dll</HintPath>
+    </Reference>
+    <Reference Include="DbLinq.MySql, Version=0.19.0.0, Culture=neutral, PublicKeyToken=61e015a67077348b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DbLinq-0.19-src\DbLinq-0.19\build.dbg\DbLinq.MySql.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.2.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ModuloAlunoAtividadeTurma\Classes Auxiliares\AuxiliarAlunoAtvTurma.cs" />
+    <Compile Include="ModuloAtividadeTurma\Constantes\AtividadeTurmaConstantes.cs" />
+    <Compile Include="ModuloAtividadeTurma\Excecoes\AtividadeTurmaNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloAtividadeTurma\Excecoes\AtividadeTurmaNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloAtividadeTurma\Excecoes\AtividadeTurmaNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloAtividadeTurma\Fabricas\AtividadeTurmaFabrica.cs" />
+    <Compile Include="ModuloAtividadeTurma\Processos\AtividadeTurmaProcesso.cs" />
+    <Compile Include="ModuloAtividadeTurma\Processos\Interfaces\IAtividadeTurmaProcesso.cs" />
+    <Compile Include="ModuloAtividadeTurma\Repositorios\AtividadeTurmaRepositorio.cs" />
+    <Compile Include="ModuloAtividadeTurma\Repositorios\Interfaces\IAtividadeTurmaRepositorio.cs" />
+    <Compile Include="ModuloBasico\Singleton\Singleton.cs" />
+    <Compile Include="ModuloBasico\VOs\ClasseAuxiliar.cs" />
+    <Compile Include="ModuloBasico\VOs\Conexao.cs" />
+    <Compile Include="ModuloBasico\VOs\ConversionAttribute.cs" />
+    <Compile Include="ModuloBasico\VOs\ConexaoSite.cs" />
+    <Compile Include="ModuloBasico\VOs\CoreList.cs" />
+    <Compile Include="ModuloBasico\VOs\DataTableConverter.cs" />
+    <Compile Include="ModuloBasico\VOs\Interfaces\IDataTableConverter.cs" />
+    <Compile Include="ModuloBasico\VOs\MapeamentoImagens.cs" />
+    <Compile Include="ModuloBasico\VOs\Serializador.cs" />
+    <Compile Include="ModuloBasico\VOs\Singleton.cs" />
+    <Compile Include="ModuloBasico\VOs\Memoria.cs" />
+    <Compile Include="ModuloBasico\VOs\SiteColegioDB.cs" />
+    <Compile Include="ModuloBoletoAtividade\Constantes\BoletoAtividadeConstantes.cs" />
+    <Compile Include="ModuloBasico\Excecoes\ArquivoConfiguracaoNaoEncontradoExcecao.cs" />
+    <Compile Include="ModuloBoletoAtividade\Excecoes\BoletoAtividadeNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloBoletoAtividade\Excecoes\BoletoAtividadeNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloBoletoAtividade\Excecoes\BoletoAtividadeNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloBoletoAtividade\Fabricas\BoletoAtividadeFabrica.cs" />
+    <Compile Include="ModuloBoletoAtividade\Processos\BoletoAtividadeProcesso.cs" />
+    <Compile Include="ModuloBoletoAtividade\Processos\Interfaces\IBoletoAtividadeProcesso.cs" />
+    <Compile Include="ModuloBoletoAtividade\Repositorios\BoletoAtividadeRepositorio.cs" />
+    <Compile Include="ModuloBoletoAtividade\Repositorios\Interfaces\IBoletoAtividadeRepositorio.cs" />
+    <Compile Include="ModuloBoletoMensalidade\Constantes\BoletoMensalidadeConstantes.cs" />
+    <Compile Include="ModuloBoletoMensalidade\Excecoes\BoletoMensalidadeNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloBoletoMensalidade\Excecoes\BoletoMensalidadeNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloBoletoMensalidade\Excecoes\BoletoMensalidadeNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloBoletoMensalidade\Fabricas\BoletoMensalidadeFabrica.cs" />
+    <Compile Include="ModuloBoletoMensalidade\Processos\BoletoMensalidadeProcesso.cs" />
+    <Compile Include="ModuloBoletoMensalidade\Processos\Interfaces\IBoletoMensalidadeProcesso.cs" />
+    <Compile Include="ModuloBoletoMensalidade\Repositorios\BoletoMensalidadeRepositorio.cs" />
+    <Compile Include="ModuloBoletoMensalidade\Repositorios\Interfaces\IBoletoMensalidadeRepositorio.cs" />
+    <Compile Include="ModuloChequeBoletoAtividade\Constantes\ChequeBoletoAtividadeConstantes.cs" />
+    <Compile Include="ModuloChequeBoletoAtividade\Excecoes\ChequeBoletoAtividadeNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloChequeBoletoAtividade\Excecoes\ChequeBoletoAtividadeNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloChequeBoletoAtividade\Excecoes\ChequeBoletoAtividadeNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloChequeBoletoAtividade\Fabricas\ChequeBoletoAtividadeFabrica.cs" />
+    <Compile Include="ModuloChequeBoletoAtividade\Processos\ChequeBoletoAtividadeProcesso.cs" />
+    <Compile Include="ModuloChequeBoletoAtividade\Processos\Interfaces\IChequeBoletoAtividadeProcesso.cs" />
+    <Compile Include="ModuloChequeBoletoAtividade\Repositorios\ChequeBoletoAtividadeRepositorio.cs" />
+    <Compile Include="ModuloChequeBoletoAtividade\Repositorios\Interfaces\IChequeBoletoAtividadeRepositorio.cs" />
+    <Compile Include="ModuloChequeBoletoMensalidade\Constantes\ChequeBoletoMensalidadeConstantes.cs" />
+    <Compile Include="ModuloChequeBoletoMensalidade\Excecoes\ChequeBoletoMensalidadeNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloChequeBoletoMensalidade\Excecoes\ChequeBoletoMensalidadeNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloChequeBoletoMensalidade\Excecoes\ChequeBoletoMensalidadeNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloChequeBoletoMensalidade\Fabricas\ChequeBoletoMensalidadeFabrica.cs" />
+    <Compile Include="ModuloChequeBoletoMensalidade\Processos\ChequeBoletoMensalidadeProcesso.cs" />
+    <Compile Include="ModuloChequeBoletoMensalidade\Processos\Interfaces\IChequeBoletoMensalidadeProcesso.cs" />
+    <Compile Include="ModuloChequeBoletoMensalidade\Repositorios\ChequeBoletoMensalidadeRepositorio.cs" />
+    <Compile Include="ModuloChequeBoletoMensalidade\Repositorios\Interfaces\IChequeBoletoMensalidadeRepositorio.cs" />
+    <Compile Include="ModuloContasAPagar\Constantes\ContasAPagarConstantes.cs" />
+    <Compile Include="ModuloContasAPagar\Excecoes\ContasAPagarNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloContasAPagar\Excecoes\ContasAPagarNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloContasAPagar\Excecoes\ContasAPagarNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloContasAPagar\Fabricas\ContasAPagarFabrica.cs" />
+    <Compile Include="ModuloContasAPagar\Processos\ContasAPagarProcesso.cs" />
+    <Compile Include="ModuloContasAPagar\Processos\Interfaces\IContasAPagarProcesso.cs" />
+    <Compile Include="ModuloContasAPagar\Repositorios\ContasAPagarRepositorio.cs" />
+    <Compile Include="ModuloContasAPagar\Repositorios\Interfaces\IContasAPagarRepositorio.cs" />
+    <Compile Include="ModuloAlunoAtividadeTurma\Constantes\AlunoAtividadeTurmaConstantes.cs" />
+    <Compile Include="ModuloAlunoAtividadeTurma\Excecoes\AlunoAtividadeTurmaNaoAlteradoExcecao.cs" />
+    <Compile Include="ModuloAlunoAtividadeTurma\Excecoes\AlunoAtividadeTurmaNaoExcluidoExcecao.cs" />
+    <Compile Include="ModuloAlunoAtividadeTurma\Excecoes\AlunoAtividadeTurmaNaoIncluidoExcecao.cs" />
+    <Compile Include="ModuloAlunoAtividadeTurma\Fabricas\AlunoAtividadeTurmaFabrica.cs" />
+    <Compile Include="ModuloAlunoAtividadeTurma\Processos\AlunoAtividadeTurmaProcesso.cs" />
+    <Compile Include="ModuloAlunoAtividadeTurma\Processos\Interfaces\IAlunoAtividadeTurmaProcesso.cs" />
+    <Compile Include="ModuloAlunoAtividadeTurma\Repositorios\AlunoAtividadeTurmaRepositorio.cs" />
+    <Compile Include="ModuloAlunoAtividadeTurma\Repositorios\Interfaces\IAlunoAtividadeTurmaRepositorio.cs" />
+    <Compile Include="ModuloAluno\Constantes\AlunoConstantes.cs" />
+    <Compile Include="ModuloAluno\Excecoes\AlunoNaoAlteradoExcecao.cs" />
+    <Compile Include="ModuloAluno\Excecoes\AlunoNaoExcluidoExcecao.cs" />
+    <Compile Include="ModuloAluno\Excecoes\AlunoNaoIncluidoExcecao.cs" />
+    <Compile Include="ModuloAluno\Fabricas\AlunoFabrica.cs" />
+    <Compile Include="ModuloAluno\Processos\AlunoProcesso.cs" />
+    <Compile Include="ModuloAluno\Processos\Interfaces\IAlunoProcesso.cs" />
+    <Compile Include="ModuloAluno\Repositorios\AlunoRepositorio.cs" />
+    <Compile Include="ModuloAluno\Repositorios\Interfaces\IAlunoRepositorio.cs" />
+    <Compile Include="ModuloAtividade\Constantes\AtividadeConstantes.cs" />
+    <Compile Include="ModuloAtividade\Excecoes\AtividadeNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloAtividade\Excecoes\AtividadeNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloAtividade\Excecoes\AtividadeNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloAtividade\Fabricas\AtividadeFabrica.cs" />
+    <Compile Include="ModuloAtividade\Processos\AtividadeProcesso.cs" />
+    <Compile Include="ModuloAtividade\Processos\Interfaces\IAtividadeProcesso.cs" />
+    <Compile Include="ModuloAtividade\Repositorios\AtividadeRepositorio.cs" />
+    <Compile Include="ModuloAtividade\Repositorios\Interfaces\IAtividadeRepositorio.cs" />
+    <Compile Include="ModuloBasico\Constantes\BasicoConstantes.cs" />
+    <Compile Include="ModuloBasico\Enums\Enumeradores.cs" />
+    <Compile Include="ModuloBasico\VOs\ColegioDB.cs" />
+    <Compile Include="ModuloCheque\Constantes\ChequeConstantes.cs" />
+    <Compile Include="ModuloCheque\Excecoes\ChequeNaoAlteradoExcecao.cs" />
+    <Compile Include="ModuloCheque\Excecoes\ChequeNaoExcluidoExcecao.cs" />
+    <Compile Include="ModuloCheque\Excecoes\ChequeNaoIncluidoExcecao.cs" />
+    <Compile Include="ModuloCheque\Fabricas\ChequeFabrica.cs" />
+    <Compile Include="ModuloCheque\Processos\ChequeProcesso.cs" />
+    <Compile Include="ModuloCheque\Processos\Interfaces\IChequeProcesso.cs" />
+    <Compile Include="ModuloCheque\Repositorios\ChequeRepositorio.cs" />
+    <Compile Include="ModuloCheque\Repositorios\Interfaces\IChequeRepositorio.cs" />
+    <Compile Include="ModuloConexao\BancoConexao.cs" />
+    <Compile Include="ModuloConexao\LockingHints.cs" />
+    <Compile Include="ModuloDependencia\Constantes\DependenciaConstantes.cs" />
+    <Compile Include="ModuloDependencia\Excecoes\DependenciaNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloDependencia\Excecoes\DependenciaNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloDependencia\Excecoes\DependenciaNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloDependencia\Fabricas\DependenciaFabrica.cs" />
+    <Compile Include="ModuloDependencia\Processos\DependenciaProcesso.cs" />
+    <Compile Include="ModuloDependencia\Processos\Interfaces\IDependenciaProcesso.cs" />
+    <Compile Include="ModuloDependencia\Repositorios\DependenciaRepositorio.cs" />
+    <Compile Include="ModuloDependencia\Repositorios\Interfaces\IDependenciaRepositorio.cs" />
+    <Compile Include="ModuloDesconto\Constantes\DescontoConstantes.cs" />
+    <Compile Include="ModuloDesconto\Excecoes\DescontoNaoAlteradoExcecao.cs" />
+    <Compile Include="ModuloDesconto\Excecoes\DescontoNaoExcluidoExcecao.cs" />
+    <Compile Include="ModuloDesconto\Excecoes\DescontoNaoIncluidoExcecao.cs" />
+    <Compile Include="ModuloDesconto\Fabricas\DescontoFabrica.cs" />
+    <Compile Include="ModuloDesconto\Processos\DescontoProcesso.cs" />
+    <Compile Include="ModuloDesconto\Processos\Interfaces\IDescontoProcesso.cs" />
+    <Compile Include="ModuloDesconto\Repositorios\DescontoRepositorio.cs" />
+    <Compile Include="ModuloDesconto\Repositorios\Interfaces\IDescontoRepositorio.cs" />
+    <Compile Include="ModuloDisciplina\Constantes\DisciplinaConstantes.cs" />
+    <Compile Include="ModuloDisciplina\Excecoes\DisciplinaNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloDisciplina\Excecoes\DisciplinaNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloDisciplina\Excecoes\DisciplinaNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloDisciplina\Fabricas\DisciplinaFabrica.cs" />
+    <Compile Include="ModuloDisciplina\Processos\DisciplinaProcesso.cs" />
+    <Compile Include="ModuloDisciplina\Processos\Interfaces\IDisciplinaProcesso.cs" />
+    <Compile Include="ModuloDisciplina\Repositorios\DisciplinaRepositorio.cs" />
+    <Compile Include="ModuloDisciplina\Repositorios\Interfaces\IDisciplinaRepositorio.cs" />
+    <Compile Include="ModuloFuncionario\Constantes\FuncionarioConstantes.cs" />
+    <Compile Include="ModuloFuncionario\Excecoes\FuncionarioNaoAlteradoExcecao.cs" />
+    <Compile Include="ModuloFuncionario\Excecoes\FuncionarioNaoExcluidoExcecao.cs" />
+    <Compile Include="ModuloFuncionario\Excecoes\FuncionarioNaoIncluidoExcecao.cs" />
+    <Compile Include="ModuloFuncionario\Fabricas\FuncionarioFabrica.cs" />
+    <Compile Include="ModuloFuncionario\Processos\FuncionarioProcesso.cs" />
+    <Compile Include="ModuloFuncionario\Processos\Interfaces\IFuncionarioProcesso.cs" />
+    <Compile Include="ModuloFuncionario\Repositorios\FuncionarioRepositorio.cs" />
+    <Compile Include="ModuloFuncionario\Repositorios\Interfaces\IFuncionarioRepositorio.cs" />
+    <Compile Include="ModuloMatriculaVinculo\Constantes\MatriculaVinculoConstantes.cs" />
+    <Compile Include="ModuloMatriculaVinculo\Excecoes\MatriculaVinculoNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloMatriculaVinculo\Excecoes\MatriculaVinculoNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloMatriculaVinculo\Excecoes\MatriculaVinculoNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloMatriculaVinculo\Fabricas\MatriculaVinculoFabrica.cs" />
+    <Compile Include="ModuloMatriculaVinculo\Processos\Interfaces\IMatriculaVinculoProcesso.cs" />
+    <Compile Include="ModuloMatriculaVinculo\Processos\MatriculaVinculoProcesso.cs" />
+    <Compile Include="ModuloMatriculaVinculo\Repositorios\Interfaces\IMatriculaVinculoRepositorio.cs" />
+    <Compile Include="ModuloMatriculaVinculo\Repositorios\MatriculaVinculoRepositorio.cs" />
+    <Compile Include="ModuloMatriculaVinculo\VOs\MatriculaVinculoBoleto.cs" />
+    <Compile Include="ModuloMatricula\Constantes\MatriculaConstantes.cs" />
+    <Compile Include="ModuloMatricula\Entidades\ClasseAuxiliarExibicaoMatricula.cs" />
+    <Compile Include="ModuloMatricula\Entidades\ClasseAuxiliarFinanceiro.cs" />
+    <Compile Include="ModuloMatricula\Excecoes\MatriculaNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloMatricula\Excecoes\MatriculaNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloMatricula\Excecoes\MatriculaNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloMatricula\Fabricas\MatriculaFabrica.cs" />
+    <Compile Include="ModuloMatricula\Processos\Interfaces\IMatriculaProcesso.cs" />
+    <Compile Include="ModuloMatricula\Processos\MatriculaProcesso.cs" />
+    <Compile Include="ModuloMatricula\Repositorios\Interfaces\IMatriculaRepositorio.cs" />
+    <Compile Include="ModuloMatricula\Repositorios\MatriculaRepositorio.cs" />
+    <Compile Include="ModuloNota\Constantes\NotaConstantes.cs" />
+    <Compile Include="ModuloNota\Excecoes\NotaNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloNota\Excecoes\NotaNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloNota\Excecoes\NotaNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloNota\Fabricas\NotaFabrica.cs" />
+    <Compile Include="ModuloNota\Processos\Interfaces\INotaProcesso.cs" />
+    <Compile Include="ModuloNota\Processos\NotaProcesso.cs" />
+    <Compile Include="ModuloNota\Repositorios\Interfaces\INotaRepositorio.cs" />
+    <Compile Include="ModuloNota\Repositorios\NotaRepositorio.cs" />
+    <Compile Include="ModuloPerfil\Constantes\PerfilConstantes.cs" />
+    <Compile Include="ModuloPerfil\Excecoes\PerfilNaoAlteradoExcecao.cs" />
+    <Compile Include="ModuloPerfil\Excecoes\PerfilNaoExcluidoExcecao.cs" />
+    <Compile Include="ModuloPerfil\Excecoes\PerfilNaoIncluidoExcecao.cs" />
+    <Compile Include="ModuloPerfil\Fabricas\PerfilFabrica.cs" />
+    <Compile Include="ModuloPerfil\Processos\Interfaces\IPerfilProcesso.cs" />
+    <Compile Include="ModuloPerfil\Processos\PerfilProcesso.cs" />
+    <Compile Include="ModuloPerfil\Repositorios\Interfaces\IPerfilRepositorio.cs" />
+    <Compile Include="ModuloPerfil\Repositorios\PerfilRepositorio.cs" />
+    <Compile Include="ModuloResponsavelAluno\Constantes\ResponsavelAlunoConstantes.cs" />
+    <Compile Include="ModuloResponsavelAluno\Excecoes\ResponsavelAlunoNaoAlteradoExcecao.cs" />
+    <Compile Include="ModuloResponsavelAluno\Excecoes\ResponsavelAlunoNaoExcluidoExcecao.cs" />
+    <Compile Include="ModuloResponsavelAluno\Excecoes\ResponsavelAlunoNaoIncluidoExcecao.cs" />
+    <Compile Include="ModuloResponsavelAluno\Fabricas\ResponsavelAlunoFabrica.cs" />
+    <Compile Include="ModuloResponsavelAluno\Processos\Interfaces\IResponsavelAlunoProcesso.cs" />
+    <Compile Include="ModuloResponsavelAluno\Processos\ResponsavelAlunoProcesso.cs" />
+    <Compile Include="ModuloResponsavelAluno\Repositorios\Interfaces\IResponsavelAlunoRepositorio.cs" />
+    <Compile Include="ModuloResponsavelAluno\Repositorios\ResponsavelAlunoRepositorio.cs" />
+    <Compile Include="ModuloResponsavel\Constantes\ResponsavelConstantes.cs" />
+    <Compile Include="ModuloResponsavel\Excecoes\ResponsavelNaoAlteradoExcecao.cs" />
+    <Compile Include="ModuloResponsavel\Excecoes\ResponsavelNaoExcluidoExcecao.cs" />
+    <Compile Include="ModuloResponsavel\Excecoes\ResponsavelNaoIncluidoExcecao.cs" />
+    <Compile Include="ModuloResponsavel\Fabricas\ResponsavelFabrica.cs" />
+    <Compile Include="ModuloResponsavel\Processos\Interfaces\IResponsavelProcesso.cs" />
+    <Compile Include="ModuloResponsavel\Processos\ResponsavelProcesso.cs" />
+    <Compile Include="ModuloResponsavel\Repositorios\Interfaces\IResponsavelRepositorio.cs" />
+    <Compile Include="ModuloResponsavel\Repositorios\ResponsavelRepositorio.cs" />
+    <Compile Include="ModuloSala\Constantes\SalaConstantes.cs" />
+    <Compile Include="ModuloSala\Excecoes\SalaNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloSala\Excecoes\SalaNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloSala\Excecoes\SalaNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloSala\Fabricas\SalaFabrica.cs" />
+    <Compile Include="ModuloSala\Processos\Interfaces\ISalaProcesso.cs" />
+    <Compile Include="ModuloSala\Processos\SalaProcesso.cs" />
+    <Compile Include="ModuloSala\Repositorios\Interfaces\ISalaRepositorio.cs" />
+    <Compile Include="ModuloSala\Repositorios\SalaRepositorio.cs" />
+    <Compile Include="ModuloSerie\Constantes\SerieConstantes.cs" />
+    <Compile Include="ModuloSerie\Excecoes\SerieNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloSerie\Excecoes\SerieNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloSerie\Excecoes\SerieNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloSerie\Fabricas\SerieFabrica.cs" />
+    <Compile Include="ModuloSerie\Processos\Interfaces\ISerieProcesso.cs" />
+    <Compile Include="ModuloSerie\Processos\SerieProcesso.cs" />
+    <Compile Include="ModuloSerie\Repositorios\Interfaces\ISerieRepositorio.cs" />
+    <Compile Include="ModuloSerie\Repositorios\SerieRepositorio.cs" />
+    <Compile Include="ModuloSite\Constantes\SiteConstantes.cs" />
+    <Compile Include="ModuloSite\Excecoes\ImagemNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloSite\Excecoes\ImagemNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloSite\Excecoes\ImagemNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloSite\Excecoes\PostagemNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloSite\Excecoes\PostagemNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloSite\Excecoes\PostagemNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloSite\Excecoes\UsuarioLoginJaExistenteExcecao.cs" />
+    <Compile Include="ModuloSite\Excecoes\UsuarioLoginOuSenhaIvalidosExcecao.cs" />
+    <Compile Include="ModuloSite\Excecoes\UsuarioNaoAlteradoExcecao.cs" />
+    <Compile Include="ModuloSite\Excecoes\UsuarioNaoExcluidoExcecao.cs" />
+    <Compile Include="ModuloSite\Excecoes\UsuarioNaoIncluidoExcecao.cs" />
+    <Compile Include="ModuloSite\Fabricas\ImagemFabrica.cs" />
+    <Compile Include="ModuloSite\Fabricas\PostagemFabrica.cs" />
+    <Compile Include="ModuloSite\Fabricas\UsuarioFabrica.cs" />
+    <Compile Include="ModuloSite\Processos\ImagemProcesso.cs" />
+    <Compile Include="ModuloSite\Processos\Interfaces\IImagemProcesso.cs" />
+    <Compile Include="ModuloSite\Processos\Interfaces\IPostagemProcesso.cs" />
+    <Compile Include="ModuloSite\Processos\Interfaces\IUsuarioProcesso.cs" />
+    <Compile Include="ModuloSite\Processos\PostagemProcesso.cs" />
+    <Compile Include="ModuloSite\Processos\UsuarioProcesso.cs" />
+    <Compile Include="ModuloSite\Repositorios\ImagemRepositorio.cs" />
+    <Compile Include="ModuloSite\Repositorios\Interfaces\IImagemRepositorio.cs" />
+    <Compile Include="ModuloSite\Repositorios\Interfaces\IPostagemRepositorio.cs" />
+    <Compile Include="ModuloSite\Repositorios\Interfaces\IUsuarioRepositorio.cs" />
+    <Compile Include="ModuloSite\Repositorios\PostagemRepositorio.cs" />
+    <Compile Include="ModuloSite\Repositorios\UsuarioRepositorio.cs" />
+    <Compile Include="ModuloSite\VOs\PostagemExibicao.cs" />
+    <Compile Include="ModuloTurma\Constantes\TurmaConstantes.cs" />
+    <Compile Include="ModuloTurma\Excecoes\TurmaNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloTurma\Excecoes\TurmaNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloTurma\Excecoes\TurmaNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloTurma\Fabricas\TurmaFabrica.cs" />
+    <Compile Include="ModuloTurma\Processos\Interfaces\ITurmaProcesso.cs" />
+    <Compile Include="ModuloTurma\Processos\TurmaProcesso.cs" />
+    <Compile Include="ModuloTurma\Repositorios\Interfaces\ITurmaRepositorio.cs" />
+    <Compile Include="ModuloTurma\Repositorios\TurmaRepositorio.cs" />
+    <Compile Include="ModuloTurno\Constantes\TurnoConstantes.cs" />
+    <Compile Include="ModuloTurno\Excecoes\TurnoNaoAlteradoExcecao.cs" />
+    <Compile Include="ModuloTurno\Excecoes\TurnoNaoExcluidoExcecao.cs" />
+    <Compile Include="ModuloTurno\Excecoes\TurnoNaoIncluidoExcecao.cs" />
+    <Compile Include="ModuloTurno\Fabricas\TurnoFabrica.cs" />
+    <Compile Include="ModuloTurno\Processos\Interfaces\ITurnoProcesso.cs" />
+    <Compile Include="ModuloTurno\Processos\TurnoProcesso.cs" />
+    <Compile Include="ModuloTurno\Repositorios\Interfaces\ITurnoRepositorio.cs" />
+    <Compile Include="ModuloTurno\Repositorios\TurnoRepositorio.cs" />
+    <Compile Include="ModuloProfessorDisciplinaSala\Constantes\ProfessorDisciplinaSalaConstantes.cs" />
+    <Compile Include="ModuloProfessorDisciplinaSala\Excecoes\ProfessorDisciplinaSalaNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloProfessorDisciplinaSala\Excecoes\ProfessorDisciplinaSalaNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloProfessorDisciplinaSala\Excecoes\ProfessorDisciplinaSalaNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloProfessorDisciplinaSala\Fabricas\ProfessorDisciplinaSalaFabrica.cs" />
+    <Compile Include="ModuloProfessorDisciplinaSala\Processos\Interfaces\IProfessorDisciplinaSalaProcesso.cs" />
+    <Compile Include="ModuloProfessorDisciplinaSala\Processos\ProfessorDisciplinaSalaProcesso.cs" />
+    <Compile Include="ModuloProfessorDisciplinaSala\Repositorios\Interfaces\IProfessorDisciplinaSalaRepositorio.cs" />
+    <Compile Include="ModuloProfessorDisciplinaSala\Repositorios\ProfessorDisciplinaSalaRepositorio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ModuloSalaPeriodo\Constantes\SalaPeriodoConstantes.cs" />
+    <Compile Include="ModuloSalaPeriodo\Excecoes\SalaPeriodoNaoAlteradaExcecao.cs" />
+    <Compile Include="ModuloSalaPeriodo\Excecoes\SalaPeriodoNaoExcluidaExcecao.cs" />
+    <Compile Include="ModuloSalaPeriodo\Excecoes\SalaPeriodoNaoIncluidaExcecao.cs" />
+    <Compile Include="ModuloSalaPeriodo\Fabricas\SalaPeriodoFabrica.cs" />
+    <Compile Include="ModuloSalaPeriodo\Processos\Interfaces\ISalaPeriodoProcesso.cs" />
+    <Compile Include="ModuloSalaPeriodo\Processos\SalaPeriodoProcesso.cs" />
+    <Compile Include="ModuloSalaPeriodo\Repositorios\Interfaces\ISalaPeriodoRepositorio.cs" />
+    <Compile Include="ModuloSalaPeriodo\Repositorios\SalaPeriodoRepositorio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Relatorios\boleto.dotx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

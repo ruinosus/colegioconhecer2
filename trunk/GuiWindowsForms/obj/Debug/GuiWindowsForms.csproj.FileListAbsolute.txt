@@ -1,0 +1,635 @@
+C:\Users\Ruinosus\Desktop\ColegioConhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Ruinosus\Desktop\ColegioConhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Ruinosus\Desktop\ColegioConhecer\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ruinosus\Desktop\ColegioConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Ruinosus\Desktop\ColegioConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Ruinosus\Desktop\ColegioConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Ruinosus\Desktop\ColegioConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\Coleg. Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\col conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividade.resources
+C:\Users\Dudu\Desktop\New Folder\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividade.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Dudu\Desktop\Gerencia Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.txtNomeAtividade.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.txtNomeAtividade.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Coleg Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\ColegConhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.txtNomeAtividade.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividades.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividades.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividades.resources
+C:\Users\Dudu\Desktop\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucDesconectarLogin.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\bin\Debug\pt-BR\GuiWindowsForms.resources.dll
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.pt-BR.resources
+C:\Users\Alexandre Alves\Desktop\Conhecer\GuiWindowsForms\obj\Debug\pt-BR\GuiWindowsForms.resources.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividades.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucDesconectarLogin.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucDesconectarLogin.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+E:\Projetos\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+E:\Projetos\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+E:\Projetos\gerenciacolegio\GuiWindowsForms\bin\Debug\Negocios.dll
+E:\Projetos\gerenciacolegio\GuiWindowsForms\bin\Debug\DbLinq.dll
+E:\Projetos\gerenciacolegio\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+E:\Projetos\gerenciacolegio\GuiWindowsForms\bin\Debug\Negocios.pdb
+E:\Projetos\gerenciacolegio\GuiWindowsForms\bin\Debug\MySql.Data.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\GuiWindowsForms\bin\Debug\MySql.Data.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\bin\Debug\MySql.Data.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucDesconectarLogin.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividade.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividadeTurma.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividade.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividadeTurma.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucDesconectarLogin.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\bin\Debug\MySql.Data.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividade.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividadeTurma.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\bin\Debug\MySql.Data.dll
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoPrincipal.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividade.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividadeTurma.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucDesconectarLogin.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidadeVinculo.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaVinculo.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidadeVinculo.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.manifest
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\bin\Debug\GuiWindowsForms.application
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe.manifest
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.application
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.manifest
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.application
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaVinculo.resources
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe.manifest
+C:\Users\Dudu\Desktop\Col_Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.application
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.ResolveComReference.cache
+E:\Projetos\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.manifest
+E:\Projetos\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.application
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaVinculo.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidadeVinculo.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe.manifest
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.application
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.ResolveComReference.cache
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.manifest
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.application
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaVinculo.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidadeVinculo.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe.manifest
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.application
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelVinculo.resources
+D:\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.ResolveComReference.cache
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
+D:\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.manifest
+D:\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.application
+D:\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+D:\gerenciacolegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+D:\gerenciacolegio\GuiWindowsForms\bin\Debug\MySql.Data.dll
+D:\gerenciacolegio\GuiWindowsForms\bin\Debug\Negocios.dll
+D:\gerenciacolegio\GuiWindowsForms\bin\Debug\DbLinq.dll
+D:\gerenciacolegio\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+D:\gerenciacolegio\GuiWindowsForms\bin\Debug\Negocios.pdb
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoAcademico.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoFinanceiro.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatricula.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaAtividade.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMatriculaVinculo.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoMedicacao.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.Properties.Resources.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavel.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelBusca.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelVinculo.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoes.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividade.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesAtividadeTurma.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesControleDeAcesso.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesDescontoMatricula.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaConfiguracoesSerie.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFinanceiro.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionario.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaFuncionarioDadosProfissionais.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaLogin.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidade.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaRelatorioBoletoMensalidadeVinculo.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucDesconectarLogin.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuDireita.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuConfiguracoesEsquerda.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuImagemFunc.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.ucMenuInferior.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.ucMenuLateralFunc.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe.manifest
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.application
+D:\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+C:\Users\Dudu\Desktop\Colegio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelVinculo.resources
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaPrincipal.resources
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.ResolveComReference.cache
+E:\Projetos\gerenciacolegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAlunoResponsavelVinculo.resources
+C:\Users\Alexandre Alves\Desktop\Sistema Colégio Conhecer\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Alexandre Alves\Desktop\Sistema Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.ResolveComReference.cache
+C:\Users\Alexandre Alves\Desktop\Sistema Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
+C:\Users\Alexandre Alves\Desktop\Sistema Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
