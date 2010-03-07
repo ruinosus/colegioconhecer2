@@ -1,0 +1,112 @@
+C:\Users\Ruinosus\Desktop\ColegioConhecer\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ruinosus\Desktop\ColegioConhecer\Negocios\bin\Debug\Negocios.dll
+C:\Users\Ruinosus\Desktop\ColegioConhecer\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Ruinosus\Desktop\ColegioConhecer\Negocios\obj\Debug\Negocios.dll
+C:\Users\Ruinosus\Desktop\ColegioConhecer\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\Negocios\obj\Debug\Negocios.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\Negocios\bin\Debug\Negocios.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Coleg. Conhecer\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Coleg. Conhecer\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Coleg. Conhecer\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Coleg. Conhecer\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Coleg. Conhecer\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Col. Conhecer\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Col. Conhecer\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Col. Conhecer\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Col. Conhecer\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Col. Conhecer\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\col conhecer\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\col conhecer\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\col conhecer\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\col conhecer\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\col conhecer\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\col conhecer\Negocios\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\col conhecer\Negocios\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\col conhecer\Negocios\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\col conhecer\Negocios\bin\Debug\DbLinq.pdb
+C:\Users\Alexandre Alves\Desktop\Conhecer\Negocios\bin\Debug\Negocios.dll
+C:\Users\Alexandre Alves\Desktop\Conhecer\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Alexandre Alves\Desktop\Conhecer\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexandre Alves\Desktop\Conhecer\Negocios\obj\Debug\Negocios.dll
+C:\Users\Alexandre Alves\Desktop\Conhecer\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\gerenciacolegio\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\gerenciacolegio\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\gerenciacolegio\Negocios\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\gerenciacolegio\Negocios\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\gerenciacolegio\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\gerenciacolegio\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\gerenciacolegio\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\New Folder\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\New Folder\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\New Folder\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\New Folder\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\New Folder\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\New Folder\Negocios\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\New Folder\Negocios\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\Gerencia Colegio\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Gerencia Colegio\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Gerencia Colegio\Negocios\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\Gerencia Colegio\Negocios\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\Gerencia Colegio\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Gerencia Colegio\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Gerencia Colegio\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\ColegConhecer\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\ColegConhecer\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\ColegConhecer\Negocios\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\ColegConhecer\Negocios\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\ColegConhecer\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\ColegConhecer\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\ColegConhecer\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Coleg Conhecer\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Coleg Conhecer\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Coleg Conhecer\Negocios\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\Coleg Conhecer\Negocios\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\Coleg Conhecer\Negocios\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\Coleg Conhecer\Negocios\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\Coleg Conhecer\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Coleg Conhecer\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Coleg Conhecer\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Gerencia Colegio\Negocios\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\Gerencia Colegio\Negocios\bin\Debug\DbLinq.MySql.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\Negocios\bin\Debug\DbLinq.MySql.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\Negocios\bin\Debug\DbLinq.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer (sem erros)\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\gerenciacolegio\Negocios\bin\Debug\DbLinq.dll
+C:\Users\Dudu\Desktop\gerenciacolegio\Negocios\bin\Debug\DbLinq.MySql.dll
+E:\Projetos\gerenciacolegio\Negocios\bin\Debug\Negocios.dll
+E:\Projetos\gerenciacolegio\Negocios\bin\Debug\Negocios.pdb
+E:\Projetos\gerenciacolegio\Negocios\obj\Debug\ResolveAssemblyReference.cache
+E:\Projetos\gerenciacolegio\Negocios\obj\Debug\Negocios.dll
+E:\Projetos\gerenciacolegio\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Colegio Conhecer\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Colegio Conhecer\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Colegio Conhecer\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Col_Conhecer\Negocios\bin\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Col_Conhecer\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Dudu\Desktop\Col_Conhecer\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dudu\Desktop\Col_Conhecer\Negocios\obj\Debug\Negocios.dll
+C:\Users\Dudu\Desktop\Col_Conhecer\Negocios\obj\Debug\Negocios.pdb
+E:\gerenciacolegio\Negocios\bin\Debug\Negocios.dll
+E:\gerenciacolegio\Negocios\bin\Debug\Negocios.pdb
+E:\gerenciacolegio\Negocios\obj\Debug\ResolveAssemblyReference.cache
+E:\gerenciacolegio\Negocios\obj\Debug\Negocios.dll
+E:\gerenciacolegio\Negocios\obj\Debug\Negocios.pdb
+D:\gerenciacolegio\Negocios\bin\Debug\Negocios.dll
+D:\gerenciacolegio\Negocios\bin\Debug\Negocios.pdb
+D:\gerenciacolegio\Negocios\obj\Debug\ResolveAssemblyReference.cache
+D:\gerenciacolegio\Negocios\obj\Debug\Negocios.dll
+D:\gerenciacolegio\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\Negocios\bin\Debug\Negocios.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\Negocios\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\Negocios\obj\Debug\Negocios.dll
+C:\Users\Alexandre Alves\Desktop\Colégio Conhecer - 2a Release\Negocios\obj\Debug\Negocios.pdb
