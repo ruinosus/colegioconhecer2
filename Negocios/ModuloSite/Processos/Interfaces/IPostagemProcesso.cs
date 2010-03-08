@@ -51,6 +51,13 @@ namespace Negocios.ModuloSite.Processos
         List<Postagem> Consultar();
 
         /// <summary>
+        /// Método responsável por consultar todas as postagems do sistema paraum tipo de postagem específico.
+        /// </summary>
+        /// <param name="tipoPostagem">tipoPostagem</param>
+        /// <returns>Lista contendo todos os postagems cadastrados.</returns>
+        List<Postagem> Consultar(TipoPostagem tipoPostagem);
+
+        /// <summary>
         /// Método responsável por Consultar uma postagem 
         /// </summary>
         /// <param name="tipo">Tipo da postagem a ser pesquisada</param>

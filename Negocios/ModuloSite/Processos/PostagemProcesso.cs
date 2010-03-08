@@ -92,6 +92,21 @@ namespace Negocios.ModuloSite.Processos
             return postagemList;
         }
 
+        public List<Postagem> Consultar(TipoPostagem tipoPostagem)
+        {
+            List<Postagem> postagemList = this.postagemRepositorio.Consultar();
+            List<Postagem> postagemList2 = new List<Postagem>();
+
+            foreach (Postagem post in postagemList)
+            {
+                if (post.Tipo == (int)tipoPostagem)
+                {
+                    postagemList2.Add(post);
+                }
+            }
+            return postagemList2;
+        }
+
         public List<Postagem> Consultar()
         {
             List<Postagem> postagemList = postagemRepositorio.Consultar();
@@ -112,26 +127,26 @@ namespace Negocios.ModuloSite.Processos
             #region Direita
             resultado.PostagemDireitaUm = (from p in PostagemList
                                            where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.DireitaUm
-                                           select p).SingleOrDefault();
+                                           && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
             resultado.PostagemDireitaTres = (from p in PostagemList
                                              where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.DireitaTres
-                                             select p).SingleOrDefault();
+                                             && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
             resultado.PostagemDireitaDois = (from p in PostagemList
                                              where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.DireitaDois
-                                             select p).SingleOrDefault();
+                                             && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
             #endregion
 
             #region Esquerda
 
             resultado.PostagemEsquerdaDois = (from p in PostagemList
                                               where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.EsquerdaDois
-                                              select p).SingleOrDefault();
+                                              && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
             resultado.PostagemEsquerdaTres = (from p in PostagemList
                                               where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.EsquerdaTres
-                                              select p).SingleOrDefault();
+                                              && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
             resultado.PostagemEsquerdaUm = (from p in PostagemList
                                             where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.EsquerdaUm
-                                            select p).SingleOrDefault();
+                                            && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
 
             #endregion
 
@@ -139,13 +154,13 @@ namespace Negocios.ModuloSite.Processos
 
             resultado.PostagemMeioDois = (from p in PostagemList
                                           where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.MeioDois
-                                          select p).SingleOrDefault();
+                                          && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
             resultado.PostagemMeioTres = (from p in PostagemList
                                           where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.MeioTres
-                                          select p).SingleOrDefault();
+                                          && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
             resultado.PostagemMeioUm = (from p in PostagemList
                                         where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.MeioUm
-                                        select p).SingleOrDefault();
+                                        && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
 
             #endregion
             return resultado;
