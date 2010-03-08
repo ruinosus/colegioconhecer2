@@ -35,7 +35,8 @@
   <tr>
     <td><label>
         <asp:RadioButton ID="rdbInfantil" runat="server" GroupName="rdb" 
-            AutoPostBack="True" oncheckedchanged="rdbInfantil_CheckedChanged" />
+            AutoPostBack="True" oncheckedchanged="rdbInfantil_CheckedChanged" 
+            Checked="True" />
     </label></td>
     <td><asp:ImageButton ID="imbMenu2" runat="server" ImageUrl="App_Themes/Default/Imagens/menu_edInfantil.png"
                                                         width="72" height="25"  hspace="10" vspace="10" /></td>
