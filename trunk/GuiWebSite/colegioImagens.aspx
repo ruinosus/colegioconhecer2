@@ -28,34 +28,37 @@
     </tr>
   <tr>
     <td colspan="2">
-        <asp:DropDownList ID="ddlOpcoes" runat="server" Width="160px">
+        <asp:DropDownList ID="ddlOpcoes" runat="server" Width="200px">
         </asp:DropDownList>
    </td>
     </tr>
   <tr>
     <td><label>
-        <asp:RadioButton ID="RadioButton1" runat="server" GroupName="rdb" />
+        <asp:RadioButton ID="rdbInfantil" runat="server" GroupName="rdb" 
+            AutoPostBack="True" oncheckedchanged="rdbInfantil_CheckedChanged" />
     </label></td>
     <td><asp:ImageButton ID="imbMenu2" runat="server" ImageUrl="App_Themes/Default/Imagens/menu_edInfantil.png"
                                                         width="72" height="25"  hspace="10" vspace="10" /></td>
   </tr>
   <tr>
     <td><label>
-        <asp:RadioButton ID="RadioButton2" runat="server" GroupName="rdb" />
+        <asp:RadioButton ID="rdbFund1" runat="server" GroupName="rdb" 
+            AutoPostBack="True" oncheckedchanged="rdbFund1_CheckedChanged" />
     </label></td>
     <td><asp:ImageButton ID="imbMenu3" runat="server" ImageUrl="App_Themes/Default/Imagens/menu_edFund1.png"
                                                         width="110" height="25"  hspace="10" vspace="10" /></td>
   </tr>
   <tr>
     <td><label>
-        <asp:RadioButton ID="RadioButton3" runat="server" GroupName="rdb" />
+        <asp:RadioButton ID="rdbFund2" runat="server" GroupName="rdb" 
+            AutoPostBack="True" oncheckedchanged="rdbFund2_CheckedChanged" />
     </label></td>
     <td><asp:ImageButton ID="imbMenu4" runat="server" ImageUrl="App_Themes/Default/Imagens/menu_edFund2.png"
                                                         width="118" height="25"  hspace="10" vspace="10" /></td>
   </tr>
   <tr>
     <td><label>
-        <asp:RadioButton ID="RadioButton4" runat="server" GroupName="rdb" />
+        <asp:RadioButton ID="rdbMedio" runat="server" GroupName="rdb" Enabled="False" />
     </label></td>
     <td><asp:ImageButton ID="imbMenu5" runat="server" ImageUrl="App_Themes/Default/Imagens/menu_Medio.png"
                                                         width="52" height="25"  hspace="10" vspace="10" /></td>
