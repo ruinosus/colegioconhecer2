@@ -55,7 +55,7 @@ namespace Negocios.ModuloSite.Processos
             //this.postagemRepositorio.Excluir(postagem);
         }
 
-        public bool verificaSeJaExiste(Postagem postagem)
+        public bool VerificaSeJaExiste(Postagem postagem)
         {
             bool resultadoVerificacao = false;
 
@@ -84,12 +84,21 @@ namespace Negocios.ModuloSite.Processos
         {
             List<Postagem> postagemList = this.postagemRepositorio.Consultar(postagem, tipoPesquisa);
 
+            foreach (Postagem post in postagemList)
+            {
+                post.LerMais =  "<a href=\"colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina)+"\"> Ler Mais...</a>"; 
+            }
             return postagemList;
         }
 
         public List<Postagem> Consultar()
         {
             List<Postagem> postagemList = postagemRepositorio.Consultar();
+
+            foreach (Postagem post in postagemList)
+            {
+                post.LerMais = "<a href=\"colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina) + "\"> Ler Mais...</a>";
+            }
 
             return postagemList;
         }

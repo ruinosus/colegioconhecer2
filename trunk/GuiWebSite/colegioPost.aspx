@@ -18,12 +18,14 @@
         	<div class="unico_artigos">
             
               <div class="unico_artigos_titulo">
-                <p><span class="style1Atividades"><asp:Label ID="lblTituloMeio1" runat="server" Text="TÍTULO PUBLICAÇÃO" /></span>       	        
+                <p><span class="style1Atividades"><asp:Label ID="lblTituloMeio1" runat="server" Text="TÍTULO PUBLICAÇ&Atilde;O" /></span>       	        
                 <asp:Image ID="imgBarraArtigoMeio1" runat="server" ImageUrl="App_Themes/Default/Imagens/barraArtigoUnico.png" Width="930" Height="6" />    </p>                
+              
               </div>
               
               <div class="unico_artigos_texto_index_atv">
-				<asp:Label ID="lblArtigoUnico1" runat="server" />
+				<asp:Label ID="lblArtigoUnico1" runat="server" /><br />
+				<asp:LinkButton ID="lkbVoltar" runat="server">Voltar</asp:LinkButton>
               <div class="unico_artigos_texto_index_atv_dv">
               	              
               </div>

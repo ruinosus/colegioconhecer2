@@ -90,6 +90,8 @@ public partial class _Default : System.Web.UI.Page
                 {
                     lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo;
                 }
+                lblTextoArtigoMeio1.Text = lblTextoArtigoMeio1.Text + " " + postagemExibicao.PostagemMeioUm.LerMais;
+
 
                 if (postagemExibicao.PostagemMeioUm.Titulo.Length > 20)
                 {
