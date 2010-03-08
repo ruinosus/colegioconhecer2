@@ -92,6 +92,12 @@ public partial class colegioInfantil : System.Web.UI.Page
 
             if (postagemExibicao.PostagemDireitaUm != null)
             {
+                if (postagemExibicao.PostagemDireitaUm.ImagemI != null &&
+                    postagemExibicao.PostagemDireitaUm.ImagemI.Length > 0)
+                {
+                    imgArtigoDireita1.Visible = true;
+                    imgArtigoDireita1.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + postagemExibicao.PostagemDireitaUm.ID;
+                }
                 if (postagemExibicao.PostagemDireitaUm.Corpo.Length > 790)
                 {
                     lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo.Substring(0, 790);
