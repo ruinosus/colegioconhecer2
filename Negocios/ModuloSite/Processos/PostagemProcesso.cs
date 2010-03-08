@@ -92,22 +92,7 @@ namespace Negocios.ModuloSite.Processos
             return postagemList;
         }
 
-        public List<Postagem> Consultar(TipoPostagem tipoPostagem)
-        {
-            List<Postagem> postagemList = this.postagemRepositorio.Consultar();
-            List<Postagem> postagemList2 = new List<Postagem>();
-
-            foreach (Postagem post in postagemList)
-            {
-                if (post.Tipo == (int)tipoPostagem)
-                {
-                    postagemList2.Add(post);
-                }
-            }
-            return postagemList2;
-        }
-
-        public List<Postagem> Consultar()
+       public List<Postagem> Consultar()
         {
             List<Postagem> postagemList = postagemRepositorio.Consultar();
 

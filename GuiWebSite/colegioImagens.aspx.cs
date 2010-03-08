@@ -13,7 +13,10 @@ public partial class colegioImagens : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (!IsPostBack)
+        {
+            VerificaSelecao();
+        }
     }
 
     protected void VerificaSelecao()
@@ -35,7 +38,9 @@ public partial class colegioImagens : System.Web.UI.Page
     private List<Postagem> PesquisaEventos(TipoPostagem tipoPostagem)
     {
         IPostagemProcesso processo = PostagemProcesso.Instance;
-        List<Postagem> postagemList = processo.Consultar(tipoPostagem);
+        Postagem post = new Postagem();
+        post.Tipo = (int)tipoPostagem;
+        List<Postagem> postagemList = processo.Consultar(post,TipoPesquisa.E);
         return postagemList;
     }
 
