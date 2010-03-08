@@ -33,6 +33,7 @@ public partial class ModuloPostagem_Incluir : System.Web.UI.Page
             IImagemProcesso processo = ImagemProcesso.Instance;
             
             Imagem imagem = new Imagem();
+            imagem.PostagemID = ((Postagem)Session["PostagemIncluirImagem"]).ID;
             imagem.Titulo = txtTitulo.Text;
             imagem.SubTitulo = txtSubTitulo.Text;
 
