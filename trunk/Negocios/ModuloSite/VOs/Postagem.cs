@@ -8,5 +8,6 @@ namespace Negocios.ModuloBasico.VOs
     public partial class Postagem
     {
         public string LerMais{ get; set; }
+    
     }
 }
