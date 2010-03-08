@@ -114,6 +114,54 @@ namespace Negocios.ModuloBasico.Enums
         DireitaUm = 7
     }
 
+    public enum LocalPostagemInfra
+    {
+        [Description("")]
+        NaoAlterar = 0,
+        [Description("Imagem 1")]
+        EsquerdaUm = 1,
+        [Description("Imagem 2")]
+        EsquerdaDois = 2,
+        [Description("Imagem 3")]
+        EsquerdaTres = 3,
+        [Description("Imagem 4")]
+        MeioUm = 4
+    }
+
+    public enum LocalPostagemAtividade
+    {
+        [Description("")]
+        NaoAlterar = 0,
+        [Description("Atividade 1")]
+        EsquerdaUm = 1,
+        [Description("Atividade 2")]
+        EsquerdaDois = 2,
+        [Description("Atividade 3")]
+        EsquerdaTres = 3,
+        [Description("Atividade 4")]
+        MeioUm = 4,
+        [Description("Atividade 5")]
+        MeioDois = 5,
+        [Description("Atividade 6")]
+        MeioTres = 6,
+        [Description("Atividade 7")]
+        DireitaUm = 7,
+        [Description("Atividade 8")]
+        DireitaDois = 8,
+    }
+
+    public enum LocalPostagemHistorico
+    {
+        [Description("")]
+        NaoAlterar = 0,
+        [Description("Logo 1")]
+        EsquerdaUm = 1,
+        [Description("Logo 2")]
+        EsquerdaDois = 2,
+        [Description("Logo 3")]
+        EsquerdaTres = 3
+    }
+
     public enum TipoPagina
     {
         [Description("")]
@@ -128,7 +176,10 @@ namespace Negocios.ModuloBasico.Enums
         FundamentalII = 4,
         [Description("Atividades")]
         Atividades = 6,
-
+        [Description("Infra Estrutura")]
+        InfraEstrutura = 7,
+        [Description("Histórico")]
+        Historico = 8
     }
 
     public enum TipoPostagem

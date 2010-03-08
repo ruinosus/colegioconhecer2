@@ -111,6 +111,18 @@ public partial class ClasseAuxiliar
         MapeamentoImagens mapeamento7 = new MapeamentoImagens(4, 1, 3, 150, 80);
         MapeamentoImagens mapeamento8 = new MapeamentoImagens(5, 1, 3, 150, 160);
         MapeamentoImagens mapeamento9 = new MapeamentoImagens(7, 1, 3, 390, 130);
+        MapeamentoImagens mapeamento10 = new MapeamentoImagens(1, 1, 7, 160, 90);
+        MapeamentoImagens mapeamento11 = new MapeamentoImagens(2, 1, 7, 160, 90);
+        MapeamentoImagens mapeamento12 = new MapeamentoImagens(3, 1, 7, 160, 90);
+        MapeamentoImagens mapeamento13 = new MapeamentoImagens(4, 1, 7, 160, 90);
+        MapeamentoImagens mapeamento14 = new MapeamentoImagens(1, 1, 6, 100, 96);
+        MapeamentoImagens mapeamento15 = new MapeamentoImagens(2, 1, 6, 100, 96);
+        MapeamentoImagens mapeamento16 = new MapeamentoImagens(3, 1, 6, 100, 96);
+        MapeamentoImagens mapeamento17 = new MapeamentoImagens(4, 1, 6, 100, 96);
+        MapeamentoImagens mapeamento18 = new MapeamentoImagens(5, 1, 6, 100, 96);
+        MapeamentoImagens mapeamento19 = new MapeamentoImagens(6, 1, 6, 100, 96);
+        MapeamentoImagens mapeamento20 = new MapeamentoImagens(7, 1, 6, 100, 96);
+        MapeamentoImagens mapeamento21 = new MapeamentoImagens(8, 1, 6, 100, 96);
 
         listaMapeamento.Add(mapeamento1);
         listaMapeamento.Add(mapeamento2);
@@ -121,6 +133,18 @@ public partial class ClasseAuxiliar
         listaMapeamento.Add(mapeamento7);
         listaMapeamento.Add(mapeamento8);
         listaMapeamento.Add(mapeamento9);
+        listaMapeamento.Add(mapeamento10);
+        listaMapeamento.Add(mapeamento11);
+        listaMapeamento.Add(mapeamento12);
+        listaMapeamento.Add(mapeamento13);
+        listaMapeamento.Add(mapeamento14);
+        listaMapeamento.Add(mapeamento15);
+        listaMapeamento.Add(mapeamento16);
+        listaMapeamento.Add(mapeamento17);
+        listaMapeamento.Add(mapeamento18);
+        listaMapeamento.Add(mapeamento19);
+        listaMapeamento.Add(mapeamento20);
+        listaMapeamento.Add(mapeamento21);
 
     }
 

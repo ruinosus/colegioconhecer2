@@ -38,14 +38,16 @@ public partial class colegioFundamental1 : System.Web.UI.Page
                     imgArtigo1Meio.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + postagemExibicao.PostagemMeioUm.ID;
                 }
 
-                if (postagemExibicao.PostagemMeioUm.Corpo.Length > 115)
+                if (postagemExibicao.PostagemMeioUm.Corpo.Length > 105)
                 {
-                    lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo.Substring(0, 115);
+                    lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo.Substring(0, 105);
                 }
                 else
                 {
                     lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo;
                 }
+                lblTextoArtigoMeio1.Text = lblTextoArtigoMeio1.Text + " " + postagemExibicao.PostagemMeioUm.LerMais;
+
 
                 if (postagemExibicao.PostagemMeioUm.Titulo.Length > 20)
                 {
@@ -66,15 +68,17 @@ public partial class colegioFundamental1 : System.Web.UI.Page
                     imgArtigo2Meio.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + postagemExibicao.PostagemMeioDois.ID;
                 }
 
-                if (postagemExibicao.PostagemMeioDois.Corpo.Length > 300)
+                if (postagemExibicao.PostagemMeioDois.Corpo.Length > 280)
                 {
-                    lblTextoArtigoMeio2.Text = postagemExibicao.PostagemMeioDois.Corpo.Substring(0, 300);
+                    lblTextoArtigoMeio2.Text = postagemExibicao.PostagemMeioDois.Corpo.Substring(0, 280);
                 }
                 else
                 {
                     lblTextoArtigoMeio2.Text = postagemExibicao.PostagemMeioDois.Corpo;
-
                 }
+                lblTextoArtigoMeio2.Text = lblTextoArtigoMeio2.Text + " " + postagemExibicao.PostagemMeioDois.LerMais;
+
+
             }
 
             if (postagemExibicao.PostagemDireitaUm != null)
@@ -86,15 +90,17 @@ public partial class colegioFundamental1 : System.Web.UI.Page
                     imgArtigo1Direita.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + postagemExibicao.PostagemDireitaUm.ID;
                 }
 
-                if (postagemExibicao.PostagemDireitaUm.Corpo.Length > 675)
+                if (postagemExibicao.PostagemDireitaUm.Corpo.Length > 660)
                 {
-                    lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo.Substring(0, 675);
+                    lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo.Substring(0, 660);
                 }
                 else
                 {
                     lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo;
-
                 }
+                lblTextoArtigoDireita1.Text = lblTextoArtigoDireita1.Text + " " + postagemExibicao.PostagemDireitaUm.LerMais;
+
+
                 if (postagemExibicao.PostagemDireitaUm.Titulo.Length > 20)
                 {
                     lblTituloDireita1.Text = postagemExibicao.PostagemDireitaUm.Titulo.Substring(0, 20);

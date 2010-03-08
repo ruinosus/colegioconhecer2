@@ -27,8 +27,10 @@
                       runat="server" ImageUrl="App_Themes/Default/Imagens/menuEsquerda3.png"
                                                         width="150" height="45" hspace="0" 
                       vspace="0" border="0" PostBackUrl="~/colegioImagens.aspx" /></div>
-              <div class="esquerda_artigos_imagem_menu2"><asp:ImageButton ID="imbFund1_4" runat="server" ImageUrl="App_Themes/Default/Imagens/menuEsquerda4.png"
-                                                        width="150" height="45" hspace="0" vspace="0" border="0" /></div>
+              <div class="esquerda_artigos_imagem_menu2"><asp:ImageButton ID="imbFund1_4" 
+                      runat="server" ImageUrl="App_Themes/Default/Imagens/menuEsquerda4.png"
+                                                        width="150" height="45" hspace="0" 
+                      vspace="0" border="0" Visible="False" /></div>
               <div class="esquerda_artigos_imagem_menu"><asp:ImageButton ID="imbFund1_5" runat="server" ImageUrl="App_Themes/Default/Imagens/menuEsquerda5.png"
                                                         width="150" height="35" hspace="0" vspace="0" border="0" /></div>
               </div>
@@ -124,7 +126,7 @@
               	<div class="direita_artigos_texto_index2"><p><asp:Label ID="lblTextoArtigoDireita1" 
                         runat="server" /></p> </div>
               	<div class="direita_artigos_imagem_index2"><asp:Image ID="imgArtigoDireita1" 
-                        runat="server" Width="390" Height="130" /></div>          
+                        runat="server" Width="390" Height="130" Visible="false" /></div>          
             
             </div><!-- Fim direita_artigos -->
             

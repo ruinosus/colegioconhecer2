@@ -27,6 +27,24 @@ public partial class ModuloPostagem_Incluir : System.Web.UI.Page
         }
     }
 
+    protected void AtualizarCenarioInfra()
+    {
+            txtCorpo.Enabled = false;
+            txtSubTitulo.Enabled = false;
+            txtTitulo.Enabled = false;
+    }
+
+    protected void AtualizarCenarioAtividade()
+    {
+        txtSubTitulo.Enabled = false;
+    }
+
+    protected void AtualizarCenarioHistorico()
+    {
+        txtSubTitulo.Enabled = false;
+        fupImgPostagem.Enabled = false;
+    }
+
     protected void CarregarComboLocal(object sender, EventArgs e)
     {
 
@@ -70,6 +88,24 @@ public partial class ModuloPostagem_Incluir : System.Web.UI.Page
             case TipoPagina.EducacaoInfantil:
                 {
                     ClasseAuxiliar.CarregarComboEnum<LocalPostagemInfantil>(ddlLocalPostagem);
+                    break;
+                }
+            case TipoPagina.InfraEstrutura:
+                {
+                    AtualizarCenarioInfra();
+                    ClasseAuxiliar.CarregarComboEnum<LocalPostagemInfra>(ddlLocalPostagem);
+                    break;
+                }
+            case TipoPagina.Atividades:
+                {
+                    AtualizarCenarioAtividade();
+                    ClasseAuxiliar.CarregarComboEnum<LocalPostagemAtividade>(ddlLocalPostagem);
+                    break;
+                }
+            case TipoPagina.Historico:
+                {
+                    AtualizarCenarioHistorico();
+                    ClasseAuxiliar.CarregarComboEnum<LocalPostagemHistorico>(ddlLocalPostagem);
                     break;
                 }
         }
