@@ -8,45 +8,82 @@ using Negocios.ModuloSite.Processos;
 using Negocios.ModuloBasico.VOs;
 using Negocios.ModuloSite.VOs;
 using Negocios.ModuloBasico.Enums;
+using Negocios.ModuloSite.Constantes;
+using Negocios.ModuloBasico.Constantes;
 
 public partial class colegioPost : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (!IsPostBack)
-        {
-            CarregarTela();
-        }
-    }
 
-    private void CarregarTela()
-    {
-        IPostagemProcesso processo = PostagemProcesso.Instance;
-        List<Postagem> PostagemList = processo.Consultar();
-
-        if (PostagemList.Count > 0)
+        if (Request.QueryString["id"] != null && Request.QueryString["tela"] != null)
         {
-            PostagemExibicao postagemExibicao = processo.Consultar(TipoPagina.Colegio);
-            if (postagemExibicao.PostagemMeioUm != null)
+            try
             {
-                if (postagemExibicao.PostagemMeioUm.Corpo.Length > 4000)
-                {
-                    lblArtigoUnico1.Text = postagemExibicao.PostagemMeioUm.Corpo.Substring(0, 4000);
-                }
-                else
-                {
-                    lblArtigoUnico1.Text = postagemExibicao.PostagemMeioUm.Corpo; 
-                }
+                IPostagemProcesso processo = PostagemProcesso.Instance;
+                Postagem postagem = new Postagem();
+                postagem.ID = Convert.ToInt32(Request.QueryString["id"]);
+                postagem.Pagina = Convert.ToInt32(Request.QueryString["tela"]);
+                List<Postagem> resultado = processo.Consultar(postagem, TipoPesquisa.E);
 
-                if (postagemExibicao.PostagemMeioUm.Titulo.Length > 40)
+                if (resultado.Count > 0)
                 {
-                    lblTituloMeio1.Text = postagemExibicao.PostagemMeioUm.Titulo.Substring(0, 40);
-                }
-                else
-                {
-                    lblTituloMeio1.Text = postagemExibicao.PostagemMeioUm.Titulo; 
+                    lblArtigoUnico1.Text = resultado[0].Corpo;
+                    lblTituloMeio1.Text = resultado[0].Titulo;
+                    TipoPagina tipoPagina = (TipoPagina)resultado[0].Pagina;
+                    switch (tipoPagina)
+                    {
+                        case TipoPagina.NaoAlterar:
+                            {
+
+                                break;
+                            }
+                        case TipoPagina.Colegio:
+                            {
+                                lkbVoltar.PostBackUrl = "~/default.aspx";
+                                lkbVoltar.Text = "Voltar para Colegio";
+                                break;
+                            }
+                        case TipoPagina.EducacaoInfantil:
+                            {
+                                lkbVoltar.PostBackUrl = "~/colegioInfantil.aspx";
+                                lkbVoltar.Text = "Voltar para Educação Infantil";
+                                break;
+                            }
+                        case TipoPagina.FundamentalI:
+                            {
+                                lkbVoltar.PostBackUrl = "~/colegioFundamental1.aspx";
+                                lkbVoltar.Text = "Voltar para Fundamental 1";
+                                break;
+                            }
+                        case TipoPagina.FundamentalII:
+                            {
+                                lkbVoltar.PostBackUrl = "~/colegioFundamental2.aspx";
+                                lkbVoltar.Text = "Voltar para Fundamental 2";
+                                break;
+                            }
+                        case TipoPagina.Atividades:
+                            {
+                                lkbVoltar.PostBackUrl = "~/colegioAtividades.aspx";
+                                lkbVoltar.Text = "Voltar para Atividades";
+                                break;
+                            }
+                        default:
+                            {
+                                break;
+                            }
+                    }
                 }
             }
+            catch
+            {
+                Response.Redirect(BasicoConstantes.PAGINA_PRINCIPAL);
+            }
+            
+            
         }
+        
     }
+
+   
 }

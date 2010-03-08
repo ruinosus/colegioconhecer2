@@ -28,7 +28,7 @@ namespace Negocios.ModuloSite.Processos
         /// </summary>
         /// <param name="postagem">postagem</param>
         /// <returns>verdadeiro caso exista repetido, falso caso não</returns>
-        bool verificaSeJaExiste(Postagem postagem);
+        bool VerificaSeJaExiste(Postagem postagem);
 
         /// <summary>
         /// Método reponsável por alterar um postagem do sistema.
