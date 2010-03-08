@@ -13,89 +13,54 @@ public partial class ModuloPostagem_Alterar : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        ClasseAuxiliar.ValidarUsuarioLogado();
         if (!IsPostBack)
         {
-
-            ClasseAuxiliar.CarregarComboEnum<TipoPostagem>(ddlTipoPostagem);
             
             LimparCampos();
-            CarregarDados();
+           CarregarDados();
         }
     }
 
-    private void CarregarDados()
-    {
-        if (Session["PostagemAlterar"] != null)
-        {
-            Postagem postagem = (Postagem)Session["PostagemAlterar"];
 
-
-            ddlTipoPostagem.SelectedValue = ((int)postagem.Tipo).ToString();
-            CarregarComboLocal(null, null);
-            ddlLocalPostagem.SelectedValue = ((int)postagem.Local).ToString();
-            txtCorpo.Text= postagem.Corpo;
-            
-            txtSubTitulo.Text = postagem.SubTitulo;
-            txtTitulo.Text = postagem.Titulo;
-            //fupImgPostagem.
-        }
-    }
-
-    protected void CarregarComboLocal(object sender, EventArgs e)
-    {
-
-        TipoPostagem tipo = (TipoPostagem)int.Parse(ddlTipoPostagem.SelectedValue);
-        lblLocalPostagem.Visible = true;
-        ddlLocalPostagem.Visible = true;
-        ClasseAuxiliar.CarregarComboEnum<LocalPostagem>(ddlLocalPostagem);
-        switch (tipo)
-        {
-            case TipoPostagem.NaoAlterar:
-                {
-                    lblLocalPostagem.Visible = false;
-                    ddlLocalPostagem.Visible = false;
-                    break;
-                }
-            default:
-                {
-                    lblLocalPostagem.Visible = true;
-                    ddlLocalPostagem.Visible = true;
-                    break;
-                }
-        }
-
-
-    }
 
 
     #region Métodos Privados
 
+    private void CarregarDados()
+    {
+        if (Session["ImagemAlterar"] != null)
+        {
+            Imagem imagem = (Imagem)Session["ImagemAlterar"];
 
+            
+            txtCorpo.Text = imagem.Corpo;
+
+            txtSubTitulo.Text = imagem.SubTitulo;
+            txtTitulo.Text = imagem.Titulo;
+          
+        }
+    }
 
     protected void Confirmar(object sender, EventArgs e)
     {
         try
         {
-            IPostagemProcesso processo = PostagemProcesso.Instance;
+            IImagemProcesso processo = ImagemProcesso.Instance;
 
-            if (((TipoPostagem)int.Parse(ddlTipoPostagem.SelectedValue)) == TipoPostagem.NaoAlterar)
-                throw new Exception("Informe o tipo da postagem.");
-            if (((LocalPostagem)int.Parse(ddlLocalPostagem.SelectedValue)) == LocalPostagem.NaoAlterar)
-                throw new Exception("Informe o local da postagem.");
+            Imagem imagem = new Imagem();
 
-            Postagem postagem = new Postagem();
-            postagem = (Postagem)Session["PostagemAlterar"];
-            postagem.Titulo = txtTitulo.Text;
-            postagem.SubTitulo = txtSubTitulo.Text;
+            imagem = (Imagem)Session["ImagemAlterar"];
+            imagem.PostagemID = ((Postagem)Session["PostagemIncluirImagem"]).ID;
+            imagem.Titulo = txtTitulo.Text;
+            imagem.SubTitulo = txtSubTitulo.Text;
 
-            postagem.Corpo = txtCorpo.Text;
+            imagem.Corpo = txtCorpo.Text;
 
 
-            postagem.Local = int.Parse(ddlLocalPostagem.SelectedValue);
-            postagem.Tipo = int.Parse(ddlTipoPostagem.SelectedValue);
-            if (fupImgPostagem.HasFile)
+            if (fupImg.HasFile)
             {
-                HttpPostedFile myFile = fupImgPostagem.PostedFile;
+                HttpPostedFile myFile = fupImg.PostedFile;
 
                 System.Drawing.Image fullSizeImg = System.Drawing.Image.FromStream(myFile.InputStream);
 
@@ -103,12 +68,12 @@ public partial class ModuloPostagem_Alterar : System.Web.UI.Page
 
                 System.Drawing.Image thumbNailImg = fullSizeImg.GetThumbnailImage(200, 200, dummyCallBack, IntPtr.Zero);
 
-                postagem.ImagemI = ClasseAuxiliar.ImageToByteArray(thumbNailImg);
+                imagem.ImagemI = ClasseAuxiliar.ImageToByteArray(thumbNailImg);
             }
 
-            processo.Alterar(postagem);
+            processo.Alterar(imagem);
             processo.Confirmar();
-            cvaAvisoDeInformacao.ErrorMessage = SiteConstantes.POSTAGEM_ALTERADA;
+            cvaAvisoDeInformacao.ErrorMessage = SiteConstantes.IMAGEM_ALTERADA;
             cvaAvisoDeInformacao.IsValid = false;
             //LimparCampos();
             //CarregarComboLocal(null, null);
@@ -142,8 +107,7 @@ public partial class ModuloPostagem_Alterar : System.Web.UI.Page
         txtCorpo.Text = string.Empty;
         txtTitulo.Text = string.Empty;
         txtSubTitulo.Text = string.Empty;
-        ddlLocalPostagem.SelectedIndex = 0;
-        ddlTipoPostagem.SelectedIndex = 0;
+
     }
     #endregion
 }

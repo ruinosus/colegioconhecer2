@@ -1,4 +1,4 @@
-ï»¿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Alterar.aspx.cs" Inherits="ModuloPostagem_Alterar" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Alterar.aspx.cs" Inherits="ModuloPostagem_Alterar" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
@@ -24,33 +24,13 @@
                 <table>
                     <tr>
                         <td>
-                            <asp:Label ID="lblTipoPostagem" runat="server" Text="Tipo da Postagem:"></asp:Label>
-                        </td>
-                        <ajax:UpdatePanel ID="updEnuns" runat="server">
-                            <ContentTemplate>
-                                <td align="left">
-                                    <asp:DropDownList ID="ddlTipoPostagem" AutoPostBack="true" runat="server" OnSelectedIndexChanged="CarregarComboLocal">
-                                    </asp:DropDownList>
-                                </td>
-                                <td>
-                                    <asp:Label ID="lblLocalPostagem" runat="server" Text="Local da Postagem:"></asp:Label>
-                                </td>
-                                <td align="left">
-                                    <asp:DropDownList ID="ddlLocalPostagem" runat="server">
-                                    </asp:DropDownList>
-                                </td>
-                            </ContentTemplate>
-                        </ajax:UpdatePanel>
-                    </tr>
-                    <tr>
-                        <td>
-                            <asp:Label ID="lblTitulo" runat="server" Text="TÃ­tulo:"></asp:Label>
+                            <asp:Label ID="lblTitulo" runat="server" Text="Título:"></asp:Label>
                         </td>
                         <td align="left">
                             <asp:TextBox ID="txtTitulo" runat="server" Width="450px" MaxLength="250"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="lblSubTitulo" runat="server" Text="Sub-TÃ­tulo:"></asp:Label>
+                            <asp:Label ID="lblSubTitulo" runat="server" Text="Sub-Título:"></asp:Label>
                         </td>
                         <td align="left">
                             <asp:TextBox ID="txtSubTitulo" runat="server" Width="300px" MaxLength="500"></asp:TextBox>
@@ -67,12 +47,12 @@
                     </tr>
                     <tr>
                         <td>
-                            <asp:Label ID="lblImagemPostagem" runat="server" Text="Imagem da Postagem:"></asp:Label>
+                            <asp:Label ID="lblImagem" runat="server" Text="Imagem I:"></asp:Label>
                         </td>
                         <td align="left" colspan="3">
                             <ajax:UpdatePanel ID="updImagem" runat="server" UpdateMode="Conditional">
                                 <ContentTemplate>
-                                    <asp:FileUpload ID="fupImgPostagem" runat="server" />
+                                    <asp:FileUpload ID="fupImg" runat="server" />
                                 </ContentTemplate>
                                 <Triggers>
                                     <asp:PostBackTrigger ControlID="btnConfirmar" />

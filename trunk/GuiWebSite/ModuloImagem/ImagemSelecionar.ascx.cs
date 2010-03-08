@@ -136,7 +136,7 @@ public partial class ModuloImagem_ImagemSelecionar : System.Web.UI.UserControl, 
                 Imagem imagem = new Imagem();
                 imagem.Titulo = txtTitulo.Text.Trim();
 
-
+                imagem.PostagemID = ((Postagem)Session["PostagemIncluirImagem"]).ID;
 
 
                 ImagemList = processo.Consultar(imagem, TipoPesquisa.E);

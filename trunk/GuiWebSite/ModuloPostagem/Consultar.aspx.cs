@@ -139,7 +139,7 @@ public partial class ModuloPostagem_Consultar : System.Web.UI.Page
 
 
             Session.Add("PostagemIncluirImagem", processo.Consultar(postagem, Negocios.ModuloBasico.Enums.TipoPesquisa.E)[0]);
-            Response.Redirect("Alterar.aspx", false);
+            Response.Redirect("~/ModuloImagem/Consultar.aspx", false);
         }
         catch (Exception ex)
         {
