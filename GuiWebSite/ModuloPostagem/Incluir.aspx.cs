@@ -8,6 +8,9 @@ using Negocios.ModuloBasico.Enums;
 using Negocios.ModuloSite.Constantes;
 using Negocios.ModuloBasico.VOs;
 using Negocios.ModuloSite.Processos;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 
 public partial class ModuloPostagem_Incluir : System.Web.UI.Page
 {
@@ -103,14 +106,30 @@ public partial class ModuloPostagem_Incluir : System.Web.UI.Page
                 MapeamentoImagens imagemMapeada = ClasseAuxiliar.obterImagemMapeada(postagem);
 
                 HttpPostedFile myFile = fupImgPostagem.PostedFile;
-
                 System.Drawing.Image fullSizeImg = System.Drawing.Image.FromStream(myFile.InputStream);
+                System.Drawing.Image thumbnail = new Bitmap((int)imagemMapeada.Altura, (int)imagemMapeada.Comprimento);
+                System.Drawing.Graphics graphic = System.Drawing.Graphics.FromImage(thumbnail);
 
-                System.Drawing.Image.GetThumbnailImageAbort dummyCallBack = new System.Drawing.Image.GetThumbnailImageAbort(ThumbnailCallback);
 
-                System.Drawing.Image thumbNailImg = fullSizeImg.GetThumbnailImage(imagemMapeada.Comprimento, imagemMapeada.Altura, dummyCallBack, IntPtr.Zero);
+                graphic.InterpolationMode = InterpolationMode.HighQualityBicubic;
+                graphic.SmoothingMode = SmoothingMode.HighQuality;
+                graphic.PixelOffsetMode = PixelOffsetMode.HighQuality;
+                graphic.CompositingQuality = CompositingQuality.HighQuality;
 
-                postagem.ImagemI = ClasseAuxiliar.ImageToByteArray(thumbNailImg);
+                graphic.DrawImage(fullSizeImg, 0, 0, imagemMapeada.Altura, imagemMapeada.Comprimento);
+
+                if (myFile.ContentType == "image/pjpeg")
+                {
+                    System.Drawing.Imaging.ImageCodecInfo[] info = ImageCodecInfo.GetImageEncoders();
+                    EncoderParameters encoderParameters;
+                    encoderParameters = new EncoderParameters(1);
+                    encoderParameters.Param[0] = new EncoderParameter(Encoder.Quality, 100L);
+                    Response.ContentType = "image/pjpeg";
+                    thumbnail.Save(Response.OutputStream, info[1], encoderParameters);
+                }
+
+                postagem.ImagemI = ClasseAuxiliar.ImageToByteArray(thumbnail);
+
             }
             if (processo.verificaSeJaExiste(postagem))
             {

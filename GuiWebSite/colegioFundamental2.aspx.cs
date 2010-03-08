@@ -30,6 +30,13 @@ public partial class colegioFundamental2 : System.Web.UI.Page
 
             if (postagemExibicao.PostagemMeioUm != null)
             {
+                if (postagemExibicao.PostagemMeioUm.ImagemI != null &&
+                    postagemExibicao.PostagemMeioUm.ImagemI.Length > 0)
+                {
+                    imgArtigoMeio1.Visible = true;
+                    imgArtigoMeio1.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + postagemExibicao.PostagemMeioUm.ID;
+                }
+
                 if (postagemExibicao.PostagemMeioUm.Corpo.Length > 105)
                 {
                     lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo.Substring(0, 105);
@@ -51,6 +58,13 @@ public partial class colegioFundamental2 : System.Web.UI.Page
 
             if (postagemExibicao.PostagemMeioDois != null)
             {
+                if (postagemExibicao.PostagemMeioDois.ImagemI != null &&
+                    postagemExibicao.PostagemMeioDois.ImagemI.Length > 0)
+                {
+                    imgArtigoMeio2.Visible = true;
+                    imgArtigoMeio2.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + postagemExibicao.PostagemMeioDois.ID;
+                }
+
                 if (postagemExibicao.PostagemMeioDois.Corpo.Length > 350)
                 {
                     lblTextoArtigoMeio2.Text = postagemExibicao.PostagemMeioDois.Corpo.Substring(0, 350);
@@ -64,6 +78,13 @@ public partial class colegioFundamental2 : System.Web.UI.Page
 
             if (postagemExibicao.PostagemDireitaUm != null)
             {
+                if (postagemExibicao.PostagemDireitaUm.ImagemI != null &&
+                    postagemExibicao.PostagemDireitaUm.ImagemI.Length > 0)
+                {
+                    imgArtigoDireita1.Visible = true;
+                    imgArtigoDireita1.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + postagemExibicao.PostagemDireitaUm.ID;
+                }
+
                 if (postagemExibicao.PostagemDireitaUm.Corpo.Length > 795)
                 {
                     lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo.Substring(0, 795);

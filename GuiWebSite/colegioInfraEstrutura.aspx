@@ -34,10 +34,12 @@
               </div>
               
                <div class="unico_artigos_texto_index_4_baixo">
-               <div class="unico_artigos_texto_index4_div1"><asp:Image ID="imgInfra1" Width="160" runat="server" Height="90" /></div>
-               <div class="unico_artigos_texto_index4_div2"><asp:Image ID="imgInfra2" Width="160" runat="server" Height="90" /></div>
-               <div class="unico_artigos_texto_index4_div3"><asp:Image ID="imgInfra3" Width="160" runat="server" Height="90" /></div>
-               <div class="unico_artigos_texto_index4_div4"><asp:Image ID="imgInfra4" Width="160" runat="server" Height="90" /></div>
+               <div class="unico_artigos_texto_index4_div1"><asp:Image ID="imgInfra1" Width="160" 
+                       runat="server" Height="90" Visible="False" /></div>
+               <div class="unico_artigos_texto_index4_div2"><asp:Image ID="imgInfra2" Width="160" 
+                       runat="server" Height="90" Visible="False" /></div>
+               <div class="unico_artigos_texto_index4_div3"><asp:Image ID="imgInfra3" Width="160" runat="server" Height="90" Visible="False" /></div>
+               <div class="unico_artigos_texto_index4_div4"><asp:Image ID="imgInfra4" Width="160" runat="server" Height="90" Visible="False" /></div>
               </div>
               
        	  </div>
