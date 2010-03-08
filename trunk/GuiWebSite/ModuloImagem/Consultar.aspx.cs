@@ -18,6 +18,7 @@ public partial class ModuloPostagem_Consultar : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         // ClasseAuxiliar.ValidarUsuarioLogado(true);
+        ClasseAuxiliar.ValidarUsuarioLogado();
         ImagemSelecionar1.OnSelect += new EventHandler(ImagemSelecionar1_OnSelect);
         HabilitarBotoes();
     }
