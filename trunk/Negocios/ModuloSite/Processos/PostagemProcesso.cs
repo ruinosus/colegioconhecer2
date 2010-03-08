@@ -86,7 +86,8 @@ namespace Negocios.ModuloSite.Processos
 
             foreach (Postagem post in postagemList)
             {
-                post.LerMais =  "<a href=\"colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina)+"\"> Ler Mais...</a>"; 
+                post.LerMais =  "<a href=\"colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina)+"\"> Ler Mais...</a>";
+                post.LinkBotao = "colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina) + ""; 
             }
             return postagemList;
         }
@@ -98,6 +99,7 @@ namespace Negocios.ModuloSite.Processos
             foreach (Postagem post in postagemList)
             {
                 post.LerMais = "<a href=\"colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina) + "\"> Ler Mais...</a>";
+                post.LinkBotao = "colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina) + ""; 
             }
 
             return postagemList;

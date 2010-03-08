@@ -633,16 +633,6 @@ C:\Users\Alexandre Alves\Desktop\Sistema Colégio Conhecer\GuiWindowsForms\bin\D
 C:\Users\Alexandre Alves\Desktop\Sistema Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.ResolveComReference.cache
 C:\Users\Alexandre Alves\Desktop\Sistema Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe
 C:\Users\Alexandre Alves\Desktop\Sistema Colégio Conhecer\GuiWindowsForms\obj\Debug\GuiWindowsForms.pdb
-C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
-C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.manifest
-C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.application
-C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
-C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
-C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\MySql.Data.dll
-C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\Negocios.dll
-C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\DbLinq.dll
-C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
-C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\Negocios.pdb
 C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.ResolveComReference.cache
 C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.telaAluno.resources
@@ -678,6 +668,16 @@ C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\obj\Debug\GuiWi
 C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.uMenuImagem.resources
 C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.User_Control.uMenuLateral.resources
 C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.csproj.GenerateResource.Cache
+C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.config
+C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe.manifest
+C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.application
+C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.exe
+C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\GuiWindowsForms.pdb
+C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\MySql.Data.dll
+C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\Negocios.dll
+C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\DbLinq.dll
+C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\DbLinq.MySql.dll
+C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\bin\Debug\Negocios.pdb
 C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe.manifest
 C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.application
 C:\Users\Alexandre Alves\Desktop\Sistema Colegio\GuiWindowsForms\obj\Debug\GuiWindowsForms.exe

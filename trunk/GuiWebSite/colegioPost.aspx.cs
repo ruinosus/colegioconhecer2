@@ -68,6 +68,18 @@ public partial class colegioPost : System.Web.UI.Page
                                 lkbVoltar.Text = "Voltar para Atividades";
                                 break;
                             }
+                        case TipoPagina.InfraEstrutura:
+                            {
+                                lkbVoltar.PostBackUrl = "~/colegioInfraEstrutura.aspx";
+                                lkbVoltar.Text = "Voltar para Infra Estrutura";
+                                break;
+                            }
+                        case TipoPagina.Historico:
+                            {
+                                lkbVoltar.PostBackUrl = "~/colegioHistorico.aspx";
+                                lkbVoltar.Text = "Voltar para Histórico";
+                                break;
+                            }
                         default:
                             {
                                 break;

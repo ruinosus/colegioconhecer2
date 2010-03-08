@@ -29,14 +29,15 @@ public partial class _Default : System.Web.UI.Page
             PostagemExibicao postagemExibicao = processo.Consultar(TipoPagina.Colegio);
             if (postagemExibicao.PostagemEsquerdaUm != null)
             {
-                if (postagemExibicao.PostagemEsquerdaUm.Corpo.Length > 230)
+                if (postagemExibicao.PostagemEsquerdaUm.Corpo.Length > 330)
                 {
-                    lblTextoArtigoEsquerda1.Text = postagemExibicao.PostagemEsquerdaUm.Corpo.Substring(0, 230);
+                    lblTextoArtigoEsquerda1.Text = postagemExibicao.PostagemEsquerdaUm.Corpo.Substring(0, 330);
                 }
                 else
                 {
                     lblTextoArtigoEsquerda1.Text = postagemExibicao.PostagemEsquerdaUm.Corpo;
                 }
+                lblTextoArtigoEsquerda1.Text = lblTextoArtigoEsquerda1.Text + " " + postagemExibicao.PostagemEsquerdaUm.LerMais;
 
                 if (postagemExibicao.PostagemEsquerdaUm.Titulo.Length > 20)
                 {
@@ -50,14 +51,16 @@ public partial class _Default : System.Web.UI.Page
 
             if (postagemExibicao.PostagemEsquerdaDois != null)
             {
-                if (postagemExibicao.PostagemEsquerdaDois.Corpo.Length > 160)
+                if (postagemExibicao.PostagemEsquerdaDois.Corpo.Length > 260)
                 {
-                    lblTextoArtigoEsquerda2.Text = postagemExibicao.PostagemEsquerdaDois.Corpo.Substring(0, 160);
+                    lblTextoArtigoEsquerda2.Text = postagemExibicao.PostagemEsquerdaDois.Corpo.Substring(0, 260);
                 }
                 else
                 {
                     lblTextoArtigoEsquerda2.Text = postagemExibicao.PostagemEsquerdaDois.Corpo;
                 }
+                lblTextoArtigoEsquerda2.Text = lblTextoArtigoEsquerda2.Text + " " + postagemExibicao.PostagemEsquerdaDois.LerMais;
+
 
                 if (postagemExibicao.PostagemEsquerdaDois.Titulo.Length > 20)
                 {
@@ -82,9 +85,9 @@ public partial class _Default : System.Web.UI.Page
                     imgArtigoMeio1.Visible = false;
                 }
 
-                if (postagemExibicao.PostagemMeioUm.Corpo.Length > 320)
+                if (postagemExibicao.PostagemMeioUm.Corpo.Length > 480)
                 {
-                    lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo.Substring(0, 320);
+                    lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo.Substring(0, 480);
                 }
                 else
                 {
@@ -117,14 +120,15 @@ public partial class _Default : System.Web.UI.Page
                 }
 
 
-                if (postagemExibicao.PostagemDireitaUm.Corpo.Length > 284)
+                if (postagemExibicao.PostagemDireitaUm.Corpo.Length > 360)
                 {
-                    lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo.Substring(0, 284);
+                    lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo.Substring(0, 360);
                 }
                 else
                 {
                     lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo;
                 }
+                lblTextoArtigoDireita1.Text = lblTextoArtigoDireita1.Text + " " + postagemExibicao.PostagemDireitaUm.LerMais;
 
                 if (postagemExibicao.PostagemDireitaUm.Titulo.Length > 20)
                 {

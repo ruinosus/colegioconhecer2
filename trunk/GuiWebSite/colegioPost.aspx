@@ -24,19 +24,9 @@
               </div>
               
               <div class="unico_artigos_texto_index_atv">
-				<asp:Label ID="lblArtigoUnico1" runat="server" /><br />
-				<asp:LinkButton ID="lkbVoltar" runat="server">Voltar</asp:LinkButton>
-              <div class="unico_artigos_texto_index_atv_dv">
-              	              
-              </div>
+				<span style="style1Posts"><asp:Label ID="lblArtigoUnico1" runat="server" /><br />
+				<asp:LinkButton ID="lkbVoltar" runat="server">Voltar</asp:LinkButton></span>
               
-                    <div class="unico_informacoes_colegio">
-            			<p align="center"><span class="unico_informacoes_colegioContato">Rua Zezito Costa Rego, n&ordm; 130. 
-              			<br />
-              			Cidade Universitária. Recife - PE
-              			<br />
-              			81. 3271.0233  www.colegioconhecer.com.br            </span></p>
-            		</div>
               </div>
                 
               </div>

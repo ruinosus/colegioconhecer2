@@ -8,6 +8,140 @@ body {
 	color: #000;
 }
 
+.style1
+{
+    color: #0065AA;
+    text-align: left;
+}
+.style1Atividades
+{
+    color: #0065AA;
+    font-family: Impact;
+    font-size: 20px;
+}
+.unico_informacoes_colegio_Atividades
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0065AA;
+    font-weight: bold;
+}
+.style4Atividades
+{
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+}
+style5Atividades
+{
+    color: #000000;
+    font-family: Arial Black;
+    font-size: 16px;
+    text-align: center;
+}
+.unico_informacoes_colegioContato
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: #0065AA;
+    font-weight: bold;
+}
+.style4Contato
+{
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+}
+input.submit
+{
+    background-color: #ffffff;
+    border: 0;
+    padding: 0px 0;
+    width: 60px;
+    margin: 0 1px 1px 0;
+    color: #0065AA;
+    font-family: Impact;
+    font-size: 14px;
+}
+.style0Fund1
+{
+    color: #0065AA;
+}
+.style1Fund1
+{
+    color: #E77817;
+}
+.style2Fund1
+{
+    color: #B8DB7C;
+}
+.style3Fund1
+{
+    color: #B74F8F;
+}
+.style0Fund2
+{
+    color: #0065AA;
+}
+.style1Fund2
+{
+    color: #FF0000;
+}
+.style2Fund2
+{
+    color: #9966CC;
+}
+.style3Hist
+{
+    word-spacing: 2px;
+}
+.style4Hist
+{
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+}
+.style2Infra
+{
+    font-size: 12px;
+    text-align: justify;
+}
+.style0Meio
+{
+    color: #0065AA;
+}
+.style1Meio
+{
+    color: #009900;
+}
+.style2Principios
+{
+    color: #000000;
+    font-family: Arial;
+    font-size: 10px;
+    text-align: left;
+    font-stretch: normal;
+}
+.style3Principios
+{
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: left;
+    font-stretch: normal;
+}
+.style1Posts
+{
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: left;
+    font-stretch: normal;
+}
+
 /* links */
 a { color: #003B6E; background: inherit; }
 a:hover { color: #9EC068; background: inherit; }	

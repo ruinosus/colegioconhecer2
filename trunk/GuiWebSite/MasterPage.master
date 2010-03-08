@@ -135,6 +135,15 @@
             text-align: left;
             font-stretch: normal;
         }
+        .style1Posts
+        {
+            color: #000000;
+            font-family: Arial;
+            font-size: 12px;
+            text-align: left;
+            font-stretch: normal;
+        }
+        
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
