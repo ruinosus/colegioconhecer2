@@ -166,13 +166,7 @@ public partial class ModuloPostagem_Incluir : System.Web.UI.Page
 
                 postagem.ImagemI = ClasseAuxiliar.ImageToByteArray(thumbnail);
 
-            }
-            if (processo.VerificaSeJaExiste(postagem))
-            {
-                processo.Alterar(postagem);
-            }
-            else
-            {
+                processo.VerificaSeJaExiste(postagem);
                 processo.Incluir(postagem);
             }
             processo.Confirmar();

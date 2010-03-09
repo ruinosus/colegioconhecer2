@@ -55,10 +55,8 @@ namespace Negocios.ModuloSite.Processos
             //this.postagemRepositorio.Excluir(postagem);
         }
 
-        public bool VerificaSeJaExiste(Postagem postagem)
+        public void VerificaSeJaExiste(Postagem postagem)
         {
-            bool resultadoVerificacao = false;
-
             List<Postagem> resultadoConsulta = new List<Postagem>();
             resultadoConsulta = Consultar();
 
@@ -68,11 +66,9 @@ namespace Negocios.ModuloSite.Processos
                     p.Pagina == postagem.Pagina &&
                     p.Tipo == postagem.Tipo)
                 {
-                    resultadoVerificacao = true;
+                    Excluir(p);
                 }
             }
-
-            return resultadoVerificacao;
         }
 
         public void Alterar(Postagem postagem)
