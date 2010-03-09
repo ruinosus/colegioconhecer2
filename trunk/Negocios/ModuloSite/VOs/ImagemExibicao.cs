@@ -33,7 +33,7 @@ namespace Negocios.ModuloSite.VOs
                 return imagemMeio;
             }
 
-            set { imagemMeio = value; }
+            set { imagemMeio = value;   }
         }
 
         private Imagem imagemDireita;
