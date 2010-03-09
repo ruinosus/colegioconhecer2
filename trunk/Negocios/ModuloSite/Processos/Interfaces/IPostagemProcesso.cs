@@ -24,11 +24,10 @@ namespace Negocios.ModuloSite.Processos
         void Excluir(Postagem postagem);
 
         /// <summary>
-        /// Método para verificar a existência de uma postagem já cadastrada
+        /// Método para verificar a existência de uma postagem já cadastrada e excluir caso exista
         /// </summary>
         /// <param name="postagem">postagem</param>
-        /// <returns>verdadeiro caso exista repetido, falso caso não</returns>
-        bool VerificaSeJaExiste(Postagem postagem);
+        void VerificaSeJaExiste(Postagem postagem);
 
         /// <summary>
         /// Método reponsável por alterar um postagem do sistema.
