@@ -82,7 +82,7 @@ public partial class ClasseAuxiliar
     /// <param name="imageIn">Imagem a ser convertida.</param>
     /// <returns>Array de Bytes que formam a imagem.</returns>
     public static byte[] ImageToByteArray(System.Drawing.Image imageIn)
-    {
+    {   
         MemoryStream ms = new MemoryStream();
 
             System.Drawing.Imaging.ImageCodecInfo[] info = ImageCodecInfo.GetImageEncoders();
@@ -95,12 +95,35 @@ public partial class ClasseAuxiliar
     }
 
     /// <summary>
+    /// Método responsável por converter uma imagem em um array de bytes.
+    /// </summary>
+    /// <param name="imageIn">Imagem a ser convertida.</param>
+    /// <param name="file">Arquivo passado.</param>
+    /// <returns>Array de Bytes que formam a imagem.</returns>
+    public static byte[] ImageToByteArray(HttpPostedFile file, System.Drawing.Image imageIn)
+    {
+        MemoryStream ms = new MemoryStream();
+
+        if (file.ContentType == "image/jpg" || file.ContentType == "image/jpeg" || file.ContentType == "image/pjpeg")
+        {
+
+            System.Drawing.Imaging.ImageCodecInfo[] info = ImageCodecInfo.GetImageEncoders();
+            EncoderParameters encoderParameters;
+            encoderParameters = new EncoderParameters(1);
+            encoderParameters.Param[0] = new EncoderParameter(Encoder.Quality, 100L);
+            imageIn.Save(ms, info[1], encoderParameters);
+        }
+
+        return ms.ToArray();
+    }
+
+    /// <summary>
     /// Método para converter as imagens
     /// </summary>
     /// <param name="imagemOriginal">imagemOriginal</param>
     /// <param name="imagemMapeada">imagemMapeada</param>
     /// <returns>Imagem convertida</returns>
-    public static System.Drawing.Image ConverteImagem(System.Drawing.Image imagemOriginal, MapeamentoImagens imagemMapeada)
+    public static System.Drawing.Image ConverteImagem(HttpPostedFile file, System.Drawing.Image imagemOriginal, MapeamentoImagens imagemMapeada)
     {
         Bitmap imagem = new Bitmap((int)imagemMapeada.Comprimento, (int)imagemMapeada.Altura, PixelFormat.Format24bppRgb);
 
@@ -111,7 +134,18 @@ public partial class ClasseAuxiliar
             canvas.PixelOffsetMode = PixelOffsetMode.HighQuality;
             canvas.DrawImage(imagemOriginal, 0, 0, imagemMapeada.Comprimento, imagemMapeada.Altura);
             MemoryStream m = new MemoryStream();
-            imagem.Save(m, ImageFormat.Jpeg);
+            if (file.ContentType == "image/jpg" || file.ContentType == "image/jpeg" || file.ContentType == "image/pjpeg")
+            {
+                imagem.Save(m, ImageFormat.Jpeg);
+            }
+            if (file.ContentType == "image/gif" || file.ContentType == "image/gif")
+            {
+                imagem.Save(m, ImageFormat.Gif);
+            }
+            if (file.ContentType == "image/x-png" || file.ContentType == "image/png")
+            {
+                imagem.Save(m, ImageFormat.Png);
+            }
             return imagem;
         }
     }
