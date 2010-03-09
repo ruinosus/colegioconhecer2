@@ -8,10 +8,11 @@ using MySql.Data.MySqlClient;
 using Negocios.ModuloBasico.Singleton;
 using Negocios.ModuloSite.Repositorios;
 using Negocios.ModuloSite.Fabricas;
+using Negocios.ModuloSite.VOs;
 
 namespace Negocios.ModuloSite.Processos
 {
-    public class ImagemProcesso :Negocios.ModuloBasico.Singleton.Singleton<ImagemProcesso>, IImagemProcesso
+    public class ImagemProcesso : Negocios.ModuloBasico.Singleton.Singleton<ImagemProcesso>, IImagemProcesso
     {
         #region Atributos
         private IImagemRepositorio imagemRepositorio = null;
@@ -73,6 +74,63 @@ namespace Negocios.ModuloSite.Processos
             return imagemList;
         }
 
+        public List<ImagemExibicao> Consultar(int PostagemID)
+        {
+            List<ImagemExibicao> resultado = new List<ImagemExibicao>();
+            Imagem imagem = new Imagem();
+            imagem.PostagemID = PostagemID;
+
+            List<Imagem> imagens = this.Consultar(imagem, TipoPesquisa.E);
+
+
+            bool continua = true;
+            ImagemExibicao imagemExibicao;
+            while (continua)
+            {
+                imagemExibicao = new ImagemExibicao();
+                if (imagens.Count >= 3)
+                {
+                    imagemExibicao.ImagemEsquerda = imagens[0];
+                    imagemExibicao.ImagemMeio = imagens[1];
+                    imagemExibicao.ImagemDireita = imagens[2];
+
+                    imagens.RemoveAt(0);
+                    imagens.RemoveAt(1);
+                    imagens.RemoveAt(2);
+
+                    resultado.Add(imagemExibicao);
+                }
+                else if (imagens.Count == 2)
+                {
+                    imagemExibicao.ImagemEsquerda = imagens[0];
+                    imagemExibicao.ImagemMeio = imagens[1];
+
+                    imagens.RemoveAt(0);
+                    imagens.RemoveAt(1);
+
+                    resultado.Add(imagemExibicao);
+                }
+                else if (imagens.Count == 1)
+                {
+                    imagemExibicao.ImagemEsquerda = imagens[0];
+
+                    resultado.Add(imagemExibicao);
+                    imagens.RemoveAt(0);
+
+                   
+                }
+                else
+                {
+                    continua = false;
+                }
+
+            }
+
+            return resultado;
+
+
+        }
+
         public void Confirmar()
         {
             imagemRepositorio.Confirmar();
@@ -80,5 +138,5 @@ namespace Negocios.ModuloSite.Processos
 
         #endregion
     }
-        
+
 }

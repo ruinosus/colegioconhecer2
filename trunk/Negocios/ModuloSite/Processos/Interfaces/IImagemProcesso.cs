@@ -5,6 +5,7 @@ using System.Text;
 
 using Negocios.ModuloBasico.Enums;
 using Negocios.ModuloBasico.VOs;
+using Negocios.ModuloSite.VOs;
 
 namespace Negocios.ModuloSite.Processos
 {
@@ -41,6 +42,13 @@ namespace Negocios.ModuloSite.Processos
         /// </summary>
         /// <returns>Lista contendo todas as imagems cadastrados.</returns>
         List<Imagem> Consultar();
+
+        /// <summary>
+        /// Método responsável por Consultar uma imagem. 
+        /// </summary>
+        /// <param name="PostagemID">Id postagem para ser utilizada com filtro na busca das imagens</param>
+        /// <returns>Uma Lista contendo de ImagemExibicao</returns>
+        List<ImagemExibicao> Consultar(int PostagemID);
 
         /// <summary>
         /// Método responsável por confirmar as alterações no sistema.

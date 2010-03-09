@@ -16,6 +16,16 @@ public partial class colegioImagens : System.Web.UI.Page
         if (!IsPostBack)
         {
             VerificaSelecao();
+            if (!string.IsNullOrEmpty(ddlOpcoes.SelectedValue))
+            {
+                IImagemProcesso processo = ImagemProcesso.Instance;
+
+                //List<ImagemExibicao> resultado = processo.Consultar(int.Parse(ddlOpcoes.SelectedValue));
+                List<ImagemExibicao> resultado = processo.Consultar(4);
+                grdImagem.DataSource = resultado;
+                grdImagem.DataBind();
+            }
+            
         }
     }
 
@@ -64,5 +74,21 @@ public partial class colegioImagens : System.Web.UI.Page
     protected void rdbFund2_CheckedChanged(object sender, EventArgs e)
     {
         VerificaSelecao();
+    }
+
+    protected string GetImageUrl(object id)
+    {
+        if (id != null && ((int)id)!=0)
+        {
+            return "~/ModuloAuxiliar/Handler.ashx?imgId=" + (int)id;
+        }
+        else return "";
+    }
+
+    protected bool GetImage(object id)
+    {
+        if (id != null && ((int)id) != 0)
+            return true;
+        return false;
     }
 }
