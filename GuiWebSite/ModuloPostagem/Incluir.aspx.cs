@@ -144,9 +144,9 @@ public partial class ModuloPostagem_Incluir : System.Web.UI.Page
 
                 HttpPostedFile myFile = fupImgPostagem.PostedFile;
                 System.Drawing.Image fullSizeImg = System.Drawing.Image.FromStream(myFile.InputStream);
-                System.Drawing.Image imagemReduzida = ClasseAuxiliar.ConverteImagem(fullSizeImg, imagemMapeada);
+                System.Drawing.Image imagemReduzida = ClasseAuxiliar.ConverteImagem(myFile, fullSizeImg, imagemMapeada);
 
-                postagem.ImagemI = ClasseAuxiliar.ImageToByteArray(imagemReduzida);
+                postagem.ImagemI = ClasseAuxiliar.ImageToByteArray(myFile, imagemReduzida);
 
                 processo.VerificaSeJaExiste(postagem);
                 processo.Incluir(postagem);
