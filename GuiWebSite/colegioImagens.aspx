@@ -105,7 +105,8 @@
                 <!-- INICIO DA DIV MEIO INTERNA -->
                 <div class="unico_artigos_texto_indexImgDireita">
                     <asp:GridView runat="server" ID="grdImagem" PageSize="3" 
-                        AutoGenerateColumns="False">
+                        AutoGenerateColumns="False" GridLines="None" ShowHeader="False" 
+                        UseAccessibleHeader="False">
                         <Columns>
                             <asp:TemplateField>
                                 <ItemTemplate>
