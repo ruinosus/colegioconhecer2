@@ -15,6 +15,9 @@ using System.Reflection;
 using System.IO;
 using Negocios.ModuloBasico.VOs;
 using Negocios.ModuloBasico.Constantes;
+using System.Drawing.Imaging;
+using System.Drawing;
+using System.Drawing.Drawing2D;
 
 /// <summary>
 /// Summary description for ClasseAuxiliar
@@ -81,8 +84,36 @@ public partial class ClasseAuxiliar
     public static byte[] ImageToByteArray(System.Drawing.Image imageIn)
     {
         MemoryStream ms = new MemoryStream();
-        imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Gif);
+
+            System.Drawing.Imaging.ImageCodecInfo[] info = ImageCodecInfo.GetImageEncoders();
+            EncoderParameters encoderParameters;
+            encoderParameters = new EncoderParameters(1);
+            encoderParameters.Param[0] = new EncoderParameter(Encoder.Quality, 100L);
+            imageIn.Save(ms, info[1], encoderParameters);
+
         return ms.ToArray();
+    }
+
+    /// <summary>
+    /// Método para converter as imagens
+    /// </summary>
+    /// <param name="imagemOriginal">imagemOriginal</param>
+    /// <param name="imagemMapeada">imagemMapeada</param>
+    /// <returns>Imagem convertida</returns>
+    public static System.Drawing.Image ConverteImagem(System.Drawing.Image imagemOriginal, MapeamentoImagens imagemMapeada)
+    {
+        Bitmap imagem = new Bitmap((int)imagemMapeada.Comprimento, (int)imagemMapeada.Altura, PixelFormat.Format24bppRgb);
+
+        using (Graphics canvas = Graphics.FromImage(imagem))
+        {
+            canvas.SmoothingMode = SmoothingMode.AntiAlias;
+            canvas.InterpolationMode = InterpolationMode.HighQualityBicubic;
+            canvas.PixelOffsetMode = PixelOffsetMode.HighQuality;
+            canvas.DrawImage(imagemOriginal, 0, 0, imagemMapeada.Comprimento, imagemMapeada.Altura);
+            MemoryStream m = new MemoryStream();
+            imagem.Save(m, ImageFormat.Jpeg);
+            return imagem;
+        }
     }
     
     /// <summary>
