@@ -28,24 +28,24 @@
                                     <table>
                                         <tr>
                                             <td >
-                                                <asp:Label ID="lblTipoPagina" runat="server" Text="Tipo da Pagina:"></asp:Label>
+                                                <asp:Label ID="lblTipoPostagem" Visible="false" runat="server" Text="Tipo da Postagem:"></asp:Label>
                                             </td>
                                             <td >
-                                                <asp:DropDownList ID="ddlTipoPagina" AutoPostBack="true" runat="server" OnSelectedIndexChanged="CarregarComboTipoPagina">
+                                                <asp:DropDownList ID="ddlTipoPostagem" Visible="false" AutoPostBack="true" runat="server" OnSelectedIndexChanged="CarregarComboTipoPostagem" >
                                                 </asp:DropDownList>
                                             </td>
                                             <td>
-                                                <asp:Label ID="lblTipoPostagem" runat="server" Text="Tipo da Postagem:"></asp:Label>
+                                                <asp:Label ID="lblTipoPagina" Visible="false" runat="server" Text="Tipo da Pagina:"></asp:Label>
                                             </td>
                                             <td align="left">
-                                                <asp:DropDownList ID="ddlTipoPostagem" AutoPostBack="true" runat="server" OnSelectedIndexChanged="CarregarComboLocal">
+                                                <asp:DropDownList ID="ddlTipoPagina" Visible="false" AutoPostBack="true" runat="server" OnSelectedIndexChanged="CarregarComboTipoPagina">
                                                 </asp:DropDownList>
                                             </td>
                                             <td>
-                                                <asp:Label ID="lblLocalPostagem" runat="server" Text="Local da Postagem:"></asp:Label>
+                                                <asp:Label ID="lblLocalPostagem" Visible="false" runat="server" Text="Local da Postagem:"></asp:Label>
                                             </td>
                                             <td align="left">
-                                                <asp:DropDownList ID="ddlLocalPostagem" runat="server">
+                                                <asp:DropDownList ID="ddlLocalPostagem" Visible="false" AutoPostBack="true" runat="server" >
                                                 </asp:DropDownList>
                                             </td>
                                         </tr>
@@ -62,10 +62,10 @@
                             <asp:TextBox ID="txtTitulo" runat="server" Width="450px" MaxLength="250"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="lblSubTitulo" runat="server" Text="Sub-Título:"></asp:Label>
+                            <asp:Label ID="lblSubTitulo" Visible="false" runat="server" Text="Sub-Título:"></asp:Label>
                         </td>
                         <td align="left">
-                            <asp:TextBox ID="txtSubTitulo" runat="server" Width="300px" MaxLength="500"></asp:TextBox>
+                            <asp:TextBox ID="txtSubTitulo" Visible="false" runat="server" Width="300px" MaxLength="500"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
