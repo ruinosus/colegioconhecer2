@@ -1,5 +1,7 @@
-Ôªø<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
     CodeFile="colegioImagens.aspx.cs" Inherits="colegioImagens" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
@@ -16,7 +18,7 @@
                 </div>
             </div>
             <!-- Fim esquerda_artigos_detalhe_superior -->
-            <!-- Inicio do Artigo 1 a Esquerda da P√°gina -->
+            <!-- Inicio do Artigo 1 a Esquerda da P·gina -->
             <div class="unico_artigos3">
                 <!-- INICIO DA DIV ESQUERDA INTERNA -->
                 <div class="unico_artigos_texto_indexImgEsquerda">
@@ -30,7 +32,8 @@
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <asp:DropDownList ID="ddlOpcoes" runat="server" Width="200px">
+                                    <asp:DropDownList ID="ddlOpcoes" runat="server" Width="200px" 
+                                        AutoPostBack="True" onselectedindexchanged="ddlOpcoes_SelectedIndexChanged">
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -54,7 +57,6 @@
                                     </label>
                                 </td>
                                 <td>
-                                
                                     <asp:ImageButton ID="imbMenu3" runat="server" ImageUrl="App_Themes/Default/Imagens/menu_edFund1.png"
                                         Width="110" Height="25" hspace="10" vspace="10" />
                                 </td>
@@ -89,7 +91,7 @@
                             <p align="center">
                                 <span class="unico_informacoes_colegio">Rua Zezito Costa Rego, n&ordm; 130.
                                     <br />
-                                    Cidade Universit√°ria. Recife - PE
+                                    Cidade Universit·ria. Recife - PE
                                     <br />
                                     81. 3271.0233
                                     <br />
@@ -104,13 +106,18 @@
                         Width="340" Height="326" /></div>
                 <!-- INICIO DA DIV MEIO INTERNA -->
                 <div class="unico_artigos_texto_indexImgDireita">
-                    <asp:GridView runat="server" ID="grdImagem" PageSize="3" 
-                        AutoGenerateColumns="False" GridLines="None" ShowHeader="False" 
-                        UseAccessibleHeader="False">
-                        <Columns>
+
+         <asp:GridView runat="server" ID="grdImagem" PageSize="3" 
+                        AutoGenerateColumns="False" AllowPaging="True" EnableTheming="false" 
+                        ShowHeader="False" BackColor="White" BorderColor="White" 
+                        BorderStyle="None" BorderWidth="0px" GridLines="None" 
+                        onpageindexchanging="grdImagem_PageIndexChanging">
+                        <RowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
+                        <EmptyDataRowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
+                            <Columns>
                             <asp:TemplateField>
                                 <ItemTemplate>
-                                    <div class="unico_artigos_texto_index2_divImg">
+                                    <div class="unico_artigos_texto_grid_divImg">
                                         <div class="unico_artigos_texto_index2_atv_dv2">
                                         <asp:Image ID="imgEsquerda" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemEsquerda.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemEsquerda.ID")) %>' />
@@ -121,17 +128,17 @@
                                                     <asp:Label ID="DescricaoImgDetalheEsquerda" runat="server" /></span></p>
                                         </div>
                                     </div>
-                                    <div class="unico_artigos_texto_index2_divImg">
+                                    <div class="unico_artigos_texto_grid_divImg">
                                         <div class="unico_artigos_texto_index2_atv_dv2">
-                                            <asp:Image ID="ImgMeio" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemEsquerda.ID")) %>'
-                                        alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemEsquerda.ID")) %>' />
+                                            <asp:Image ID="ImgMeio" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemMeio.ID")) %>'
+                                        alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemMeio.ID")) %>' />
                                     
                                             <p>
                                                 <span class="style4Atividades">
                                                     <asp:Label ID="DescricaoImgDetalheMeio" runat="server" /></span></p>
                                         </div>
                                     </div>
-                                    <div class="unico_artigos_texto_index2_divImg">
+                                    <div class="unico_artigos_texto_grid_divImg">
                                         <div class="unico_artigos_texto_index2_atv_dv2">
                                             <asp:Image ID="Image1" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemDireita.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemDireita.ID")) %>' />
@@ -144,6 +151,13 @@
                                 </ItemTemplate>
                             </asp:TemplateField>
                         </Columns>
+                        <FooterStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
+                        <PagerStyle BackColor="White" BorderColor="White" BorderStyle="None" 
+                            BorderWidth="0px" />
+                        <SelectedRowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
+                        <HeaderStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
+                        <EditRowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
+                        <AlternatingRowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
                     </asp:GridView>
                 </div>
                 <!-- FIM DA DIV MEIO INTERNA -->

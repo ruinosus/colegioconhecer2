@@ -90,13 +90,14 @@ namespace Negocios.ModuloSite.Processos
                 imagemExibicao = new ImagemExibicao();
                 if (imagens.Count >= 3)
                 {
-                    imagemExibicao.ImagemEsquerda = imagens[0];
                     imagemExibicao.ImagemMeio = imagens[1];
                     imagemExibicao.ImagemDireita = imagens[2];
+                    imagemExibicao.ImagemEsquerda = imagens[0];
+                    
 
-                    imagens.RemoveAt(0);
-                    imagens.RemoveAt(1);
                     imagens.RemoveAt(2);
+                    imagens.RemoveAt(1);
+                    imagens.RemoveAt(0);
 
                     resultado.Add(imagemExibicao);
                 }
@@ -105,8 +106,8 @@ namespace Negocios.ModuloSite.Processos
                     imagemExibicao.ImagemEsquerda = imagens[0];
                     imagemExibicao.ImagemMeio = imagens[1];
 
-                    imagens.RemoveAt(0);
                     imagens.RemoveAt(1);
+                    imagens.RemoveAt(0);
 
                     resultado.Add(imagemExibicao);
                 }

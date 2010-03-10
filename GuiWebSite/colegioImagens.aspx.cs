@@ -11,21 +11,29 @@ using Negocios.ModuloBasico.Enums;
 
 public partial class colegioImagens : System.Web.UI.Page
 {
+
+    List<ImagemExibicao> imagens;
+
+    public List<ImagemExibicao> ImagensLista
+    {
+        get
+        {
+            if (Session["ImagemExibicaoList"] != null)
+                imagens = (List<ImagemExibicao>)Session["ImagemExibicaoList"];
+
+            return imagens;
+        }
+        set
+        {
+            Session.Add("ImagemExibicaoList", value);
+        }
+    }
+
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
         {
             VerificaSelecao();
-            if (!string.IsNullOrEmpty(ddlOpcoes.SelectedValue))
-            {
-                IImagemProcesso processo = ImagemProcesso.Instance;
-
-                //List<ImagemExibicao> resultado = processo.Consultar(int.Parse(ddlOpcoes.SelectedValue));
-                List<ImagemExibicao> resultado = processo.Consultar(4);
-                grdImagem.DataSource = resultado;
-                grdImagem.DataBind();
-            }
-            
         }
     }
 
@@ -45,12 +53,33 @@ public partial class colegioImagens : System.Web.UI.Page
         }
     }
 
+    private void CarregarImagensEventos()
+    {
+        if (!string.IsNullOrEmpty(ddlOpcoes.SelectedValue) && int.Parse(ddlOpcoes.SelectedValue)!=0)
+        {
+            IImagemProcesso processo = ImagemProcesso.Instance;
+
+            ImagensLista = processo.Consultar(int.Parse(ddlOpcoes.SelectedValue));
+            grdImagem.DataSource = ImagensLista;
+            grdImagem.DataBind();
+        }
+        else
+        {
+            ImagensLista = new List<ImagemExibicao>();
+            grdImagem.DataSource = ImagensLista;
+            grdImagem.DataBind();
+        }
+    }
+
     private List<Postagem> PesquisaEventos(TipoPostagem tipoPostagem)
     {
         IPostagemProcesso processo = PostagemProcesso.Instance;
         Postagem post = new Postagem();
         post.Tipo = (int)tipoPostagem;
-        List<Postagem> postagemList = processo.Consultar(post,TipoPesquisa.E);
+        List<Postagem> postagemList = processo.Consultar(post, TipoPesquisa.E);
+        Postagem postInicial = new Postagem();
+        postInicial.Titulo = "Selecione...";
+        postagemList.Insert(0, postInicial);
         return postagemList;
     }
 
@@ -78,7 +107,7 @@ public partial class colegioImagens : System.Web.UI.Page
 
     protected string GetImageUrl(object id)
     {
-        if (id != null && ((int)id)!=0)
+        if (id != null && ((int)id) != 0)
         {
             return "~/ModuloAuxiliar/Handler.ashx?imgId=" + (int)id;
         }
@@ -90,5 +119,18 @@ public partial class colegioImagens : System.Web.UI.Page
         if (id != null && ((int)id) != 0)
             return true;
         return false;
+    }
+    protected void grdImagem_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        grdImagem.DataSource = ImagensLista;
+        if (grdImagem.DataSource != null)
+        {
+            grdImagem.PageIndex = e.NewPageIndex;
+            grdImagem.DataBind();
+        }
+    }
+    protected void ddlOpcoes_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        CarregarImagensEventos();
     }
 }
