@@ -125,6 +125,11 @@ public partial class ClasseAuxiliar
     /// <returns>Imagem convertida</returns>
     public static System.Drawing.Image ConverteImagem(HttpPostedFile file, System.Drawing.Image imagemOriginal, MapeamentoImagens imagemMapeada)
     {
+        if (imagemMapeada.Comprimento == 0 || imagemMapeada.Altura == 0)
+        {
+            imagemMapeada.Comprimento = 800;
+            imagemMapeada.Altura = 600;
+        }
         Bitmap imagem = new Bitmap((int)imagemMapeada.Comprimento, (int)imagemMapeada.Altura, PixelFormat.Format24bppRgb);
 
         using (Graphics canvas = Graphics.FromImage(imagem))

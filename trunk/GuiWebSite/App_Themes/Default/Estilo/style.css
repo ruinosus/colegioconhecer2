@@ -1376,6 +1376,17 @@ input.button { padding: 3px; }
 	font-size: 14px;
 	color: #000000;
 }
+.unico_artigos_texto_grid_divImg {
+	background-color: #FFFFFF;
+	width: 80px;
+	height: 110px;
+	float: left;
+	margin-right: 15px;
+	margin-left: 20px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+}
 	.unico_artigos_texto_index2_div3 {
 	width: 144px;
 	height: 280px;
