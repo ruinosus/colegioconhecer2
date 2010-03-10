@@ -1,8 +1,7 @@
 <%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
     CodeFile="colegioImagens.aspx.cs" Inherits="colegioImagens" %>
 
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
-
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="corpo" runat="Server">
@@ -32,8 +31,8 @@
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <asp:DropDownList ID="ddlOpcoes" runat="server" Width="200px" 
-                                        AutoPostBack="True" onselectedindexchanged="ddlOpcoes_SelectedIndexChanged">
+                                    <asp:DropDownList ID="ddlOpcoes" runat="server" Width="200px" AutoPostBack="True"
+                                        OnSelectedIndexChanged="ddlOpcoes_SelectedIndexChanged">
                                     </asp:DropDownList>
                                 </td>
                             </tr>
@@ -100,60 +99,59 @@
                         </div>
                     </div>
                 </div>
-                <!-- FIM DA DIV ESQUERDA INTERNA -->
-                <div class="unico_artigos_texto_indexImgMeio">
-                    <asp:ImageButton ID="imbDestaque" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_imagens_maior.png"
-                        Width="340" Height="326" /></div>
-                <!-- INICIO DA DIV MEIO INTERNA -->
+                <asp:UpdatePanel ID="updImgDestaque" runat="server">
+                    <ContentTemplate>
+                        <!-- FIM DA DIV ESQUERDA INTERNA -->
+                        <div class="unico_artigos_texto_indexImgMeio">
+                            <asp:ImageButton ID="imbDestaque" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_imagens_maior.png"
+                                Width="340" Height="326" Visible="False" onclick="imbDestaque_Click" /></div>
+                        <!-- INICIO DA DIV MEIO INTERNA -->
+                    </ContentTemplate>
+                </asp:UpdatePanel>
                 <div class="unico_artigos_texto_indexImgDireita">
-
-         <asp:GridView runat="server" ID="grdImagem" PageSize="3" 
-                        AutoGenerateColumns="False" AllowPaging="True" EnableTheming="false" 
-                        ShowHeader="False" BackColor="White" BorderColor="White" 
-                        BorderStyle="None" BorderWidth="0px" GridLines="None" 
-                        onpageindexchanging="grdImagem_PageIndexChanging">
+                    <asp:GridView runat="server" ID="grdImagem" PageSize="3" AutoGenerateColumns="False"
+                        AllowPaging="True" EnableTheming="false" ShowHeader="False" BackColor="White"
+                        BorderColor="White" BorderStyle="None" BorderWidth="0px" GridLines="None" OnPageIndexChanging="grdImagem_PageIndexChanging">
                         <RowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
                         <EmptyDataRowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
-                            <Columns>
+                        <Columns>
                             <asp:TemplateField>
                                 <ItemTemplate>
                                     <div class="unico_artigos_texto_grid_divImg">
                                         <div class="unico_artigos_texto_index2_atv_dv2">
-                                        <asp:Image ID="imgEsquerda" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemEsquerda.ID")) %>'
-                                        alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemEsquerda.ID")) %>' />
-                                    
-                                            
+                                            <asp:ImageButton OnClick="ImagemClik" PostagemID='<%# Eval("PostagemEsquerdaUm.ID") %>'
+                                                ID="imgEsquerda" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("PostagemEsquerdaUm.ID")) %>'
+                                                alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("PostagemEsquerdaUm.ImagemI")) %>' />
                                             <p>
                                                 <span class="style4Atividades">
-                                                    <asp:Label ID="DescricaoImgDetalheEsquerda" runat="server" /></span></p>
+                                                    <asp:Label ID="DescricaoImgDetalheEsquerda" runat="server" Text='<%# Eval("PostagemEsquerdaUm.Titulo") %>' /></span></p>
                                         </div>
                                     </div>
                                     <div class="unico_artigos_texto_grid_divImg">
                                         <div class="unico_artigos_texto_index2_atv_dv2">
-                                            <asp:Image ID="ImgMeio" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemMeio.ID")) %>'
-                                        alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemMeio.ID")) %>' />
-                                    
+                                            <asp:ImageButton OnClick="ImagemClik" ID="ImgMeio" PostagemID='<%# Eval("PostagemMeioUm.ID") %>'
+                                                runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("PostagemMeioUm.ID")) %>'
+                                                alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("PostagemMeioUm.ImagemI")) %>' />
                                             <p>
                                                 <span class="style4Atividades">
-                                                    <asp:Label ID="DescricaoImgDetalheMeio" runat="server" /></span></p>
+                                                    <asp:Label ID="DescricaoImgDetalheMeio" runat="server" Text='<%# Eval("PostagemMeioUm.Titulo") %>' /></span></p>
                                         </div>
                                     </div>
                                     <div class="unico_artigos_texto_grid_divImg">
                                         <div class="unico_artigos_texto_index2_atv_dv2">
-                                            <asp:Image ID="Image1" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemDireita.ID")) %>'
-                                        alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemDireita.ID")) %>' />
-                                    
+                                            <asp:ImageButton OnClick="ImagemClik" ID="Image1" PostagemID='<%# Eval("PostagemDireitaUm.ID") %>'
+                                                runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("PostagemDireitaUm.ID")) %>'
+                                                alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("PostagemDireitaUm.ImagemI")) %>' />
                                             <p>
                                                 <span class="style4Atividades">
-                                                    <asp:Label ID="DescricaoImgDetalhe7" runat="server" /></span></p>
+                                                    <asp:Label ID="DescricaoImgDetalhe7" runat="server" Text='<%# Eval("PostagemDireitaUm.Titulo") %>' /></span></p>
                                         </div>
                                     </div>
                                 </ItemTemplate>
                             </asp:TemplateField>
                         </Columns>
                         <FooterStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
-                        <PagerStyle BackColor="White" BorderColor="White" BorderStyle="None" 
-                            BorderWidth="0px" />
+                        <PagerStyle BackColor="White" BorderColor="White" BorderStyle="None" BorderWidth="0px" />
                         <SelectedRowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
                         <HeaderStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
                         <EditRowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />

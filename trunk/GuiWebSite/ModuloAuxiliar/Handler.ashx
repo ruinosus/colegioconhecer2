@@ -43,7 +43,7 @@ public class Handler : IHttpHandler
             if (postagemList.Count > 0)
             {
                 context.Response.ContentType = "imagem";
-                if (postagemList[0].Imagem != null)
+                if (postagemList[0].ImagemI != null && postagemList[0].ImagemI.Length!= 0)
                     context.Response.BinaryWrite(postagemList[0].ImagemI);
             }
         }
@@ -60,7 +60,7 @@ public class Handler : IHttpHandler
             if (imagemList.Count > 0)
             {
                 context.Response.ContentType = "imagem";
-                if (imagemList[0].ImagemI != null)
+                if (imagemList[0].ImagemI != null && imagemList[0].ImagemI.Length != 0)
                     context.Response.BinaryWrite(imagemList[0].ImagemI);
             }
         }

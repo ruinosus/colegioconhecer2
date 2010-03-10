@@ -88,13 +88,43 @@ namespace Negocios.ModuloSite.Processos
             while (continua)
             {
                 imagemExibicao = new ImagemExibicao();
-                if (imagens.Count >= 3)
+                if (imagens.Count >= 5)
                 {
-                    imagemExibicao.ImagemMeio = imagens[1];
-                    imagemExibicao.ImagemDireita = imagens[2];
-                    imagemExibicao.ImagemEsquerda = imagens[0];
                     
+                    imagemExibicao.ImagemEsquerda = imagens[0];
+                    imagemExibicao.ImagemEsquerdaMeio = imagens[1];
+                    imagemExibicao.ImagemMeio = imagens[2];
+                    imagemExibicao.ImagemDireitaMeio = imagens[3];
+                    imagemExibicao.ImagemDireita = imagens[4];
 
+                    imagens.RemoveAt(4);
+                    imagens.RemoveAt(3);
+                    imagens.RemoveAt(2);
+                    imagens.RemoveAt(1);
+                    imagens.RemoveAt(0);
+
+                    resultado.Add(imagemExibicao);
+                }
+                else if (imagens.Count == 4)
+                {
+                    imagemExibicao.ImagemEsquerda = imagens[0];
+                    imagemExibicao.ImagemEsquerdaMeio = imagens[1];
+                    imagemExibicao.ImagemMeio = imagens[2];
+                    imagemExibicao.ImagemDireitaMeio = imagens[3];
+                  
+                    imagens.RemoveAt(3);
+                    imagens.RemoveAt(2);
+                    imagens.RemoveAt(1);
+                    imagens.RemoveAt(0);
+
+                    resultado.Add(imagemExibicao);
+                }
+                else if (imagens.Count == 3)
+                {
+                    imagemExibicao.ImagemEsquerda = imagens[0];
+                    imagemExibicao.ImagemEsquerdaMeio = imagens[1];
+                    imagemExibicao.ImagemMeio = imagens[2];
+                    
                     imagens.RemoveAt(2);
                     imagens.RemoveAt(1);
                     imagens.RemoveAt(0);
@@ -104,8 +134,8 @@ namespace Negocios.ModuloSite.Processos
                 else if (imagens.Count == 2)
                 {
                     imagemExibicao.ImagemEsquerda = imagens[0];
-                    imagemExibicao.ImagemMeio = imagens[1];
-
+                    imagemExibicao.ImagemEsquerdaMeio = imagens[1];
+               
                     imagens.RemoveAt(1);
                     imagens.RemoveAt(0);
 
@@ -114,11 +144,9 @@ namespace Negocios.ModuloSite.Processos
                 else if (imagens.Count == 1)
                 {
                     imagemExibicao.ImagemEsquerda = imagens[0];
-
-                    resultado.Add(imagemExibicao);
                     imagens.RemoveAt(0);
 
-                   
+                    resultado.Add(imagemExibicao);
                 }
                 else
                 {

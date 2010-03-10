@@ -51,61 +51,81 @@
             
         	<div class="unico_artigos2">
         	  <div class="unico_artigos_texto_index_atv2">
+        	  
+        	  <asp:GridView runat="server" ID="grdImagem" PageSize="2" 
+                        AutoGenerateColumns="False" AllowPaging="True" EnableTheming="false" 
+                        ShowHeader="False" 
+                        BorderStyle="None" BorderWidth="0px" GridLines="None" 
+                        onpageindexchanging="grdImagem_PageIndexChanging">
+                        <RowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
+                        <EmptyDataRowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
+                            <Columns>
+                            <asp:TemplateField>
+                                <ItemTemplate>
+                                    <div class="unico_artigos_texto_grid_divImg">
+                                        <div class="unico_artigos_texto_index2_atv_dv2">
+                                        <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemEsquerda.ID") %>' ID="imgEsquerda" BackColor="" BorderColor=""  runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemEsquerda.ID")) %>'
+                                        alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemEsquerda.ID")) %>' />
+                                    
+                                            
+                                            <p>
+                                                <span class="style4Atividades">
+                                                    <asp:Label ID="DescricaoImgDetalheEsquerda" BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemEsquerda.Titulo") %>' /></span></p>
+                                        </div>
+                                    </div>
+                                    <div class="unico_artigos_texto_grid_divImg">
+                                        <div class="unico_artigos_texto_index2_atv_dv2">
+                                            <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemEsquerdaMeio.ID") %>' ID="ImgMeio" runat="server" Width="80" BackColor="" BorderColor=""  Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemEsquerdaMeio.ID")) %>'
+                                        alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemEsquerdaMeio.ID")) %>' />
+                                    
+                                            <p>
+                                                <span class="style4Atividades">
+                                                    <asp:Label ID="DescricaoImgDetalheMeio" BackColor="" BorderColor=""  runat="server"  Text='<%# Eval("ImagemEsquerdaMeio.Titulo") %>'/></span></p>
+                                        </div>
+                                    </div>
+                                    <div class="unico_artigos_texto_grid_divImg">
+                                        <div class="unico_artigos_texto_index2_atv_dv2">
+                                            <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemMeio.ID") %>' ID="Image1" runat="server" Width="80" BackColor="" BorderColor=""  Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemMeio.ID")) %>'
+                                        alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemMeio.ID")) %>' />
+                                    
+                                            <p>
+                                                <span class="style4Atividades">
+                                                    <asp:Label ID="DescricaoImgDetalhe7" BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemMeio.Titulo") %>' /></span></p>
+                                        </div>
+                                    </div>
+                                    <div class="unico_artigos_texto_grid_divImg">
+                                        <div class="unico_artigos_texto_index2_atv_dv2">
+                                            <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemDireitaMeio.ID") %>' ID="Image2" runat="server" Width="80" BackColor="" BorderColor=""  Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemDireitaMeio.ID")) %>'
+                                        alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemDireitaMeio.ID")) %>' />
+                                    
+                                            <p>
+                                                <span class="style4Atividades">
+                                                    <asp:Label ID="Label1" BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemDireitaMeio.Titulo") %>' /></span></p>
+                                        </div>
+                                    </div>
+                                    <div class="unico_artigos_texto_grid_divImg">
+                                        <div class="unico_artigos_texto_index2_atv_dv2">
+                                            <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemDireita.ID") %>' ID="Image3" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemDireita.ID")) %>'
+                                        alt="thumbnail" hspace="0" vspace="0" border="0" BackColor="" BorderColor=""  class="thumbnail" Visible='<%# GetImage(Eval("ImagemDireita.ID")) %>' />
+                                    
+                                            <p>
+                                                <span class="style4Atividades">
+                                                    <asp:Label ID="Label2" runat="server" BackColor="" BorderColor="" Text='<%# Eval("ImagemDireita.Titulo") %>'  /></span></p>
+                                        </div>
+                                    </div>
+                                </ItemTemplate>
+                            </asp:TemplateField>
+                        </Columns>
+                        <FooterStyle BorderColor="" BorderStyle="None" BorderWidth="0px" />
+                        <PagerStyle BackColor="" BorderColor="" BorderStyle="None" 
+                            BorderWidth="0px" />
+                        <SelectedRowStyle BorderColor="" BorderStyle="None" BorderWidth="0px" />
+                        <HeaderStyle BorderColor="" BorderStyle="None" BorderWidth="0px" />
+                        <EditRowStyle BorderColor="" BorderStyle="None" BorderWidth="0px" />
+                        <AlternatingRowStyle BorderColor="" BorderStyle="None" BorderWidth="0px" />
+                    </asp:GridView>
               
-              	<div class="unico_artigos_texto_index2_div1">
-                	<div class="unico_artigos_texto_index2_atv_dv1"><asp:ImageButton ID="imbAtividade1" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_atividades.png"
-                                                        width="100" height="96"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv1" runat="server" /></span></p>
-                    </div>
-                	<div class="unico_artigos_texto_index2_atv_dv1"><asp:ImageButton ID="imbAtividade2" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_atividades.png"
-                                                        width="100" height="96"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv2" runat="server" /></span></p>
-                    </div>
-              	</div>
-                
-              	<div class="unico_artigos_texto_index2_div1">
-                	<div class="unico_artigos_texto_index2_atv_dv1"><asp:ImageButton ID="imbAtividade3" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_atividades.png"
-                                                        width="100" height="96"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv3" runat="server" /></span></p>
-                    </div>
-                	<div class="unico_artigos_texto_index2_atv_dv1"><asp:ImageButton ID="imbAtividade4" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_atividades.png"
-                                                        width="100" height="96"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv4" runat="server" /></span></p>
-                    </div>
-              	</div>
-                
-              	<div class="unico_artigos_texto_index2_div1">
-                	<div class="unico_artigos_texto_index2_atv_dv1"><asp:ImageButton ID="imbAtividade5" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_atividades.png"
-                                                        width="100" height="96"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv5" runat="server" /></span></p>
-                    </div>
-                	<div class="unico_artigos_texto_index2_atv_dv1"><asp:ImageButton ID="imbAtividade6" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_atividades.png"
-                                                        width="100" height="96"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv6" runat="server" /></span></p>
-                    </div>
-              	</div>
-                
-              	<div class="unico_artigos_texto_index2_div1">
-                	<div class="unico_artigos_texto_index2_atv_dv1"><asp:ImageButton ID="imbAtividade7" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_atividades.png"
-                                                        width="100" height="96"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv7" runat="server" /></span></p>
-                    </div>
-                	<div class="unico_artigos_texto_index2_atv_dv1"><asp:ImageButton ID="imbAtividade8" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_atividades.png"
-                                                        width="100" height="96"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv8" runat="server" /></span></p>
-                    </div>
-              	</div>
-                    
-              	<div class="unico_artigos_texto_index2_div1">
-                	<div class="unico_artigos_texto_index2_atv_dv1"><asp:ImageButton ID="imbAtividade9" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_atividades.png"
-                                                        width="100" height="96"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv9" runat="server" /></span></p>
-                    </div>
-                	<div class="unico_artigos_texto_index2_atv_dv1"><asp:ImageButton ID="imbAtividade10" runat="server" ImageUrl="App_Themes/Default/Imagens/imagem_MOD_atividades.png"
-                                                        width="100" height="96"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv10" runat="server" /></span></p>
-                    </div>
-              	</div>
+              	
                   
                 
 			  </div>

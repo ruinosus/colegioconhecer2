@@ -8,7 +8,16 @@ namespace Negocios.ModuloSite.VOs
 {
     public class ImagemExibicao
     {
+
+        #region Atributos
         private Imagem imagemEsquerda;
+        private Imagem imagemEsquerdaMeio;
+        private Imagem imagemMeio;
+        private Imagem imagemDireitaMeio; 
+        private Imagem imagemDireita; 
+        #endregion
+
+        #region Propriedades
         public Imagem ImagemEsquerda
         {
 
@@ -22,7 +31,19 @@ namespace Negocios.ModuloSite.VOs
             set { imagemEsquerda = value; }
         }
 
-        private Imagem imagemMeio;
+        public Imagem ImagemEsquerdaMeio
+        {
+
+            get
+            {
+                if (imagemEsquerdaMeio == null)
+                    imagemEsquerdaMeio = new Imagem();
+                return imagemEsquerdaMeio;
+            }
+
+            set { imagemEsquerdaMeio = value; }
+        }
+
         public Imagem ImagemMeio
         {
 
@@ -33,10 +54,22 @@ namespace Negocios.ModuloSite.VOs
                 return imagemMeio;
             }
 
-            set { imagemMeio = value;   }
+            set { imagemMeio = value; }
         }
 
-        private Imagem imagemDireita;
+        public Imagem ImagemDireitaMeio
+        {
+
+            get
+            {
+                if (imagemDireitaMeio == null)
+                    imagemDireitaMeio = new Imagem();
+                return imagemDireitaMeio;
+            }
+
+            set { imagemDireitaMeio = value; }
+        } 
+
         public Imagem ImagemDireita
         {
 
@@ -48,6 +81,7 @@ namespace Negocios.ModuloSite.VOs
             }
 
             set { imagemDireita = value; }
-        }
+        } 
+        #endregion
     }
 }
