@@ -12,18 +12,20 @@ namespace Negocios.ModuloBasico.VOs
         private int paginaPostagem;
         private float altura;
         private float comprimento;
+        private bool possuiImagem;
 
         public MapeamentoImagens()
         { 
         }
 
-        public MapeamentoImagens(int localPostagem, int tipoPostagem, int paginaPostagem, float altura, float comprimento)
+        public MapeamentoImagens(int localPostagem, int tipoPostagem, int paginaPostagem, float altura, float comprimento, bool possuiImagem)
         {
             this.altura = altura;
             this.comprimento = comprimento;
             this.localPostagem = localPostagem;
             this.tipoPostagem = tipoPostagem;
             this.paginaPostagem = paginaPostagem;
+            this.possuiImagem = possuiImagem;
         }
 
         public int LocalPostagem
@@ -54,6 +56,12 @@ namespace Negocios.ModuloBasico.VOs
         {
             get { return comprimento; }
             set { comprimento = value; }
+        }
+
+        public bool PossuiImagem
+        {
+            get { return possuiImagem; }
+            set { possuiImagem = value; }
         }
     }
 }

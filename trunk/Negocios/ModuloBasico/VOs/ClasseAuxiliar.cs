@@ -172,27 +172,27 @@ public partial class ClasseAuxiliar
 
     public static void CarregarMapeamentos()
     {
-        MapeamentoImagens mapeamento1 = new MapeamentoImagens(4, 1, 1, 130, 270);
-        MapeamentoImagens mapeamento2 = new MapeamentoImagens(7, 1, 1, 290, 165);
-        MapeamentoImagens mapeamento3 = new MapeamentoImagens(7, 1, 2, 390, 130);
-        MapeamentoImagens mapeamento4 = new MapeamentoImagens(4, 1, 4, 150, 80);
-        MapeamentoImagens mapeamento5 = new MapeamentoImagens(5, 1, 4, 235, 80);
-        MapeamentoImagens mapeamento6 = new MapeamentoImagens(7, 1, 4, 390, 130);
-        MapeamentoImagens mapeamento7 = new MapeamentoImagens(4, 1, 3, 150, 80);
-        MapeamentoImagens mapeamento8 = new MapeamentoImagens(5, 1, 3, 150, 160);
-        MapeamentoImagens mapeamento9 = new MapeamentoImagens(7, 1, 3, 390, 130);
-        MapeamentoImagens mapeamento10 = new MapeamentoImagens(1, 1, 7, 160, 90);
-        MapeamentoImagens mapeamento11 = new MapeamentoImagens(2, 1, 7, 160, 90);
-        MapeamentoImagens mapeamento12 = new MapeamentoImagens(3, 1, 7, 160, 90);
-        MapeamentoImagens mapeamento13 = new MapeamentoImagens(4, 1, 7, 160, 90);
-        MapeamentoImagens mapeamento14 = new MapeamentoImagens(1, 1, 6, 100, 96);
-        MapeamentoImagens mapeamento15 = new MapeamentoImagens(2, 1, 6, 100, 96);
-        MapeamentoImagens mapeamento16 = new MapeamentoImagens(3, 1, 6, 100, 96);
-        MapeamentoImagens mapeamento17 = new MapeamentoImagens(4, 1, 6, 100, 96);
-        MapeamentoImagens mapeamento18 = new MapeamentoImagens(5, 1, 6, 100, 96);
-        MapeamentoImagens mapeamento19 = new MapeamentoImagens(6, 1, 6, 100, 96);
-        MapeamentoImagens mapeamento20 = new MapeamentoImagens(7, 1, 6, 100, 96);
-        MapeamentoImagens mapeamento21 = new MapeamentoImagens(8, 1, 6, 100, 96);
+        MapeamentoImagens mapeamento1 = new MapeamentoImagens(4, 1, 1, 130, 270, true);
+        MapeamentoImagens mapeamento2 = new MapeamentoImagens(7, 1, 1, 290, 165, true);
+        MapeamentoImagens mapeamento3 = new MapeamentoImagens(7, 1, 2, 390, 130, true);
+        MapeamentoImagens mapeamento4 = new MapeamentoImagens(4, 1, 4, 150, 80, true);
+        MapeamentoImagens mapeamento5 = new MapeamentoImagens(5, 1, 4, 235, 80, true);
+        MapeamentoImagens mapeamento6 = new MapeamentoImagens(7, 1, 4, 390, 130, true);
+        MapeamentoImagens mapeamento7 = new MapeamentoImagens(4, 1, 3, 150, 80, true);
+        MapeamentoImagens mapeamento8 = new MapeamentoImagens(5, 1, 3, 150, 160, true);
+        MapeamentoImagens mapeamento9 = new MapeamentoImagens(7, 1, 3, 390, 130, true);
+        MapeamentoImagens mapeamento10 = new MapeamentoImagens(1, 1, 7, 160, 90, true);
+        MapeamentoImagens mapeamento11 = new MapeamentoImagens(2, 1, 7, 160, 90, true);
+        MapeamentoImagens mapeamento12 = new MapeamentoImagens(3, 1, 7, 160, 90, true);
+        MapeamentoImagens mapeamento13 = new MapeamentoImagens(4, 1, 7, 160, 90, true);
+        MapeamentoImagens mapeamento14 = new MapeamentoImagens(1, 1, 6, 100, 96, true);
+        MapeamentoImagens mapeamento15 = new MapeamentoImagens(2, 1, 6, 100, 96, true);
+        MapeamentoImagens mapeamento16 = new MapeamentoImagens(3, 1, 6, 100, 96, true);
+        MapeamentoImagens mapeamento17 = new MapeamentoImagens(4, 1, 6, 100, 96, true);
+        MapeamentoImagens mapeamento18 = new MapeamentoImagens(5, 1, 6, 100, 96, true);
+        MapeamentoImagens mapeamento19 = new MapeamentoImagens(6, 1, 6, 100, 96, true);
+        MapeamentoImagens mapeamento20 = new MapeamentoImagens(7, 1, 6, 100, 96, true);
+        MapeamentoImagens mapeamento21 = new MapeamentoImagens(8, 1, 6, 100, 96, true);
 
         listaMapeamento.Add(mapeamento1);
         listaMapeamento.Add(mapeamento2);
