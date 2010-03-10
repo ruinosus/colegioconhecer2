@@ -82,20 +82,20 @@ namespace Negocios.ModuloSite.Processos
 
             foreach (Postagem post in postagemList)
             {
-                post.LerMais =  "<a href=\"colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina)+"\"> Ler Mais...</a>";
-                post.LinkBotao = "colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina) + ""; 
+                post.LerMais = "<a href=\"colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina) + "\"> Ler Mais...</a>";
+                post.LinkBotao = "colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina) + "";
             }
             return postagemList;
         }
 
-       public List<Postagem> Consultar()
+        public List<Postagem> Consultar()
         {
             List<Postagem> postagemList = postagemRepositorio.Consultar();
 
             foreach (Postagem post in postagemList)
             {
                 post.LerMais = "<a href=\"colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina) + "\"> Ler Mais...</a>";
-                post.LinkBotao = "colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina) + ""; 
+                post.LinkBotao = "colegioPost.aspx?id=" + post.ID + "&tela=" + ((int)post.Pagina) + "";
             }
 
             return postagemList;
@@ -108,26 +108,32 @@ namespace Negocios.ModuloSite.Processos
             #region Direita
             resultado.PostagemDireitaUm = (from p in PostagemList
                                            where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.DireitaUm
-                                           && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
+                                           && p.Tipo == (int)TipoPostagem.Postagem
+                                           select p).SingleOrDefault();
             resultado.PostagemDireitaTres = (from p in PostagemList
                                              where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.DireitaTres
-                                             && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
+                                             && p.Tipo == (int)TipoPostagem.Postagem
+                                             select p).SingleOrDefault();
             resultado.PostagemDireitaDois = (from p in PostagemList
                                              where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.DireitaDois
-                                             && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
+                                             && p.Tipo == (int)TipoPostagem.Postagem
+                                             select p).SingleOrDefault();
             #endregion
 
             #region Esquerda
 
             resultado.PostagemEsquerdaDois = (from p in PostagemList
                                               where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.EsquerdaDois
-                                              && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
+                                              && p.Tipo == (int)TipoPostagem.Postagem
+                                              select p).SingleOrDefault();
             resultado.PostagemEsquerdaTres = (from p in PostagemList
                                               where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.EsquerdaTres
-                                              && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
+                                              && p.Tipo == (int)TipoPostagem.Postagem
+                                              select p).SingleOrDefault();
             resultado.PostagemEsquerdaUm = (from p in PostagemList
                                             where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.EsquerdaUm
-                                            && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
+                                            && p.Tipo == (int)TipoPostagem.Postagem
+                                            select p).SingleOrDefault();
 
             #endregion
 
@@ -135,17 +141,78 @@ namespace Negocios.ModuloSite.Processos
 
             resultado.PostagemMeioDois = (from p in PostagemList
                                           where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.MeioDois
-                                          && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
+                                          && p.Tipo == (int)TipoPostagem.Postagem
+                                          select p).SingleOrDefault();
             resultado.PostagemMeioTres = (from p in PostagemList
                                           where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.MeioTres
-                                          && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
+                                          && p.Tipo == (int)TipoPostagem.Postagem
+                                          select p).SingleOrDefault();
             resultado.PostagemMeioUm = (from p in PostagemList
                                         where p.Pagina == (int)tipo && p.Local == (int)LocalPostagem.MeioUm
-                                        && p.Tipo == (int)TipoPostagem.Postagem select p).SingleOrDefault();
+                                        && p.Tipo == (int)TipoPostagem.Postagem
+                                        select p).SingleOrDefault();
 
             #endregion
             return resultado;
         }
+
+        public List<PostagemExibicao> Consultar(List<Postagem> postagensLista)
+        {
+            List<PostagemExibicao> resultado = new List<PostagemExibicao>();
+            List<Postagem> postagens = postagensLista;
+
+
+            bool continua = true;
+            PostagemExibicao postagemExibicao;
+            if (postagens.Count > 0)
+                postagens.RemoveAt(0);
+
+            while (continua)
+            {
+                postagemExibicao = new PostagemExibicao();
+                if (postagens.Count >= 3)
+                {
+                    postagemExibicao.PostagemMeioUm = postagens[1];
+                    postagemExibicao.PostagemDireitaUm = postagens[2];
+                    postagemExibicao.PostagemEsquerdaUm = postagens[0];
+
+
+                    postagens.RemoveAt(2);
+                    postagens.RemoveAt(1);
+                    postagens.RemoveAt(0);
+
+                    resultado.Add(postagemExibicao);
+                }
+                else if (postagens.Count == 2)
+                {
+                    postagemExibicao.PostagemMeioUm = postagens[1];
+                    postagemExibicao.PostagemEsquerdaUm = postagens[0];
+                    postagens.RemoveAt(1);
+                    postagens.RemoveAt(0);
+
+                    resultado.Add(postagemExibicao);
+                }
+                else if (postagens.Count == 1)
+                {
+                    postagemExibicao.PostagemEsquerdaUm = postagens[0];
+                    resultado.Add(postagemExibicao);
+                    postagens.RemoveAt(0);
+
+
+                }
+                else
+                {
+                    continua = false;
+                }
+
+            }
+
+            return resultado;
+
+
+        }
+
+
 
         public void Confirmar()
         {

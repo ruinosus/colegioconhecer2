@@ -12,29 +12,37 @@ using Negocios.ModuloBasico.Enums;
 public partial class colegioImagens : System.Web.UI.Page
 {
 
-    List<ImagemExibicao> imagens;
+    List<PostagemExibicao> postagens;
 
-    public List<ImagemExibicao> ImagensLista
+    public List<PostagemExibicao> PostagensLista
     {
         get
         {
-            if (Session["ImagemExibicaoList"] != null)
-                imagens = (List<ImagemExibicao>)Session["ImagemExibicaoList"];
+            if (Session["PostagemExibicaoList"] != null)
+                postagens = (List<PostagemExibicao>)Session["PostagemExibicaoList"];
 
-            return imagens;
+            return postagens;
         }
         set
         {
-            Session.Add("ImagemExibicaoList", value);
+            Session.Add("PostagemExibicaoList", value);
         }
     }
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        Limpar();
         if (!IsPostBack)
         {
             VerificaSelecao();
         }
+    }
+
+    private void Limpar()
+    {
+
+        imbDestaque.Visible = false;
+        //Session.Remove("PostagemIDSelecionado");
     }
 
     protected void VerificaSelecao()
@@ -51,24 +59,20 @@ public partial class colegioImagens : System.Web.UI.Page
         {
             CarregarComboEventos(TipoPostagem.EventoEnsinoFundamentalII);
         }
+
+        CarregarImagensEventos();
     }
 
     private void CarregarImagensEventos()
     {
-        if (!string.IsNullOrEmpty(ddlOpcoes.SelectedValue) && int.Parse(ddlOpcoes.SelectedValue)!=0)
-        {
-            IImagemProcesso processo = ImagemProcesso.Instance;
 
-            ImagensLista = processo.Consultar(int.Parse(ddlOpcoes.SelectedValue));
-            grdImagem.DataSource = ImagensLista;
-            grdImagem.DataBind();
-        }
-        else
-        {
-            ImagensLista = new List<ImagemExibicao>();
-            grdImagem.DataSource = ImagensLista;
-            grdImagem.DataBind();
-        }
+        IPostagemProcesso processo = PostagemProcesso.Instance;
+        List<Postagem> posts = (List<Postagem>)ddlOpcoes.DataSource;
+        PostagensLista = processo.Consultar(posts);
+        grdImagem.DataSource = PostagensLista;
+        grdImagem.DataBind();
+
+
     }
 
     private List<Postagem> PesquisaEventos(TipoPostagem tipoPostagem)
@@ -109,20 +113,48 @@ public partial class colegioImagens : System.Web.UI.Page
     {
         if (id != null && ((int)id) != 0)
         {
-            return "~/ModuloAuxiliar/Handler.ashx?imgId=" + (int)id;
+            return "~/ModuloAuxiliar/Handler.ashx?postId=" + (int)id;
         }
         else return "";
     }
 
-    protected bool GetImage(object id)
+    protected void ImagemClik(object sender, EventArgs e)
     {
-        if (id != null && ((int)id) != 0)
+        ImageButton img = (ImageButton)sender;
+        
+        if (img != null)
+        {
+            int PostagemID = int.Parse(img.Attributes["PostagemID"].ToString());
+
+            Postagem post = new Postagem();
+            post.ID = PostagemID;
+
+            IPostagemProcesso processo = PostagemProcesso.Instance;
+
+            List<Postagem> resultado = processo.Consultar(post, TipoPesquisa.E);
+
+            if (resultado.Count > 0)
+            {
+                
+                imbDestaque.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + resultado[0].ID;
+                Session.Add("PostagemIDSelecionado", resultado[0].ID.ToString());
+                imbDestaque.Visible = true;
+            }
+
+        }
+
+    }
+
+    protected bool GetImage(object imagem)
+    {
+        byte[] imagemTeste = (byte[])imagem;
+        if (imagemTeste != null && imagemTeste.Length != 0)        
             return true;
         return false;
     }
     protected void grdImagem_PageIndexChanging(object sender, GridViewPageEventArgs e)
     {
-        grdImagem.DataSource = ImagensLista;
+        grdImagem.DataSource = PostagensLista;
         if (grdImagem.DataSource != null)
         {
             grdImagem.PageIndex = e.NewPageIndex;
@@ -131,6 +163,14 @@ public partial class colegioImagens : System.Web.UI.Page
     }
     protected void ddlOpcoes_SelectedIndexChanged(object sender, EventArgs e)
     {
-        CarregarImagensEventos();
+        //CarregarImagensEventos();
+    }
+    protected void imbDestaque_Click(object sender, ImageClickEventArgs e)
+    {
+        if (Session["PostagemIDSelecionado"] != null)
+        {
+            Response.Redirect("colegioImagensDetalhe.aspx", false);
+        }
+
     }
 }

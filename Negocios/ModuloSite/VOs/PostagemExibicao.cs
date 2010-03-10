@@ -18,5 +18,7 @@ namespace Negocios.ModuloSite.VOs
         public Postagem PostagemDireitaDois { get; set; }
         public Postagem PostagemDireitaTres { get; set; }
 
+
+
     }
 }

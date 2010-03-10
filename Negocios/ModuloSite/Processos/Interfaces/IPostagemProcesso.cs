@@ -57,6 +57,13 @@ namespace Negocios.ModuloSite.Processos
         PostagemExibicao Consultar(TipoPagina tipo);
 
         /// <summary>
+        /// Método responsável por Consultar uma postagem. 
+        /// </summary>
+        /// <param name="postagensLista">Lista de postagens a serem convertidas </param>
+        /// <returns>Uma Lista contendo Postagens</returns>
+        List<PostagemExibicao> Consultar(List<Postagem> postagensLista);
+
+        /// <summary>
         /// Método responsável por confirmar as alterações no sistema.
         /// </summary>       
         void Confirmar();
