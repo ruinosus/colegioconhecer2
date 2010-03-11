@@ -6,6 +6,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="corpo"  runat="Server">
+            <div id="conteudoCorpo">
     <div id="AvisoDeErro1" style="text-align: center;">
         <asp:ValidationSummary ID="vsuAvisoDeErro" Visible="false" runat="server" ValidationGroup="AvisoDeErro">
         </asp:ValidationSummary>
@@ -16,7 +17,6 @@
         <asp:CustomValidator ID="cvaAvisoDeInformacao" runat="server" ValidationGroup="AvisoDeInformacao"
             ForeColor="#14A351" Visible="False"></asp:CustomValidator>
     </div>
-    <div id="content">
         <uc1:PostagemSelecionar ID="PostagemSelecionar1" runat="server" />
         <table width="100%">
             <tr align="center">
@@ -24,10 +24,10 @@
                     <table>
                         <tr>
                             <td>
-                                <asp:Button ID="btnIncluir" runat="server" Text="Incluir" PostBackUrl="~/ModuloPostagem/Incluir.aspx" />
-                                <asp:Button ID="btnAlterar" runat="server" Text="Alterar" OnClick="btnAlterar_Click" />
-                                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" OnClick="btnExcluir_Click" />
-                                <asp:Button ID="btnImagem" runat="server" Text="Incluir Imagem" OnClick="btnImagem_Click" />
+                                <asp:Button ID="btnIncluir" runat="server" Text="Incluir" CssClass="botao" Font-Bold="True" ForeColor="#0033CC" PostBackUrl="~/ModuloPostagem/Incluir.aspx" />
+                                <asp:Button ID="btnAlterar" runat="server" Text="Alterar" CssClass="botao" Font-Bold="True" ForeColor="#0033CC" OnClick="btnAlterar_Click" />
+                                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" CssClass="botao" Font-Bold="True" ForeColor="#0033CC" OnClick="btnExcluir_Click" />
+                                <asp:Button ID="btnImagem" runat="server" Text="Incluir Imagem" CssClass="botao" Font-Bold="True" ForeColor="#0033CC" OnClick="btnImagem_Click" />
                             </td>
                         </tr>
                     </table>

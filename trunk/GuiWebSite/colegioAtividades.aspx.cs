@@ -28,9 +28,9 @@ public partial class colegioAtividades : System.Web.UI.Page
             PostagemExibicao postagemExibicao = processo.Consultar(TipoPagina.Atividades);
             if (postagemExibicao.PostagemEsquerdaUm != null)
             {
-                if (postagemExibicao.PostagemEsquerdaUm.Titulo.Length > 20)
+                if (postagemExibicao.PostagemEsquerdaUm.Titulo.Length > 12)
                 {
-                    DescricaoImgAtv1.Text = postagemExibicao.PostagemEsquerdaUm.Titulo.Substring(0, 20);
+                    DescricaoImgAtv1.Text = postagemExibicao.PostagemEsquerdaUm.Titulo.Substring(0, 12);
                     DescricaoImgAtv1.Visible = true;
                 }
                 else
@@ -49,9 +49,9 @@ public partial class colegioAtividades : System.Web.UI.Page
 
             if (postagemExibicao.PostagemEsquerdaDois != null)
             {
-                if (postagemExibicao.PostagemEsquerdaDois.Titulo.Length > 20)
+                if (postagemExibicao.PostagemEsquerdaDois.Titulo.Length > 12)
                 {
-                    DescricaoImgAtv2.Text = postagemExibicao.PostagemEsquerdaDois.Titulo.Substring(0, 20);
+                    DescricaoImgAtv2.Text = postagemExibicao.PostagemEsquerdaDois.Titulo.Substring(0, 12);
                     DescricaoImgAtv2.Visible = true;
                 }
                 else
@@ -70,9 +70,9 @@ public partial class colegioAtividades : System.Web.UI.Page
 
             if (postagemExibicao.PostagemEsquerdaTres != null)
             {
-                if (postagemExibicao.PostagemEsquerdaTres.Titulo.Length > 20)
+                if (postagemExibicao.PostagemEsquerdaTres.Titulo.Length > 12)
                 {
-                    DescricaoImgAtv3.Text = postagemExibicao.PostagemEsquerdaTres.Titulo.Substring(0, 20);
+                    DescricaoImgAtv3.Text = postagemExibicao.PostagemEsquerdaTres.Titulo.Substring(0, 12);
                     DescricaoImgAtv3.Visible = true;
                 }
                 else
@@ -91,9 +91,9 @@ public partial class colegioAtividades : System.Web.UI.Page
 
             if (postagemExibicao.PostagemMeioUm != null)
             {
-                if (postagemExibicao.PostagemMeioUm.Titulo.Length > 20)
+                if (postagemExibicao.PostagemMeioUm.Titulo.Length > 12)
                 {
-                    DescricaoImgAtv4.Text = postagemExibicao.PostagemMeioUm.Titulo.Substring(0, 20);
+                    DescricaoImgAtv4.Text = postagemExibicao.PostagemMeioUm.Titulo.Substring(0, 12);
                     DescricaoImgAtv4.Visible = true;
                 }
                 else
@@ -112,9 +112,9 @@ public partial class colegioAtividades : System.Web.UI.Page
 
             if (postagemExibicao.PostagemMeioDois != null)
             {
-                if (postagemExibicao.PostagemMeioDois.Titulo.Length > 20)
+                if (postagemExibicao.PostagemMeioDois.Titulo.Length > 12)
                 {
-                    DescricaoImgAtv5.Text = postagemExibicao.PostagemMeioDois.Titulo.Substring(0, 20);
+                    DescricaoImgAtv5.Text = postagemExibicao.PostagemMeioDois.Titulo.Substring(0, 12);
                     DescricaoImgAtv5.Visible = true;
                 }
                 else
@@ -133,9 +133,9 @@ public partial class colegioAtividades : System.Web.UI.Page
 
             if (postagemExibicao.PostagemMeioTres != null)
             {
-                if (postagemExibicao.PostagemMeioTres.Titulo.Length > 20)
+                if (postagemExibicao.PostagemMeioTres.Titulo.Length > 12)
                 {
-                    DescricaoImgAtv6.Text = postagemExibicao.PostagemMeioTres.Titulo.Substring(0, 20);
+                    DescricaoImgAtv6.Text = postagemExibicao.PostagemMeioTres.Titulo.Substring(0, 12);
                     DescricaoImgAtv6.Visible = true;
                 }
                 else
@@ -154,9 +154,9 @@ public partial class colegioAtividades : System.Web.UI.Page
 
             if (postagemExibicao.PostagemDireitaUm != null)
             {
-                if (postagemExibicao.PostagemDireitaUm.Titulo.Length > 20)
+                if (postagemExibicao.PostagemDireitaUm.Titulo.Length > 12)
                 {
-                    DescricaoImgAtv7.Text = postagemExibicao.PostagemDireitaUm.Titulo.Substring(0, 20);
+                    DescricaoImgAtv7.Text = postagemExibicao.PostagemDireitaUm.Titulo.Substring(0, 12);
                     DescricaoImgAtv7.Visible = true;
                 }
                 else
@@ -175,9 +175,9 @@ public partial class colegioAtividades : System.Web.UI.Page
 
             if (postagemExibicao.PostagemDireitaDois != null)
             {
-                if (postagemExibicao.PostagemDireitaDois.Titulo.Length > 20)
+                if (postagemExibicao.PostagemDireitaDois.Titulo.Length > 12)    
                 {
-                    DescricaoImgAtv8.Text = postagemExibicao.PostagemDireitaDois.Titulo.Substring(0, 20);
+                    DescricaoImgAtv8.Text = postagemExibicao.PostagemDireitaDois.Titulo.Substring(0, 12);
                     DescricaoImgAtv8.Visible = true;
                 }
                 else

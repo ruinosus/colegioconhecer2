@@ -29,12 +29,12 @@
                 	<div class="unico_artigos_texto_index2_atv_dv1">
                         <asp:ImageButton ID="imbAtividade1" runat="server"
                                                         width="100" height="96" Visible="False" />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv1" Visible="False" runat="server" /></span></p>
+              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv1" Visible="False" runat="server" Font-Size="10" Font-Names="Arial" ForeColor="#0033CC" /></span></p>
                     </div>
                 	<div class="unico_artigos_texto_index2_atv_dv1">
                         <asp:ImageButton ID="imbAtividade2" runat="server"
                                                         width="100" height="96" Visible="False"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv2" Visible="False" runat="server" /></span></p>
+              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv2" Visible="False" runat="server" Font-Size="10" Font-Names="Arial" ForeColor="#0033CC" /></span></p>
                     </div>
               	</div>
                 
@@ -42,12 +42,12 @@
                 	<div class="unico_artigos_texto_index2_atv_dv1">
                         <asp:ImageButton ID="imbAtividade3" runat="server"
                                                         width="100" height="96" Visible="False"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv3" Visible="False" runat="server" /></span></p>
+              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv3" Visible="False" runat="server" Font-Size="10" Font-Names="Arial" ForeColor="#0033CC" /></span></p>
                     </div>
                 	<div class="unico_artigos_texto_index2_atv_dv1">
                         <asp:ImageButton ID="imbAtividade4" runat="server"
                                                         width="100" height="96" Visible="False"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv4" Visible="False" runat="server" /></span></p>
+              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv4" Visible="False" runat="server" Font-Size="10" Font-Names="Arial" ForeColor="#0033CC" /></span></p>
                     </div>
               	</div>
                 
@@ -55,12 +55,12 @@
                 	<div class="unico_artigos_texto_index2_atv_dv1">
                         <asp:ImageButton ID="imbAtividade5" runat="server"
                                                         width="100" height="96" Visible="False"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv5" Visible="False" runat="server" /></span></p>
+              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv5" Visible="False" runat="server" Font-Size="10" Font-Names="Arial" ForeColor="#0033CC" /></span></p>
                     </div>
                 	<div class="unico_artigos_texto_index2_atv_dv1">
                         <asp:ImageButton ID="imbAtividade6" runat="server"
                                                         width="100" height="96" Visible="False"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv6" Visible="False" runat="server" /></span></p>
+              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv6" Visible="False" runat="server" Font-Size="10" Font-Names="Arial" ForeColor="#0033CC" /></span></p>
                     </div>
               	</div>
                 
@@ -68,12 +68,12 @@
                 	<div class="unico_artigos_texto_index2_atv_dv1">
                         <asp:ImageButton ID="imbAtividade7" runat="server"
                                                         width="100" height="96" Visible="False"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv7" Visible="False" runat="server" /></span></p>
+              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv7" Visible="False" runat="server" Font-Size="10" Font-Names="Arial" ForeColor="#0033CC" /></span></p>
                     </div>
                 	<div class="unico_artigos_texto_index2_atv_dv1">
                         <asp:ImageButton ID="imbAtividade8" runat="server"
                                                         width="100" height="96" Visible="False"  />
-              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv8" Visible="False" runat="server" /></span></p>
+              	  													<p><span class="style4Atividades"><asp:Label ID="DescricaoImgAtv8" Visible="False" runat="server" Font-Size="10" Font-Names="Arial" ForeColor="#0033CC" /></span></p>
                     </div>
               	</div>
                 

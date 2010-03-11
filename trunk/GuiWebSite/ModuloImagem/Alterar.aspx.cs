@@ -53,30 +53,28 @@ public partial class ModuloPostagem_Alterar : System.Web.UI.Page
             imagem = (Imagem)Session["ImagemAlterar"];
             imagem.PostagemID = ((Postagem)Session["PostagemIncluirImagem"]).ID;
             imagem.Titulo = txtTitulo.Text;
-            imagem.SubTitulo = txtSubTitulo.Text;
 
             imagem.Corpo = txtCorpo.Text;
 
 
             if (fupImg.HasFile)
             {
+                MapeamentoImagens imagemMapeada = new MapeamentoImagens();
+
+                imagemMapeada.Comprimento = 0;
+                imagemMapeada.Altura = 0;
+
                 HttpPostedFile myFile = fupImg.PostedFile;
-
                 System.Drawing.Image fullSizeImg = System.Drawing.Image.FromStream(myFile.InputStream);
+                System.Drawing.Image imagemReduzida = ClasseAuxiliar.ConverteImagem(myFile, fullSizeImg, imagemMapeada);
 
-                System.Drawing.Image.GetThumbnailImageAbort dummyCallBack = new System.Drawing.Image.GetThumbnailImageAbort(ThumbnailCallback);
-
-                System.Drawing.Image thumbNailImg = fullSizeImg.GetThumbnailImage(200, 200, dummyCallBack, IntPtr.Zero);
-
-                imagem.ImagemI = ClasseAuxiliar.ImageToByteArray(thumbNailImg);
+                imagem.ImagemI = ClasseAuxiliar.ImageToByteArray(myFile, imagemReduzida);
             }
 
             processo.Alterar(imagem);
             processo.Confirmar();
             cvaAvisoDeInformacao.ErrorMessage = SiteConstantes.IMAGEM_ALTERADA;
             cvaAvisoDeInformacao.IsValid = false;
-            //LimparCampos();
-            //CarregarComboLocal(null, null);
         }
         catch (Exception ex)
         {
@@ -84,11 +82,6 @@ public partial class ModuloPostagem_Alterar : System.Web.UI.Page
             cvaAvisoDeErro.IsValid = false;
 
         }
-    }
-
-    public bool ThumbnailCallback()
-    {
-        return false;
     }
 
     protected void Cancelar(object sender, EventArgs e)
@@ -106,7 +99,6 @@ public partial class ModuloPostagem_Alterar : System.Web.UI.Page
 
         txtCorpo.Text = string.Empty;
         txtTitulo.Text = string.Empty;
-        txtSubTitulo.Text = string.Empty;
 
     }
     #endregion

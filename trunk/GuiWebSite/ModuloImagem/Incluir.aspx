@@ -8,6 +8,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="corpo" runat="Server">
+            <div id="conteudoCorpo">
     <div id="AvisoDeErro1" style="text-align: center;">
         <asp:ValidationSummary ID="vsuAvisoDeErro" Visible="false" runat="server" ValidationGroup="AvisoDeErro">
         </asp:ValidationSummary>
@@ -25,21 +26,21 @@
                 <table>
                     <tr>
                         <td>
-                            <asp:Label ID="lblTitulo" runat="server" Text="Título:"></asp:Label>
+                            <asp:Label ID="lblTitulo" runat="server" Font-Bold="True" ForeColor="#0033CC" Text="Título:"></asp:Label>
                         </td>
                         <td align="left">
                             <asp:TextBox ID="txtTitulo" runat="server" Width="450px" MaxLength="250"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="lblSubTitulo" runat="server" Text="Sub-Título:"></asp:Label>
+                            <asp:Label ID="lblSubTitulo" runat="server" Font-Bold="True" Visible="false" ForeColor="#0033CC" Text="Sub-Título:"></asp:Label>
                         </td>
                         <td align="left">
-                            <asp:TextBox ID="txtSubTitulo" runat="server" Width="300px" MaxLength="500"></asp:TextBox>
+                            <asp:TextBox ID="txtSubTitulo" runat="server" Width="300px" Visible="false" MaxLength="500"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <asp:Label ID="lblCorpo" runat="server" Text="Corpo:"></asp:Label>
+                            <asp:Label ID="lblCorpo" runat="server" Font-Bold="True" ForeColor="#0033CC" Text="Corpo:"></asp:Label>
                         </td>
                         <td colspan="3" align="left">
                             <asp:TextBox ID="txtCorpo"  runat="server" Height="90" Width="850" 
@@ -48,12 +49,12 @@
                     </tr>
                     <tr>
                         <td>
-                            <asp:Label ID="lblImagem" runat="server" Text="Imagem I:"></asp:Label>
+                            <asp:Label ID="lblImagem" runat="server" Font-Bold="True" ForeColor="#0033CC" Text="Imagem I:"></asp:Label>
                         </td>
                         <td align="left" colspan="3">
                             <ajax:UpdatePanel ID="updImagem" runat="server" UpdateMode="Conditional">
                                 <ContentTemplate>
-                                    <asp:FileUpload ID="fupImg" runat="server" />
+                                    <asp:FileUpload Font-Bold="True" ForeColor="#0033CC" ID="fupImg" runat="server" />
                                 </ContentTemplate>
                                 <Triggers>
                                     <asp:PostBackTrigger ControlID="btnConfirmar" />
@@ -67,10 +68,11 @@
         </tr>
         <tr>
             <td align="center">
-                <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar" OnClick="Confirmar" />
-                <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" OnClick="Cancelar" />
-                <asp:Button ID="btnLimparCampos" runat="server" Text="Limpar Campos" OnClick="LimparCampos" />
+                <asp:Button ID="btnConfirmar" runat="server" CssClass="botao" Font-Bold="True" ForeColor="#0033CC" Text="Confirmar" OnClick="Confirmar" />
+                <asp:Button ID="btnCancelar" runat="server" CssClass="botao" Font-Bold="True" ForeColor="#0033CC" Text="Cancelar" OnClick="Cancelar" />
+                <asp:Button ID="btnLimparCampos" runat="server" CssClass="botao" Font-Bold="True" ForeColor="#0033CC" Text="Limpar Campos" OnClick="LimparCampos" />
             </td>
         </tr>
     </table>
+           </div>
 </asp:Content>

@@ -18,8 +18,8 @@
         	<div class="esquerda_artigos">
            
               <div class="esquerda_artigos_texto_index2">
-              <p><span class="style5Atividades"><asp:Label ID="lblTituloDescricao" runat="server" /></span></p>
-              <p><span class="style4Atividades"><asp:Label ID="lblDescricao" runat="server" /></span></p>
+              <p><asp:Label ID="lblTituloDescricao" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="14px" ForeColor="Black" /></p>
+              <p><asp:Label ID="lblDescricao" runat="server" Font-Names="Arial" Font-Size="10px" ForeColor="#0033CC" /></p>
 
               </div>
               
@@ -62,55 +62,44 @@
                             <Columns>
                             <asp:TemplateField>
                                 <ItemTemplate>
-                                    <div class="unico_artigos_texto_grid_divImg">
-                                        <div class="unico_artigos_texto_index2_atv_dv2">
+                                    <div class="unico_artigos_texto_grid_divImg2">
+                                        <div class="unico_artigos_texto_index2_atv_dv2_img">
                                         <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemEsquerda.ID") %>' ID="imgEsquerda" BackColor="" BorderColor=""  runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemEsquerda.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemEsquerda.ID")) %>' />
-                                    
-                                            
-                                            <p>
-                                                <span class="style4Atividades">
-                                                    <asp:Label ID="DescricaoImgDetalheEsquerda" BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemEsquerda.Titulo") %>' /></span></p>
+
+                                                    <asp:Label ID="DescricaoImgDetalheEsquerda" BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemEsquerda.Titulo") %>' Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
                                         </div>
                                     </div>
-                                    <div class="unico_artigos_texto_grid_divImg">
-                                        <div class="unico_artigos_texto_index2_atv_dv2">
+                                    <div class="unico_artigos_texto_grid_divImg2">
+                                        <div class="unico_artigos_texto_index2_atv_dv2_img">
                                             <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemEsquerdaMeio.ID") %>' ID="ImgMeio" runat="server" Width="80" BackColor="" BorderColor=""  Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemEsquerdaMeio.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemEsquerdaMeio.ID")) %>' />
-                                    
-                                            <p>
-                                                <span class="style4Atividades">
-                                                    <asp:Label ID="DescricaoImgDetalheMeio" BackColor="" BorderColor=""  runat="server"  Text='<%# Eval("ImagemEsquerdaMeio.Titulo") %>'/></span></p>
+
+                                                    <asp:Label ID="DescricaoImgDetalheMeio" BackColor="" BorderColor=""  runat="server"  Text='<%# Eval("ImagemEsquerdaMeio.Titulo") %>' Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
                                         </div>
                                     </div>
-                                    <div class="unico_artigos_texto_grid_divImg">
-                                        <div class="unico_artigos_texto_index2_atv_dv2">
+                                    <div class="unico_artigos_texto_grid_divImg2">
+                                        <div class="unico_artigos_texto_index2_atv_dv2_img">
                                             <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemMeio.ID") %>' ID="Image1" runat="server" Width="80" BackColor="" BorderColor=""  Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemMeio.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemMeio.ID")) %>' />
-                                    
-                                            <p>
-                                                <span class="style4Atividades">
-                                                    <asp:Label ID="DescricaoImgDetalhe7" BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemMeio.Titulo") %>' /></span></p>
+
+                                                    <asp:Label ID="DescricaoImgDetalhe7" BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemMeio.Titulo") %>' Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
                                         </div>
                                     </div>
-                                    <div class="unico_artigos_texto_grid_divImg">
-                                        <div class="unico_artigos_texto_index2_atv_dv2">
+                                    <div class="unico_artigos_texto_grid_divImg2">
+                                        <div class="unico_artigos_texto_index2_atv_dv2_img">
                                             <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemDireitaMeio.ID") %>' ID="Image2" runat="server" Width="80" BackColor="" BorderColor=""  Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemDireitaMeio.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemDireitaMeio.ID")) %>' />
-                                    
-                                            <p>
-                                                <span class="style4Atividades">
-                                                    <asp:Label ID="Label1" BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemDireitaMeio.Titulo") %>' /></span></p>
+
+                                                    <asp:Label ID="Label1" BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemDireitaMeio.Titulo") %>' Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
                                         </div>
                                     </div>
-                                    <div class="unico_artigos_texto_grid_divImg">
-                                        <div class="unico_artigos_texto_index2_atv_dv2">
+                                    <div class="unico_artigos_texto_grid_divImg2">
+                                        <div class="unico_artigos_texto_index2_atv_dv2_img">
                                             <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemDireita.ID") %>' ID="Image3" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemDireita.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" BackColor="" BorderColor=""  class="thumbnail" Visible='<%# GetImage(Eval("ImagemDireita.ID")) %>' />
-                                    
-                                            <p>
-                                                <span class="style4Atividades">
-                                                    <asp:Label ID="Label2" runat="server" BackColor="" BorderColor="" Text='<%# Eval("ImagemDireita.Titulo") %>'  /></span></p>
+
+                                                    <asp:Label ID="Label2" runat="server" BackColor="" BorderColor="" Text='<%# Eval("ImagemDireita.Titulo") %>'  Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
                                         </div>
                                     </div>
                                 </ItemTemplate>

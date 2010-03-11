@@ -33,36 +33,6 @@ public partial class ModuloPostagem_Consultar : System.Web.UI.Page
             btnAlterar.Enabled = true;
             btnExcluir.Enabled = true;
             btnImagem.Enabled = true;
-
-            //switch (statusPostagem)
-            //{
-            //    case StatusPostagem.Ativa:
-            //        {
-            //            btnAlterar.Enabled = true;
-            //            btnDesativar.Enabled = true;
-            //            btnExcluir.Enabled = true;
-            //            break;
-            //        }
-            //    case StatusPostagem.Excluida:
-            //        {
-            //            btnAtivar.Enabled = true;
-            //            break;
-            //        }
-            //    case StatusPostagem.Inativa:
-            //        {
-            //            btnAtivar.Enabled = true;
-            //            btnExcluir.Enabled = true;
-            //            break;
-            //        }
-            //    case StatusPostagem.NaoAlterar:
-            //        {
-            //            btnAtivar.Enabled = true;
-            //            btnExcluir.Enabled = true;
-            //            break;
-            //        }
-            //}
-
-
         }
 
     }

@@ -31,9 +31,9 @@ public partial class colegioInfantil : System.Web.UI.Page
 
             if (postagemExibicao.PostagemMeioUm != null)
             {
-                if (postagemExibicao.PostagemMeioUm.Corpo.Length > 240)
+                if (postagemExibicao.PostagemMeioUm.Corpo.Length > 230)
                 {
-                    lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo.Substring(0, 240);
+                    lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo.Substring(0, 230);
                 }
                 else
                 {
@@ -54,9 +54,9 @@ public partial class colegioInfantil : System.Web.UI.Page
 
             if (postagemExibicao.PostagemMeioDois != null)
             {
-                if (postagemExibicao.PostagemMeioDois.Corpo.Length > 250)
+                if (postagemExibicao.PostagemMeioDois.Corpo.Length > 220)
                 {
-                    lblTextoArtigoMeio2.Text = postagemExibicao.PostagemMeioDois.Corpo.Substring(0, 250);
+                    lblTextoArtigoMeio2.Text = postagemExibicao.PostagemMeioDois.Corpo.Substring(0, 220);
                 }
                 else
                 {
@@ -77,9 +77,9 @@ public partial class colegioInfantil : System.Web.UI.Page
 
             if (postagemExibicao.PostagemMeioTres != null)
             {
-                if (postagemExibicao.PostagemMeioTres.Corpo.Length > 255)
+                if (postagemExibicao.PostagemMeioTres.Corpo.Length > 225)
                 {
-                    lblTextoArtigoMeio3.Text = postagemExibicao.PostagemMeioTres.Corpo.Substring(0, 255);
+                    lblTextoArtigoMeio3.Text = postagemExibicao.PostagemMeioTres.Corpo.Substring(0, 225);
                 }
                 else
                 {
@@ -106,9 +106,9 @@ public partial class colegioInfantil : System.Web.UI.Page
                     imgArtigoDireita1.Visible = true;
                     imgArtigoDireita1.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + postagemExibicao.PostagemDireitaUm.ID;
                 }
-                if (postagemExibicao.PostagemDireitaUm.Corpo.Length > 770)
+                if (postagemExibicao.PostagemDireitaUm.Corpo.Length > 700)
                 {
-                    lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo.Substring(0, 770);
+                    lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo.Substring(0, 700);
                 }
                 else
                 {

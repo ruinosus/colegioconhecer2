@@ -67,9 +67,9 @@ public partial class colegioFundamental2 : System.Web.UI.Page
                     imgArtigoMeio2.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + postagemExibicao.PostagemMeioDois.ID;
                 }
 
-                if (postagemExibicao.PostagemMeioDois.Corpo.Length > 330)
+                if (postagemExibicao.PostagemMeioDois.Corpo.Length > 270)
                 {
-                    lblTextoArtigoMeio2.Text = postagemExibicao.PostagemMeioDois.Corpo.Substring(0, 330);
+                    lblTextoArtigoMeio2.Text = postagemExibicao.PostagemMeioDois.Corpo.Substring(0, 270);
                 }
                 else
                 {
@@ -88,9 +88,9 @@ public partial class colegioFundamental2 : System.Web.UI.Page
                     imgArtigoDireita1.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + postagemExibicao.PostagemDireitaUm.ID;
                 }
 
-                if (postagemExibicao.PostagemDireitaUm.Corpo.Length > 775)
+                if (postagemExibicao.PostagemDireitaUm.Corpo.Length > 700)
                 {
-                    lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo.Substring(0, 775);
+                    lblTextoArtigoDireita1.Text = postagemExibicao.PostagemDireitaUm.Corpo.Substring(0, 700);
                 }
                 else
                 {

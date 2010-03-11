@@ -111,7 +111,7 @@
                 <div class="unico_artigos_texto_indexImgDireita">
                     <asp:GridView runat="server" ID="grdImagem" PageSize="3" AutoGenerateColumns="False"
                         AllowPaging="True" EnableTheming="false" ShowHeader="False" BackColor="White"
-                        BorderColor="White" BorderStyle="None" BorderWidth="0px" GridLines="None" OnPageIndexChanging="grdImagem_PageIndexChanging">
+                        BorderColor="White" BorderStyle="None" BorderWidth="0px" GridLines="None" OnPageIndexChanging="grdImagem_PageIndexChanging" PagerSettings-PageButtonCount="9">
                         <RowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
                         <EmptyDataRowStyle BorderColor="White" BorderStyle="None" BorderWidth="0px" />
                         <Columns>
@@ -122,9 +122,8 @@
                                             <asp:ImageButton OnClick="ImagemClik" PostagemID='<%# Eval("PostagemEsquerdaUm.ID") %>'
                                                 ID="imgEsquerda" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("PostagemEsquerdaUm.ID")) %>'
                                                 alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("PostagemEsquerdaUm.ImagemI")) %>' />
-                                            <p>
-                                                <span class="style4Atividades">
-                                                    <asp:Label ID="DescricaoImgDetalheEsquerda" runat="server" Text='<%# Eval("PostagemEsquerdaUm.Titulo") %>' /></span></p>
+
+                                                    <asp:Label ID="DescricaoImgDetalheEsquerda" runat="server" Text='<%# Eval("PostagemEsquerdaUm.Titulo") %>' Font-Names="Arial" Font-Size="9px" ForeColor="#0033CC" />
                                         </div>
                                     </div>
                                     <div class="unico_artigos_texto_grid_divImg">
@@ -132,9 +131,7 @@
                                             <asp:ImageButton OnClick="ImagemClik" ID="ImgMeio" PostagemID='<%# Eval("PostagemMeioUm.ID") %>'
                                                 runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("PostagemMeioUm.ID")) %>'
                                                 alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("PostagemMeioUm.ImagemI")) %>' />
-                                            <p>
-                                                <span class="style4Atividades">
-                                                    <asp:Label ID="DescricaoImgDetalheMeio" runat="server" Text='<%# Eval("PostagemMeioUm.Titulo") %>' /></span></p>
+                                                    <asp:Label ID="DescricaoImgDetalheMeio" Font-Names="Arial" Font-Size="9px" ForeColor="#0033CC" runat="server" Text='<%# Eval("PostagemMeioUm.Titulo") %>' />
                                         </div>
                                     </div>
                                     <div class="unico_artigos_texto_grid_divImg">
@@ -142,9 +139,7 @@
                                             <asp:ImageButton OnClick="ImagemClik" ID="Image1" PostagemID='<%# Eval("PostagemDireitaUm.ID") %>'
                                                 runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("PostagemDireitaUm.ID")) %>'
                                                 alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("PostagemDireitaUm.ImagemI")) %>' />
-                                            <p>
-                                                <span class="style4Atividades">
-                                                    <asp:Label ID="DescricaoImgDetalhe7" runat="server" Text='<%# Eval("PostagemDireitaUm.Titulo") %>' /></span></p>
+                                                    <asp:Label ID="DescricaoImgDetalhe7" runat="server" Font-Names="Arial" Font-Size="9px" ForeColor="#0033CC" Text='<%# Eval("PostagemDireitaUm.Titulo") %>' />
                                         </div>
                                     </div>
                                 </ItemTemplate>
