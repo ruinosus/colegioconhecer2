@@ -169,6 +169,7 @@ public partial class ClasseAuxiliar
     }
 
     public static List<MapeamentoImagens> listaMapeamento = new List<MapeamentoImagens>();
+    public static List<MapeamentoImagens> listaImagens = new List<MapeamentoImagens>();
 
     public static void CarregarMapeamentos()
     {
@@ -218,6 +219,21 @@ public partial class ClasseAuxiliar
 
     }
 
+    public static void CarregarImagens()
+    {
+        MapeamentoImagens mapeamento1 = new MapeamentoImagens(1, 1, 1, 0, 0, false);
+        MapeamentoImagens mapeamento2 = new MapeamentoImagens(2, 1, 1, 0, 0, false);
+        MapeamentoImagens mapeamento3 = new MapeamentoImagens(4, 1, 2, 0, 0, false);
+        MapeamentoImagens mapeamento4 = new MapeamentoImagens(5, 1, 2, 0, 0, false);
+        MapeamentoImagens mapeamento5 = new MapeamentoImagens(6, 1, 2, 0, 0, false);
+
+        listaImagens.Add(mapeamento1);
+        listaImagens.Add(mapeamento2);
+        listaImagens.Add(mapeamento3);
+        listaImagens.Add(mapeamento4);
+        listaImagens.Add(mapeamento5);
+    }
+
     public static MapeamentoImagens obterImagemMapeada(Postagem postagem)
     {
         ClasseAuxiliar.CarregarMapeamentos();
@@ -234,6 +250,25 @@ public partial class ClasseAuxiliar
         }
 
         return imagemMapeada;
+    }
+
+    public static bool obterMapeamentoImagens(Postagem postagem)
+    {
+        ClasseAuxiliar.CarregarImagens();
+
+        bool verifica = false;
+
+        foreach (MapeamentoImagens map in ClasseAuxiliar.listaImagens)
+        {
+            if (map.LocalPostagem == postagem.Local &&
+                map.PaginaPostagem == postagem.Pagina &&
+                map.TipoPostagem == postagem.Tipo)
+            {
+                verifica = true;
+            }
+        }
+
+        return verifica;
     }
 
 

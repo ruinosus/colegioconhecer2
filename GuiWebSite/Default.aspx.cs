@@ -29,9 +29,9 @@ public partial class _Default : System.Web.UI.Page
             PostagemExibicao postagemExibicao = processo.Consultar(TipoPagina.Colegio);
             if (postagemExibicao.PostagemEsquerdaUm != null)
             {
-                if (postagemExibicao.PostagemEsquerdaUm.Corpo.Length > 330)
+                if (postagemExibicao.PostagemEsquerdaUm.Corpo.Length > 300)
                 {
-                    lblTextoArtigoEsquerda1.Text = postagemExibicao.PostagemEsquerdaUm.Corpo.Substring(0, 330);
+                    lblTextoArtigoEsquerda1.Text = postagemExibicao.PostagemEsquerdaUm.Corpo.Substring(0, 300);
                 }
                 else
                 {
@@ -51,9 +51,9 @@ public partial class _Default : System.Web.UI.Page
 
             if (postagemExibicao.PostagemEsquerdaDois != null)
             {
-                if (postagemExibicao.PostagemEsquerdaDois.Corpo.Length > 260)
+                if (postagemExibicao.PostagemEsquerdaDois.Corpo.Length > 220)
                 {
-                    lblTextoArtigoEsquerda2.Text = postagemExibicao.PostagemEsquerdaDois.Corpo.Substring(0, 260);
+                    lblTextoArtigoEsquerda2.Text = postagemExibicao.PostagemEsquerdaDois.Corpo.Substring(0, 220);
                 }
                 else
                 {
@@ -85,9 +85,9 @@ public partial class _Default : System.Web.UI.Page
                     imgArtigoMeio1.Visible = false;
                 }
 
-                if (postagemExibicao.PostagemMeioUm.Corpo.Length > 480)
+                if (postagemExibicao.PostagemMeioUm.Corpo.Length > 440)
                 {
-                    lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo.Substring(0, 480);
+                    lblTextoArtigoMeio1.Text = postagemExibicao.PostagemMeioUm.Corpo.Substring(0, 440);
                 }
                 else
                 {

@@ -123,7 +123,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JbZHkJ6u7p04U5EXvyCqJmIUElE=</dsig:DigestValue>
+        <dsig:DigestValue>7bShvY48fb3qTjpXMMxjEOajOik=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -140,14 +140,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Negocios.dll" size="358400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Negocios.dll" size="359936">
       <assemblyIdentity name="Negocios" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JtbFylbGyAMeTgp/JeLrELJwWc8=</dsig:DigestValue>
+        <dsig:DigestValue>hwBgt+Jts1GzoB8jgVcJjFhlRVY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

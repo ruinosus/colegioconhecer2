@@ -7,6 +7,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="corpo" runat="Server">
+            <div id="conteudoCorpo">
     <div id="AvisoDeErro1" style="text-align: center;">
         <asp:ValidationSummary ID="vsuAvisoDeErro" Visible="false" runat="server" ValidationGroup="AvisoDeErro">
         </asp:ValidationSummary>
@@ -29,24 +30,27 @@
                                     <table>
                                         <tr>
                                             <td >
-                                                <asp:Label ID="lblTipoPagina" runat="server" Text="Tipo da Pagina:"></asp:Label>
+                                                <asp:Label ID="lblTipoPostagem" Visible="true" runat="server" Text="Tipo da Postagem:" Font-Bold="True" 
+                                ForeColor="#0033CC"></asp:Label>
                                             </td>
                                             <td >
-                                                <asp:DropDownList ID="ddlTipoPagina" AutoPostBack="true" runat="server" OnSelectedIndexChanged="CarregarComboTipoPagina">
+                                                <asp:DropDownList ID="ddlTipoPostagem" Visible="true" AutoPostBack="true" runat="server" OnSelectedIndexChanged="CarregarComboTipoPostagem" >
                                                 </asp:DropDownList>
                                             </td>
                                             <td>
-                                                <asp:Label ID="lblTipoPostagem" runat="server" Text="Tipo da Postagem:"></asp:Label>
+                                                <asp:Label ID="lblTipoPagina" Visible="true" runat="server" Text="Tipo da Pagina:" Font-Bold="True" 
+                                ForeColor="#0033CC"></asp:Label>
                                             </td>
                                             <td align="left">
-                                                <asp:DropDownList ID="ddlTipoPostagem" AutoPostBack="true" runat="server" OnSelectedIndexChanged="CarregarComboLocal">
+                                                <asp:DropDownList ID="ddlTipoPagina" Visible="true" AutoPostBack="true" runat="server" OnSelectedIndexChanged="CarregarComboTipoPagina">
                                                 </asp:DropDownList>
                                             </td>
                                             <td>
-                                                <asp:Label ID="lblLocalPostagem" runat="server" Text="Local da Postagem:"></asp:Label>
+                                                <asp:Label ID="lblLocalPostagem" Visible="true" runat="server" Text="Local da Postagem:" Font-Bold="True" 
+                                ForeColor="#0033CC"></asp:Label>
                                             </td>
                                             <td align="left">
-                                                <asp:DropDownList ID="ddlLocalPostagem" runat="server">
+                                                <asp:DropDownList ID="ddlLocalPostagem" Visible="true" AutoPostBack="true" runat="server" >
                                                 </asp:DropDownList>
                                             </td>
                                         </tr>
@@ -57,21 +61,23 @@
                     </tr>
                     <tr>
                         <td>
-                            <asp:Label ID="lblTitulo" runat="server" Text="Título:"></asp:Label>
+                            <asp:Label ID="lblTitulo" runat="server" Text="Título:" Font-Bold="True" 
+                                ForeColor="#0033CC"></asp:Label>
                         </td>
                         <td align="left">
                             <asp:TextBox ID="txtTitulo" runat="server" Width="450px" MaxLength="250"></asp:TextBox>
                         </td>
                         <td>
-                            <asp:Label ID="lblSubTitulo" runat="server" Text="Sub-Título:"></asp:Label>
+                            <asp:Label ID="lblSubTitulo" Visible="False" runat="server" Text="Sub-Título:" 
+                                Font-Bold="True" ForeColor="#0033CC"></asp:Label>
                         </td>
                         <td align="left">
-                            <asp:TextBox ID="txtSubTitulo" runat="server" Width="300px" MaxLength="500"></asp:TextBox>
+                            <asp:TextBox ID="txtSubTitulo" Visible="false" runat="server" Width="300px" MaxLength="500"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <asp:Label ID="lblCorpo" runat="server" Text="Corpo:"></asp:Label>
+                            <asp:Label ID="lblCorpo" runat="server" Text="Corpo:" Font-Bold="True" ForeColor="#0033CC"></asp:Label>
                         </td>
                         <td colspan="3" align="left">
                             <asp:TextBox ID="txtCorpo"  runat="server" Height="90" Width="850" 
@@ -80,15 +86,19 @@
                     </tr>
                     <tr>
                         <td>
-                            <asp:Label ID="lblImagemPostagem" runat="server" Text="Imagem da Postagem:"></asp:Label>
+                            <asp:Label ID="lblImagemPostagem" runat="server" Text="Imagem da Postagem:" 
+                                Font-Bold="True" ForeColor="#0033CC"></asp:Label>
                         </td>
                         <td align="left" colspan="3">
                             <ajax:UpdatePanel ID="updImagem" runat="server" UpdateMode="Conditional">
                                 <ContentTemplate>
-                                    <asp:FileUpload ID="fupImgPostagem" runat="server" />
+                                    <asp:FileUpload ID="fupImgPostagem" runat="server" 
+                                        Font-Bold="True" ForeColor="#0033CC" />
                                 </ContentTemplate>
                                 <Triggers>
                                     <asp:PostBackTrigger ControlID="btnConfirmar" />
+<ajax:PostBackTrigger ControlID="btnConfirmar"></ajax:PostBackTrigger>
+<ajax:PostBackTrigger ControlID="btnConfirmar"></ajax:PostBackTrigger>
 <ajax:PostBackTrigger ControlID="btnConfirmar"></ajax:PostBackTrigger>
                                 </Triggers>
                             </ajax:UpdatePanel>
@@ -99,10 +109,14 @@
         </tr>
         <tr>
             <td align="center">
-                <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar" OnClick="Confirmar" />
-                <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" OnClick="Cancelar" />
-                <asp:Button ID="btnLimparCampos" runat="server" Text="Limpar Campos" OnClick="LimparCampos" />
+                <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar" 
+                    OnClick="Confirmar" CssClass="botao" Font-Bold="True" ForeColor="#0033CC" />
+                <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" OnClick="Cancelar" 
+                    CssClass="botao" Font-Bold="True" ForeColor="#0033CC" />
+                <asp:Button ID="btnLimparCampos" runat="server" Text="Limpar Campos" 
+                    OnClick="LimparCampos" CssClass="botao" Font-Bold="True" ForeColor="#0033CC" />
             </td>
         </tr>
     </table>
+    </div>
 </asp:Content>

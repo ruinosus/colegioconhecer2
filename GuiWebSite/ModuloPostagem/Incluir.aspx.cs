@@ -29,18 +29,29 @@ public partial class ModuloPostagem_Incluir : System.Web.UI.Page
 
     protected void AtualizarCenarioInfra()
     {
-            txtCorpo.Enabled = false;
-            txtSubTitulo.Enabled = false;
-            txtTitulo.Enabled = false;
+            txtCorpo.Visible = false;
+            txtSubTitulo.Visible = false;
+            txtTitulo.Visible = false;
+            lblCorpo.Visible = false;
+            lblSubTitulo.Visible = false;
+            lblTitulo.Visible = false;
     }
 
     protected void AtualizarCenarioAtividade()
     {
         txtSubTitulo.Enabled = false;
+        lblTipoPagina.Visible = true;
+        lblLocalPostagem.Visible = true;
+        ddlLocalPostagem.Visible = true;
+        ddlTipoPagina.Visible = true;
     }
 
     protected void AtualizarCenarioHistorico()
     {
+        lblTipoPagina.Visible = true;
+        lblLocalPostagem.Visible = true;
+        ddlLocalPostagem.Visible = true;
+        ddlTipoPagina.Visible = true;
         txtSubTitulo.Enabled = false;
         fupImgPostagem.Enabled = false;
     }
@@ -114,6 +125,52 @@ public partial class ModuloPostagem_Incluir : System.Web.UI.Page
         }
     }
 
+    protected void ControlarUpdateFile(object sender, EventArgs e)
+    {
+        try
+        {
+            IPostagemProcesso processo = PostagemProcesso.Instance;
+
+            if (((TipoPostagem)int.Parse(ddlTipoPostagem.SelectedValue)) == TipoPostagem.NaoAlterar)
+                throw new Exception("Informe o tipo da postagem.");
+
+            if ((((TipoPostagem)int.Parse(ddlTipoPostagem.SelectedValue)) != TipoPostagem.NaoAlterar) &&
+                ((TipoPostagem)int.Parse(ddlTipoPostagem.SelectedValue)) == TipoPostagem.Postagem)
+            {
+
+                if (((TipoPagina)int.Parse(ddlTipoPagina.SelectedValue)) == TipoPagina.NaoAlterar)
+                    throw new Exception("Informe o tipo da página.");
+                if (((TipoPostagem)int.Parse(ddlTipoPostagem.SelectedValue)) == TipoPostagem.NaoAlterar)
+                    throw new Exception("Informe o tipo da postagem.");
+            }
+
+            Postagem postagem = new Postagem();
+
+            if ((int)TipoPostagem.Postagem == int.Parse(ddlTipoPostagem.SelectedValue))
+            {
+                postagem.Local = int.Parse(ddlLocalPostagem.SelectedValue);
+                postagem.Tipo = int.Parse(ddlTipoPostagem.SelectedValue);
+                postagem.Pagina = int.Parse(ddlTipoPagina.SelectedValue);
+
+                if (ClasseAuxiliar.obterMapeamentoImagens(postagem) == true)
+                {
+                    lblImagemPostagem.Visible = false;
+                    fupImgPostagem.Visible = false;
+                }
+                else
+                {
+                    lblImagemPostagem.Visible = true;
+                    fupImgPostagem.Visible = true;
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            cvaAvisoDeErro.ErrorMessage = ex.Message;
+            cvaAvisoDeErro.IsValid = false;
+        }
+    }
+
     #region Métodos Privados
 
     protected void Confirmar(object sender, EventArgs e)
@@ -171,7 +228,10 @@ public partial class ModuloPostagem_Incluir : System.Web.UI.Page
                 postagem.ImagemI = ClasseAuxiliar.ImageToByteArray(myFile, imagemReduzida);
             }
 
-            processo.VerificaSeJaExiste(postagem);
+            if ((int)TipoPostagem.Postagem == int.Parse(ddlTipoPostagem.SelectedValue))
+            {
+                processo.VerificaSeJaExiste(postagem);
+            }
             processo.Incluir(postagem);
 
             processo.Confirmar();
@@ -182,7 +242,6 @@ public partial class ModuloPostagem_Incluir : System.Web.UI.Page
         {
             cvaAvisoDeErro.ErrorMessage = ex.Message;
             cvaAvisoDeErro.IsValid = false;
-
         }
     }
 

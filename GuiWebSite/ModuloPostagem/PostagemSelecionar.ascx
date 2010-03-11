@@ -16,15 +16,17 @@
 <table width="100%">
     <tr align="center">
         <td>
-            <asp:Label ID="lblTipoPostagem" runat="server" Text="Tipo Postagem:" Font-Names="Arial"></asp:Label>
+            <asp:Label ID="lblTipoPostagem" runat="server" Font-Bold="True" 
+                                ForeColor="#0033CC" Text="Tipo Postagem:" Font-Names="Arial"></asp:Label>
             <asp:DropDownList ID="ddlTipoPostagem" runat="server" OnSelectedIndexChanged="btnPesquisar_OnClick" AutoPostBack="true">
             </asp:DropDownList>
         </td>
         <td align="center">
-            <asp:Label ID="lblTitulo" runat="server" Text="Titulo:" Font-Names="Arial"></asp:Label>
+            <asp:Label ID="lblTitulo" runat="server" Font-Bold="True" 
+                                ForeColor="#0033CC" Text="Titulo:" Font-Names="Arial"></asp:Label>
             <asp:TextBox ID="txtTitulo" runat="server" Width="300px" ValidationGroup="AvisoDeErro"
                 MaxLength="100" AssociatedControlID="btnPesquisar"></asp:TextBox>
-            <asp:Button ID="btnPesquisar" runat="server" OnClick="btnPesquisar_OnClick" Style="position: relative"
+            <asp:Button ID="btnPesquisar" runat="server" CssClass="botao" Font-Bold="True" ForeColor="#0033CC" OnClick="btnPesquisar_OnClick" Style="position: relative"
                 Text="Pesquisar" TabIndex="2" />
         </td>
     </tr>
@@ -32,7 +34,7 @@
         <td align="center" colspan="2">
             <asp:GridView ID="GrdPostagem" runat="server" AutoGenerateColumns="False" AllowPaging="True"
                 Width="100%" CellPadding="4" GridLines="None" OnPageIndexChanging="grdPostagem_PageIndexChanging"
-                OnRowCreated="grdPostagem_RowCreated" OnPreRender="grdPostagem_PreRender" ForeColor="#333333">
+                OnRowCreated="grdPostagem_RowCreated" OnPreRender="grdPostagem_PreRender" ForeColor="#333333" PageSize="9">
                 <RowStyle BackColor="#EFF3FB" />
                 <Columns>
                     <asp:TemplateField HeaderText="&amp;nbsp;">

@@ -135,7 +135,6 @@ public partial class colegioImagens : System.Web.UI.Page
 
             if (resultado.Count > 0)
             {
-                
                 imbDestaque.ImageUrl = "~/ModuloAuxiliar/Handler.ashx?postId=" + resultado[0].ID;
                 Session.Add("PostagemIDSelecionado", resultado[0].ID.ToString());
                 imbDestaque.Visible = true;

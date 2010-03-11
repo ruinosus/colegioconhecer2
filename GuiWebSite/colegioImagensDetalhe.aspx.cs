@@ -82,8 +82,22 @@ public partial class colegioImagensDetalhe : System.Web.UI.Page
 
             if (resultado.Count > 0)
             {
-                lblDescricao.Text = resultado[0].Corpo;
-                lblTituloDescricao.Text = resultado[0].Titulo;
+                if (resultado[0].Corpo.Length > 330)
+                {
+                    lblDescricao.Text = resultado[0].Corpo.Substring(0, 330);
+                }
+                else
+                {
+                    lblDescricao.Text = resultado[0].Corpo;
+                }
+                if (resultado[0].Titulo.Length > 18)
+                {
+                    lblTituloDescricao.Text = resultado[0].Titulo.Substring(0, 18);
+                }
+                else 
+                {
+                    lblTituloDescricao.Text = resultado[0].Titulo;
+                }
                 
             }
 
