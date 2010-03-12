@@ -11,7 +11,6 @@ using Negocios.ModuloBasico.Enums;
 
 public partial class colegioImagensDetalhe : System.Web.UI.Page
 {
-
     List<ImagemExibicao> imagens;
 
     public List<ImagemExibicao> ImagensLista
@@ -28,6 +27,7 @@ public partial class colegioImagensDetalhe : System.Web.UI.Page
             Session.Add("ImagemExibicaoList", value);
         }
     }
+
     protected void Page_Load(object sender, EventArgs e)
     {
         lblDescricao.Text = string.Empty;
@@ -64,14 +64,13 @@ public partial class colegioImagensDetalhe : System.Web.UI.Page
         else return "";
     }
 
-
-    protected void imgClick(object sender, EventArgs e)
+    protected void descricaoClick(object sender, EventArgs e)
     {
-        ImageButton img = (ImageButton)sender;
+        LinkButton lkb = (LinkButton)sender;
 
-        if (img != null)
+        if (lkb != null)
         {
-            int ImagemID = int.Parse(img.Attributes["ImagemID"].ToString());
+            int ImagemID = int.Parse(lkb.Attributes["ImagemID"].ToString());
 
             Imagem imagem = new Imagem();
             imagem.ID = ImagemID;
@@ -104,12 +103,28 @@ public partial class colegioImagensDetalhe : System.Web.UI.Page
         }
     }
 
+    protected void imgClick(object sender, EventArgs e)
+    {
+        ImageButton img = (ImageButton)sender;
+
+        if (img != null)
+        {
+            int ImagemID = int.Parse(img.Attributes["ImagemID"].ToString());
+
+            Response.Redirect("colegioExibirImagem.aspx?id=" + ImagemID);
+
+
+        }
+    }
+
+
     protected bool GetImage(object id)
     {
         if (id != null && ((int)id) != 0)
             return true;
         return false;
     }
+
     protected void grdImagem_PageIndexChanging(object sender, GridViewPageEventArgs e)
     {
         grdImagem.DataSource = ImagensLista;
