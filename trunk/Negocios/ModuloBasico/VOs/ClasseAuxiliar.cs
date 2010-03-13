@@ -88,7 +88,7 @@ public partial class ClasseAuxiliar
             System.Drawing.Imaging.ImageCodecInfo[] info = ImageCodecInfo.GetImageEncoders();
             EncoderParameters encoderParameters;
             encoderParameters = new EncoderParameters(1);
-            encoderParameters.Param[0] = new EncoderParameter(Encoder.Quality, 100L);
+            encoderParameters.Param[0] = new EncoderParameter(Encoder.Quality, 70L);
             imageIn.Save(ms, info[1], encoderParameters);
 
         return ms.ToArray();
@@ -110,7 +110,7 @@ public partial class ClasseAuxiliar
             System.Drawing.Imaging.ImageCodecInfo[] info = ImageCodecInfo.GetImageEncoders();
             EncoderParameters encoderParameters;
             encoderParameters = new EncoderParameters(1);
-            encoderParameters.Param[0] = new EncoderParameter(Encoder.Quality, 100L);
+            encoderParameters.Param[0] = new EncoderParameter(Encoder.Quality, 70L);
             imageIn.Save(ms, info[1], encoderParameters);
         }
 
