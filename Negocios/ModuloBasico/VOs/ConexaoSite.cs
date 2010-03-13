@@ -20,10 +20,10 @@ namespace Negocios.ModuloBasico.VOs
 
         public ConexaoSite()
         {
-            this.Banco = "SiteColegioDB";
-            this.Usuario = "root";
-            this.Senha = "123";
-            this.Caminho = "localhost";
+            this.Banco = "ajadevelopment";
+            this.Usuario = "ajadevelopment";
+            this.Senha = "ajadev";
+            this.Caminho = "mysql.ajadevelopment.kinghost.net";
             //if (File.Exists("c://config.xml"))
             //{
             //    SoapFormatter sXML = new SoapFormatter();
