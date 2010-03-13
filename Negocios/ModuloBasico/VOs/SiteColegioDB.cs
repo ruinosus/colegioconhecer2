@@ -85,7 +85,7 @@ namespace Negocios.ModuloBasico.VOs
 
     }
 
-    [Table(Name = "SiteColegioDB.imagem")]
+    [Table(Name = "ajadevelopment.imagem")]
     public partial class Imagem : INotifyPropertyChanging, INotifyPropertyChanged
     {
         #region INotifyPropertyChanging handling
@@ -485,7 +485,7 @@ namespace Negocios.ModuloBasico.VOs
 
     }
 
-    [Table(Name = "SiteColegioDB.postagem")]
+    [Table(Name = "ajadevelopment.postagem")]
     public partial class Postagem : INotifyPropertyChanging, INotifyPropertyChanged
     {
         #region INotifyPropertyChanging handling
@@ -962,7 +962,7 @@ namespace Negocios.ModuloBasico.VOs
 
     }
 
-    [Table(Name = "SiteColegioDB.usuario")]
+    [Table(Name = "ajadevelopment.usuario")]
     public partial class Usuario : INotifyPropertyChanging, INotifyPropertyChanged
     {
         #region INotifyPropertyChanging handling
