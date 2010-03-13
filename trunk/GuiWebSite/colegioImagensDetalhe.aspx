@@ -7,6 +7,8 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="corpo" runat="Server"> 
             <div id="conteudoCorpo">
+           <asp:UpdatePanel ID="updDetalhe" runat="server">
+            <ContentTemplate>
              <div class="esquerda2">
         
         	<div class="esquerda_artigos_detalhe_superior2"><!-- Inicio da Curva de Estilo do Arquivo a Esquerda -->
@@ -45,12 +47,14 @@
             </div>
             
         </div><!-- Fim esquerda -->
-        
+        </ContentTemplate>
+            </asp:UpdatePanel>
       <div class="unico2">
         
             
     <!-- Inicio do Artigo 1 a Esquerda da Página -->
-            
+            <asp:UpdatePanel ID="updGrid" runat="server">
+            <ContentTemplate>
         	<div class="unico_artigos2">
         	  <div class="unico_artigos_texto_index_atv2">
         	  
@@ -80,7 +84,7 @@
                                             <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemEsquerdaMeio.ID") %>' ID="ImgMeio" runat="server" Width="80" BackColor="" BorderColor=""  Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemEsquerdaMeio.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemEsquerdaMeio.ID")) %>' />
 
-                                                    <asp:LinkButton ID="DescricaoImgDetalheMeio" OnClick="descricaoClick" ImagemID='<%# Eval("ImagemEsquerda.ID") %>' BackColor="" BorderColor=""  runat="server"  Text='<%# Eval("ImagemEsquerdaMeio.Titulo") %>' Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
+                                                    <asp:LinkButton ID="DescricaoImgDetalheMeio" OnClick="descricaoClick" ImagemID='<%# Eval("ImagemEsquerdaMeio.ID") %>' BackColor="" BorderColor=""  runat="server"  Text='<%# Eval("ImagemEsquerdaMeio.Titulo") %>' Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
                                         </div>
                                     </div>
                                     <div class="unico_artigos_texto_grid_divImg2">
@@ -88,7 +92,7 @@
                                             <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemMeio.ID") %>' ID="Image1" runat="server" Width="80" BackColor="" BorderColor=""  Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemMeio.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemMeio.ID")) %>' />
 
-                                                    <asp:LinkButton ID="DescricaoImgDetalhe7" OnClick="descricaoClick" ImagemID='<%# Eval("ImagemEsquerda.ID") %>' BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemMeio.Titulo") %>' Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
+                                                    <asp:LinkButton ID="DescricaoImgDetalhe7" OnClick="descricaoClick" ImagemID='<%# Eval("ImagemMeio.ID") %>' BackColor="" BorderColor=""  runat="server" Text='<%# Eval("ImagemMeio.Titulo") %>' Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
                                         </div>
                                     </div>
                                     <div class="unico_artigos_texto_grid_divImg2">
@@ -96,7 +100,7 @@
                                             <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemDireitaMeio.ID") %>' ID="Image2" runat="server" Width="80" BackColor="" BorderColor=""  Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemDireitaMeio.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" class="thumbnail" Visible='<%# GetImage(Eval("ImagemDireitaMeio.ID")) %>' />
 
-                                                    <asp:LinkButton ID="Label1" BackColor="" OnClick="descricaoClick" ImagemID='<%# Eval("ImagemEsquerda.ID") %>' BorderColor=""  runat="server" Text='<%# Eval("ImagemDireitaMeio.Titulo") %>' Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
+                                                    <asp:LinkButton ID="Label1" BackColor="" OnClick="descricaoClick" ImagemID='<%# Eval("ImagemDireitaMeio.ID") %>' BorderColor=""  runat="server" Text='<%# Eval("ImagemDireitaMeio.Titulo") %>' Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
                                         </div>
                                     </div>
                                     <div class="unico_artigos_texto_grid_divImg2">
@@ -104,7 +108,7 @@
                                             <asp:ImageButton OnClick="imgClick" ImagemID='<%# Eval("ImagemDireita.ID") %>' ID="Image3" runat="server" Width="80" Height="77" ImageUrl='<%# GetImageUrl(Eval("ImagemDireita.ID")) %>'
                                         alt="thumbnail" hspace="0" vspace="0" border="0" BackColor="" BorderColor=""  class="thumbnail" Visible='<%# GetImage(Eval("ImagemDireita.ID")) %>' />
 
-                                                    <asp:LinkButton ID="Label2" runat="server" OnClick="descricaoClick" ImagemID='<%# Eval("ImagemEsquerda.ID") %>' BackColor="" BorderColor="" Text='<%# Eval("ImagemDireita.Titulo") %>'  Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
+                                                    <asp:LinkButton ID="Label2" runat="server" OnClick="descricaoClick" ImagemID='<%# Eval("ImagemDireita.ID") %>' BackColor="" BorderColor="" Text='<%# Eval("ImagemDireita.Titulo") %>'  Font-Names="Arial" ForeColor="#0033CC" Font-Size="9px" />
                                         </div>
                                     </div>
                                 </ItemTemplate>
@@ -124,7 +128,8 @@
                 
 			  </div>
         	</div>
-            
+            </ContentTemplate>
+            </asp:UpdatePanel>
             <!-- Fim esquerda_artigo 1 -->   
             
       </div><!-- Fim esquerda -->
